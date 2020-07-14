@@ -1,0 +1,61 @@
+2020-02-02 Franz Holzinger <franz@ttproducts.de>
+    * bugfix: class JambageCom\TslibFetce\Hooks\FrontendHooks was not found
+
+2020-01-05 Franz Holzinger <franz@ttproducts.de>
+    * new feature: the method execNEWinsert must return the uid of the successfully inserted record and not the count of inserted records
+    * use the Doctrine database interface instead of $GLOBALS["TYPO3_DB"]
+
+2019-12-18 Franz Holzinger <franz@ttproducts.de>
+    * compatibility for TYPO3 9 breaking 82162: replace constant TYPO3_DLOG by 
+        isset($GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_div.php']['devLog'])
+
+2019-11-01 Franz Holzinger <franz@ttproducts.de>
+    * support for TYPO3 9.5.x
+
+2018-11-25 Franz Holzinger <franz@ttproducts.de>
+    * TYPO3 7: Do not replace \TYPO3\CMS\Core\TypoScript\TemplateService::sortedKeyList by \TYPO3\CMS\Core\Utility\ArrayUtility::filterAndSortByNumericKeys for TYPO3 7.6.
+
+2018-08-26 Franz Holzinger <franz@ttproducts.de>
+    * Do not use htmlspecialchars for label data. Use strip_tags instead where the HTML tags <div><p><span><strong><a><br> are allowed.
+
+2018-08-11 Franz Holzinger <franz@ttproducts.de>
+    * support for TYPO3 9.3.x
+    * TYPO3 9: replace \TYPO3\CMS\Core\TypoScript\TemplateService::sortedKeyList by \TYPO3\CMS\Core\Utility\ArrayUtility::filterAndSortByNumericKeys
+    * TYPO3 9: replace GeneralUtility::removeXSS by htmlspecialchars
+    * TYPO3 9: Do not call $this->cObj->getClosestMPvalueForPage any more.
+
+2018-07-26 Franz Holzinger <franz@ttproducts.de>
+    * Remove the file ext_autoload.php because the file composer.json must be used.
+    * bugfix: use a correct namespace notation for the SC_OPTIONS - tslib/class.tslib_fe.php hooks.
+
+2018-05-21 Franz Holzinger <franz@ttproducts.de>
+    * bugfix for TYPO3 8.x: use JambageCom\Div2007\Utility\HtmlUtility::XHTML_clean instead of the missing TYPO3\CMS\Core\Html\HtmlParser::XHTML_clean
+
+2018-04-30 Franz Holzinger <franz@ttproducts.de>
+    * new feature: add support for RSA encryption in the form entry fields
+    * bugfix: Do not use invalid HTML with square brackets in the tag id.
+        replace id data[tt_board][NEW][notify_me] by mailformdata:ttboard:NEW:notifyme:
+    * bugfix: wrong HTML form id tags over the whole label wrap have been generated. This is too much.
+
+2018-03-19 Franz Holzinger <franz@ttproducts.de>
+    * new feature: dontXssFieldNames for all field names where no XSS removal must take place, e.g. for html coming from a captcha extension
+    * new feature: add a parameter for the fields to check within calcDoublePostKey
+    * new feature: collect the labels without additional long texts. Remove the colon at the end. Programmers must use the labelWrap and stdWrap for larger texts.
+
+2017-10-06 Franz Holzinger <franz@ttproducts.de>
+    * bugfix: method ContentPostProcHook::doXHTML_cleaning needs a parameter $parentObject
+
+2017-08-21 Franz Holzinger <franz@ttproducts.de>
+    * new feature: processScript can be a namespace classname of a class joined with a method function
+
+2017-07-27 Franz Holzinger <franz@ttproducts.de>
+    * support for TYPO3 8.7.4
+    * remove in TYPO3 8 deprecated check for checkFileInclude in order to allow php files outside of the TYPO3 directories ext and sysext, typo3conf/ext
+
+2016-08-02 Franz Holzinger <franz@ttproducts.de>
+	* support for TYPO3 7.6.10
+	* remove MAIL feature
+	* use much code from TYPO3 7.6.10 system extension compatibility6
+
+2014-10-21 Franz Holzinger <franz@fholzinger.com>
+	* Initial TER upload

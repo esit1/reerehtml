@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2020-02-02T07:34:23Z" product-name="sys_note">
+		<header/>
+		<body>
+			<trans-unit id="author" resname="author" approved="no">
+				<source>Author</source>
+				<target state="needs-translation">Auteur :</target>
+			</trans-unit>
+			<trans-unit id="category.1" resname="category.1" approved="yes">
+				<source>Instructions</source>
+				<target state="translated">Instructions</target>
+			</trans-unit>
+			<trans-unit id="category.2" resname="category.2" approved="yes">
+				<source>Template</source>
+				<target state="translated">Gabarit</target>
+			</trans-unit>
+			<trans-unit id="category.3" resname="category.3" approved="yes">
+				<source>Notes</source>
+				<target state="translated">Notes</target>
+			</trans-unit>
+			<trans-unit id="category.4" resname="category.4" approved="yes">
+				<source>To-do</source>
+				<target state="translated">À faire</target>
+			</trans-unit>
+			<trans-unit id="date" resname="date" approved="no">
+				<source>Date</source>
+				<target state="needs-translation">Date :</target>
+			</trans-unit>
+			<trans-unit id="internal_note" resname="internal_note" approved="yes">
+				<source>Internal notes</source>
+				<target state="translated">Notes internes</target>
+			</trans-unit>
+			<trans-unit id="personal" resname="personal" approved="no">
+				<source>Personal</source>
+				<target state="needs-translation">Personnel :</target>
+			</trans-unit>
+			<trans-unit id="yes" resname="yes" approved="yes">
+				<source>Yes</source>
+				<target state="translated">Oui</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

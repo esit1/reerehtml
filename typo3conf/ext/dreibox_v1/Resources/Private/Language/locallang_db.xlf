@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2020-02-02T17:24:39+01:00" product-name="dreibox_v1">
+    <header/>
+    <body>
+      <trans-unit id="tx_dreiboxv1_mengeundnamederzutat" xml:space="preserve">
+        <source>tx_dreiboxv1_mengeundnamederzutat</source>
+      </trans-unit>
+      <trans-unit id="tx_dreiboxv1_mengeundnamederzutat.tx_dreiboxv1_menge" xml:space="preserve">
+        <source>Menge und Name der Zutat</source>
+      </trans-unit>
+      <trans-unit id="tx_dreiboxv1_mengeundzutat" xml:space="preserve">
+        <source>tx_dreiboxv1_mengeundzutat</source>
+      </trans-unit>
+      <trans-unit id="tx_dreiboxv1_zubereitung" xml:space="preserve">
+        <source>tx_dreiboxv1_zubereitung</source>
+      </trans-unit>
+      <trans-unit id="tx_dreiboxv1_zutat" xml:space="preserve">
+        <source>tx_dreiboxv1_zutat</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_bildbox1" xml:space="preserve">
+        <source>Bild Box 1</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_bildbox2" xml:space="preserve">
+        <source>Bild Box 2</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_bildbox3" xml:space="preserve">
+        <source>Bild Box 3</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_linkbox1" xml:space="preserve">
+        <source>Link Box 1</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_linkbox2" xml:space="preserve">
+        <source>Link Box 2</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_linkbox3" xml:space="preserve">
+        <source>Link Box 3</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_mengeundnamederzutat" xml:space="preserve">
+        <source>Menge und Name der Zutat</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_textbox1" xml:space="preserve">
+        <source>Text Box 1</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_textbox2" xml:space="preserve">
+        <source>Text Box 2</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_textbox3" xml:space="preserve">
+        <source>Text Box 3</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_dreiboxv1_zubereitung" xml:space="preserve">
+        <source>Zubereitung</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.div._dreiboxv1_" xml:space="preserve">
+        <source>dreibox_v1</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.dreiboxv1_3boxenmitbild" xml:space="preserve">
+        <source>3 Boxen mit Bild</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.dreiboxv1_rezepte" xml:space="preserve">
+        <source>Rezept</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

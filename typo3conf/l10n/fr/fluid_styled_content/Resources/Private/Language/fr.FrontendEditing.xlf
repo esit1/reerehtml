@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2020-02-02T02:38:06Z" product-name="fluid_styled_content">
+		<header/>
+		<body>
+			<trans-unit id="editIcon.bullets" resname="editIcon.bullets" approved="yes">
+				<source>Edit bullet list</source>
+				<target state="translated">Editer la liste à puces</target>
+			</trans-unit>
+			<trans-unit id="editIcon.header" resname="editIcon.header" approved="yes">
+				<source>Edit header</source>
+				<target state="translated">Editer l'en-tête</target>
+			</trans-unit>
+			<trans-unit id="editIcon.html" resname="editIcon.html" approved="yes">
+				<source>Edit pure HTML content</source>
+				<target state="translated">Editer le contenu HTML</target>
+			</trans-unit>
+			<trans-unit id="editIcon.image" resname="editIcon.image">
+				<source>Edit image</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="editIcon.list" resname="editIcon.list" approved="yes">
+				<source>Change/configure plugin</source>
+				<target state="translated">Changer / configurer le plugin</target>
+			</trans-unit>
+			<trans-unit id="editIcon.menu" resname="editIcon.menu" approved="yes">
+				<source>Edit menu/sitemap</source>
+				<target state="translated">Editer le menu / plan du site</target>
+			</trans-unit>
+			<trans-unit id="editIcon.shortcut" resname="editIcon.shortcut" approved="yes">
+				<source>Edit record list</source>
+				<target state="translated">Editer la liste d'enregistrements</target>
+			</trans-unit>
+			<trans-unit id="editIcon.table" resname="editIcon.table" approved="yes">
+				<source>Edit table</source>
+				<target state="translated">Editer le tableau</target>
+			</trans-unit>
+			<trans-unit id="editIcon.textmedia" resname="editIcon.textmedia" approved="yes">
+				<source>Edit text &amp; media</source>
+				<target state="translated">Editer l'élément "texte et média"</target>
+			</trans-unit>
+			<trans-unit id="editIcon.textpic" resname="editIcon.textpic">
+				<source>Edit text &amp; images</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="editIcon.uploads" resname="editIcon.uploads" approved="yes">
+				<source>Edit file list</source>
+				<target state="translated">Editer la liste de fichiers</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

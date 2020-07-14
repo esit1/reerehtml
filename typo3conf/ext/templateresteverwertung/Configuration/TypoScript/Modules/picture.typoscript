@@ -1,0 +1,26 @@
+lib.picture1 = IMAGE
+lib.picture1 {
+    file {
+        import.data = levelmedia:-1, slide
+        treatIdAsReference = 1
+        import.listNum = 0
+    }
+}
+
+lib.picture2 = IMAGE
+lib.picture2 {
+    file {
+        import.data = levelmedia:-1, slide
+        treatIdAsReference = 1
+        import.listNum = 1
+    }
+}
+
+lib.picture3 = IMAGE
+lib.picture3 {
+    file {
+        import.data = levelmedia:-1, slide
+        treatIdAsReference = 1
+        import.listNum = 2
+    }
+}

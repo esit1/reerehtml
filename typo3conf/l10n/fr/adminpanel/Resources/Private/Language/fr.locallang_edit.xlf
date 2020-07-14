@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2020-02-02T00:03:51Z" product-name="adminpanel">
+		<header/>
+		<body>
+			<trans-unit id="displayFieldIcons" resname="displayFieldIcons" approved="yes">
+				<source>Display edit icons</source>
+				<target state="translated">Afficher les icônes d'édition</target>
+			</trans-unit>
+			<trans-unit id="displayIcons" resname="displayIcons" approved="yes">
+				<source>Display edit panels</source>
+				<target state="translated">Afficher les panneaux d'édition</target>
+			</trans-unit>
+			<trans-unit id="module.label" resname="module.label" approved="yes">
+				<source>Edit</source>
+				<target state="translated">Modifier</target>
+			</trans-unit>
+			<trans-unit id="openAB" resname="openAB" approved="yes">
+				<source>Open TYPO3 Backend</source>
+				<target state="translated">Ouvrir le backoffice TYPO3</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

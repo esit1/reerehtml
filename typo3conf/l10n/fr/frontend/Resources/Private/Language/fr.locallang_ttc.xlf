@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2020-02-02T03:05:12Z" product-name="frontend">
+		<header/>
+		<body>
+			<trans-unit id="accessibility_bypass" resname="accessibility_bypass" approved="yes">
+				<source>Add link to bypass block</source>
+				<target state="translated">Ajouter un lien pour sauter le bloc</target>
+			</trans-unit>
+			<trans-unit id="accessibility_bypass_text" resname="accessibility_bypass_text">
+				<source>Link text to bypass block</source>
+				<target/>
+				<alt-trans xml:space="preserve" origin="jeremieroulin">
+					<target>Texte du lien à ignorer</target>
+				</alt-trans>
+			</trans-unit>
+			<trans-unit id="accessibility_title" resname="accessibility_title" approved="yes">
+				<source>Block title</source>
+				<target state="translated">Titre du bloc</target>
+			</trans-unit>
+			<trans-unit id="ALT.imgDimensions" resname="ALT.imgDimensions" approved="yes">
+				<source>Image Dimensions</source>
+				<target state="translated">Dimensions de l'image</target>
+			</trans-unit>
+			<trans-unit id="ALT.imgLinks" resname="ALT.imgLinks" approved="yes">
+				<source>Image Links</source>
+				<target state="translated">Liens d'images</target>
+			</trans-unit>
+			<trans-unit id="ALT.imgOptions" resname="ALT.imgOptions" approved="yes">
+				<source>Image Options</source>
+				<target state="translated">Options d'image</target>
+			</trans-unit>
+			<trans-unit id="altText_formlabel" resname="altText_formlabel" approved="yes">
+				<source>Alternative Labels (one per line)</source>
+				<target state="translated">Textes alternatifs (un par ligne)</target>
+			</trans-unit>
+			<trans-unit id="bodytext.ALT.bulletlist_formlabel" resname="bodytext.ALT.bulletlist_formlabel" approved="yes">
+				<source>Bullet List</source>
+				<target state="translated">Liste à puces</target>
+			</trans-unit>
+			<trans-unit id="bodytext.ALT.html" resname="bodytext.ALT.html" approved="no">
+				<source>HTML</source>
+				<target state="needs-translation">HTML :</target>
+			</trans-unit>
+			<trans-unit id="bodytext.ALT.html_formlabel" resname="bodytext.ALT.html_formlabel" approved="yes">
+				<source>HTML Code</source>
+				<target state="translated">Code HTML</target>
+			</trans-unit>
+			<trans-unit id="bodytext.ALT.mailform" resname="bodytext.ALT.mailform" approved="no">
+				<source>Configuration</source>
+				<target state="needs-translation">Configuration :</target>
+			</trans-unit>
+			<trans-unit id="bodytext.ALT.mailform_formlabel" resname="bodytext.ALT.mailform_formlabel" approved="yes">
+				<source>Form Structure</source>
+				<target state="translated">Structure du formulaire</target>
+			</trans-unit>
+			<trans-unit id="bodytext.ALT.media_formlabel" resname="bodytext.ALT.media_formlabel" approved="yes">
+				<source>Alternative Content</source>
+				<target state="translated">Texte alternatif</target>
+			</trans-unit>
+			<trans-unit id="bodytext.ALT.script_formlabel" resname="bodytext.ALT.script_formlabel" approved="yes">
+				<source>Parameters to pass to the script</source>
+				<target state="translated">Paramètres à fournir au script</target>
+			</trans-unit>
+			<trans-unit id="bodytext.ALT.table_formlabel" resname="bodytext.ALT.table_formlabel" approved="yes">
+				<source>Table Structure</source>
+				<target state="translated">Structure de la table</target>
+			</trans-unit>
+			<trans-unit id="bodytext.ALT.textbox_formlabel" resname="bodytext.ALT.textbox_formlabel" approved="yes">
+				<source>Text</source>
+				<target state="translated">Texte</target>
+			</trans-unit>
+			<trans-unit id="bodytext_formlabel" resname="bodytext_formlabel" approved="yes">
+				<source>Text</source>
+				<target state="translated">Texte</target>
+			</trans-unit>
+			<trans-unit id="bodytext.W.forms" resname="bodytext.W.forms" approved="yes">
+				<source>Forms wizard</source>
+				<target state="translated">Assistant de formulaires</target>
+			</trans-unit>
+			<trans-unit id="bullets_type" resname="bullets_type">
+				<source>Type of bullets</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="bullets_type.0" resname="bullets_type.0">
+				<source>Unordered list (bullets)</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="bullets_type.1" resname="bullets_type.1">
+				<source>Ordered list (numbers)</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="bullets_type.2" resname="bullets_type.2">
+				<source>Definition list</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="category_field" resname="category_field" approved="yes">
+				<source>Category field</source>
+				<target state="translated">Champ de catégorie</target>
+			</trans-unit>
+			<trans-unit id="colPos" resname="colPos" approved="no">
+				<source>Columns</source>
+				<target state="needs-translation">Colonnes :</target>
+			</trans-unit>
+			<trans-unit id="colPos_formlabel" resname="colPos_formlabel" approved="yes">
+				<source>Column</source>
+				<target state="translated">Colonne</target>
+			</trans-unit>
+			<trans-unit id="colPos.I.0" resname="colPos.I.0" approved="yes">
+				<source>Left</source>
+				<target state="translated">Gauche</target>
+			</trans-unit>
+			<trans-unit id="colPos.I.1" resname="colPos.I.1" approved="yes">
+				<source>Normal</source>
+				<target state="translated">Normal</target>
+			</trans-unit>
+			<trans-unit id="colPos.I.2" resname="colPos.I.2" approved="yes">
+				<source>Right</source>
+				<target state="translated">Droite</target>
+			</trans-unit>
+			<trans-unit id="colPos.I.3" resname="colPos.I.3" approved="yes">
+				<source>Border</source>
+				<target state="translated">Bordure</target>
+			</trans-unit>
+			<trans-unit id="colPos.I.unused" resname="colPos.I.unused" approved="yes">
+				<source>Unused</source>
+				<target state="translated">Inutilisé</target>
+				<note>This label is deprecated (not used anymore) since TYPO3v7</note>
+			</trans-unit>
+			<trans-unit id="cols" resname="cols" approved="yes">
+				<source>Columns</source>
+				<target state="translated">Colonnes</target>
+			</trans-unit>
+			<trans-unit id="cols.I.0" resname="cols.I.0" approved="yes">
+				<source>Auto</source>
+				<target state="translated">Auto</target>
+			</trans-unit>
+			<trans-unit id="CType.div.forms" resname="CType.div.forms" approved="yes">
+				<source>Forms</source>
+				<target state="translated">Formulaires</target>
+			</trans-unit>
+			<trans-unit id="CType.div.lists" resname="CType.div.lists" approved="yes">
+				<source>Lists</source>
+				<target state="translated">Listes</target>
+			</trans-unit>
+			<trans-unit id="CType.div.menu" resname="CType.div.menu">
+				<source>Menu</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="CType.div.special" resname="CType.div.special" approved="yes">
+				<source>Special</source>
+				<target state="translated">Spécial</target>
+			</trans-unit>
+			<trans-unit id="CType.div.standard" resname="CType.div.standard" approved="yes">
+				<source>Standard</source>
+				<target state="translated">Standard</target>
+			</trans-unit>
+			<trans-unit id="CType_formlabel" resname="CType_formlabel" approved="yes">
+				<source>Type</source>
+				<target state="translated">Type</target>
+			</trans-unit>
+			<trans-unit id="CType.I.0" resname="CType.I.0" approved="yes">
+				<source>Header</source>
+				<target state="translated">Titre</target>
+			</trans-unit>
+			<trans-unit id="CType.I.1" resname="CType.I.1" approved="yes">
+				<source>Text</source>
+				<target state="translated">Texte</target>
+			</trans-unit>
+			<trans-unit id="CType.I.10" resname="CType.I.10" approved="yes">
+				<source>Login</source>
+				<target state="translated">Connexion</target>
+			</trans-unit>
+			<trans-unit id="CType.I.11" resname="CType.I.11" approved="yes">
+				<source>Textbox</source>
+				<target state="translated">Zone de texte</target>
+			</trans-unit>
+			<trans-unit id="CType.I.12" resname="CType.I.12" approved="yes">
+				<source>Special Menus</source>
+				<target state="translated">Menus spéciaux</target>
+			</trans-unit>
+			<trans-unit id="CType.I.13" resname="CType.I.13" approved="yes">
+				<source>Insert Records</source>
+				<target state="translated">Insérer des enregistrements</target>
+			</trans-unit>
+			<trans-unit id="CType.I.14" resname="CType.I.14" approved="yes">
+				<source>Insert Plugin</source>
+				<target state="translated">Insérer un Plug-in</target>
+			</trans-unit>
+			<trans-unit id="CType.I.15" resname="CType.I.15" approved="yes">
+				<source>Script</source>
+				<target state="translated">Script</target>
+			</trans-unit>
+			<trans-unit id="CType.I.16" resname="CType.I.16" approved="yes">
+				<source>Divider</source>
+				<target state="translated">Séparateur</target>
+			</trans-unit>
+			<trans-unit id="CType.I.17" resname="CType.I.17" approved="yes">
+				<source>HTML</source>
+				<target state="translated">HTML</target>
+			</trans-unit>
+			<trans-unit id="CType.I.2" resname="CType.I.2" approved="yes">
+				<source>Text &amp; Images</source>
+				<target state="translated">Texte &amp; images</target>
+			</trans-unit>
+			<trans-unit id="CType.I.3" resname="CType.I.3" approved="yes">
+				<source>Images</source>
+				<target state="translated">Images</target>
+			</trans-unit>
+			<trans-unit id="CType.I.4" resname="CType.I.4" approved="yes">
+				<source>Bullet List</source>
+				<target state="translated">Liste à puces</target>
+			</trans-unit>
+			<trans-unit id="CType.I.5" resname="CType.I.5" approved="yes">
+				<source>Table</source>
+				<target state="translated">Tableau</target>
+			</trans-unit>
+			<trans-unit id="CType.I.6" resname="CType.I.6" approved="yes">
+				<source>File Links</source>
+				<target state="translated">Liste de fichiers</target>
+			</trans-unit>
+			<trans-unit id="CType.I.8" resname="CType.I.8" approved="yes">
+				<source>Form</source>
+				<target state="translated">Formulaire</target>
+			</trans-unit>
+			<trans-unit id="CType.I.9" resname="CType.I.9" approved="yes">
+				<source>Search</source>
+				<target state="translated">Recherche</target>
+			</trans-unit>
+			<trans-unit id="CType.menu_abstract" resname="CType.menu_abstract">
+				<source>Abstracts</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="CType.menu_categorized_content" resname="CType.menu_categorized_content">
+				<source>Categorized content</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="CType.menu_categorized_pages" resname="CType.menu_categorized_pages" approved="yes">
+				<source>Categorized pages</source>
+				<target state="translated">Pages trié par catégories</target>
+			</trans-unit>
+			<trans-unit id="CType.menu_pages" resname="CType.menu_pages">
+				<source>Pages</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="CType.menu_recently_updated" resname="CType.menu_recently_updated" approved="yes">
+				<source>Recently updated pages</source>
+				<target state="translated">Pages récemment mises à jour</target>
+			</trans-unit>
+			<trans-unit id="CType.menu_related_pages" resname="CType.menu_related_pages" approved="yes">
+				<source>Related pages</source>
+				<target state="translated">Pages en relations</target>
+			</trans-unit>
+			<trans-unit id="CType.menu_section" resname="CType.menu_section">
+				<source>Section index</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="CType.menu_section_pages" resname="CType.menu_section_pages" approved="yes">
+				<source>Section index of subpages from selected pages</source>
+				<target state="translated">Index de section des sous-pages des pages sélectionnées</target>
+			</trans-unit>
+			<trans-unit id="CType.menu_sitemap" resname="CType.menu_sitemap" approved="yes">
+				<source>Sitemap</source>
+				<target state="translated">Plan du site</target>
+			</trans-unit>
+			<trans-unit id="CType.menu_sitemap_pages" resname="CType.menu_sitemap_pages" approved="yes">
+				<source>Sitemaps of selected pages</source>
+				<target state="translated">Plan du site des pages sélectionnées</target>
+			</trans-unit>
+			<trans-unit id="CType.menu_subpages" resname="CType.menu_subpages" approved="yes">
+				<source>Subpages</source>
+				<target state="translated">Sous-pages</target>
+			</trans-unit>
+			<trans-unit id="CType.textmedia" resname="CType.textmedia">
+				<source>Text &amp; Media</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="date" resname="date" approved="yes">
+				<source>Date</source>
+				<target state="translated">Date</target>
+			</trans-unit>
+			<trans-unit id="date_formlabel" resname="date_formlabel" approved="yes">
+				<source>Date</source>
+				<target state="translated">Date</target>
+			</trans-unit>
+			<trans-unit id="endtime_formlabel" resname="endtime_formlabel" approved="yes">
+				<source>Expiration Date</source>
+				<target state="translated">Date d'expiration</target>
+			</trans-unit>
+			<trans-unit id="fe_group_formlabel" resname="fe_group_formlabel" approved="yes">
+				<source>Usergroup Access Rights</source>
+				<target state="translated">Droits d'accès pour les groupes d'utilisateurs</target>
+			</trans-unit>
+			<trans-unit id="field.default.hidden" resname="field.default.hidden" approved="yes">
+				<source>Visibility of content element</source>
+				<target state="translated">Visibilité du contenu</target>
+			</trans-unit>
+			<trans-unit id="field.table.bodytext" resname="field.table.bodytext" approved="yes">
+				<source>Table content</source>
+				<target state="translated">Contenu de tableau</target>
+			</trans-unit>
+			<trans-unit id="file_collections" resname="file_collections" approved="yes">
+				<source>File collections</source>
+				<target state="translated">Groupe de fichiers</target>
+			</trans-unit>
+			<trans-unit id="file_collections.ALT.uploads_formlabel" resname="file_collections.ALT.uploads_formlabel" approved="yes">
+				<source>Select file collections</source>
+				<target state="translated">Sélection de groupe de fichiers</target>
+			</trans-unit>
+			<trans-unit id="filelink_size" resname="filelink_size" approved="no">
+				<source>Show File Size</source>
+				<target state="needs-translation">Afficher la taille du fichier:</target>
+			</trans-unit>
+			<trans-unit id="filelink_size_formlabel" resname="filelink_size_formlabel" approved="yes">
+				<source>Display File Size Information</source>
+				<target state="translated">Montrer l'information de taille du fichier</target>
+			</trans-unit>
+			<trans-unit id="filelink_sorting" resname="filelink_sorting" approved="no">
+				<source>Sort file list</source>
+				<target state="needs-translation">Tri de fichiers:</target>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.creation_date" resname="filelink_sorting.creation_date" approved="yes">
+				<source>by file creation date</source>
+				<target state="translated">par date de création du fichier</target>
+				<note>This label is deprecated (not used anymore) since TYPO3v7</note>
+			</trans-unit>
+			<trans-unit id="filelink_sorting_direction" resname="filelink_sorting_direction">
+				<source>Sorting direction</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="filelink_sorting_direction.ascending" resname="filelink_sorting_direction.ascending">
+				<source>Ascending (default)</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="filelink_sorting_direction.descending" resname="filelink_sorting_direction.descending" approved="yes">
+				<source>Descending</source>
+				<target state="translated">Décroissant</target>
+				<note>This label is deprecated (not used anymore) since TYPO3v7</note>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.extension" resname="filelink_sorting.extension" approved="no">
+				<source>by file extension</source>
+				<target state="needs-translation">par extension de fichier</target>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.modification_date" resname="filelink_sorting.modification_date">
+				<source>by file modification date</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.name" resname="filelink_sorting.name" approved="no">
+				<source>by filename</source>
+				<target state="needs-translation">par nom de fichier</target>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.none" resname="filelink_sorting.none" approved="no">
+				<source>no sorting</source>
+				<target state="needs-translation">aucun</target>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.size" resname="filelink_sorting.size" approved="no">
+				<source>by file size</source>
+				<target state="needs-translation">par taille de fichier</target>
+			</trans-unit>
+			<trans-unit id="filelink_sorting.type" resname="filelink_sorting.type" approved="no">
+				<source>by file type</source>
+				<target state="needs-translation">par type de fichier</target>
+			</trans-unit>
+			<trans-unit id="frame_class" resname="frame_class" approved="no">
+				<source>Frame</source>
+				<target state="needs-translation">Cadre :</target>
+			</trans-unit>
+			<trans-unit id="frame_class.default" resname="frame_class.default" approved="yes">
+				<source>Default</source>
+				<target state="translated">Défaut</target>
+			</trans-unit>
+			<trans-unit id="frame_class_formlabel" resname="frame_class_formlabel" approved="no">
+				<source>Frame</source>
+				<target state="needs-translation">Cadre :</target>
+			</trans-unit>
+			<trans-unit id="frame_class.indent" resname="frame_class.indent" approved="yes">
+				<source>Indent</source>
+				<target state="translated">Retrait</target>
+			</trans-unit>
+			<trans-unit id="frame_class.indent_left" resname="frame_class.indent_left" approved="yes">
+				<source>Indent, 33/66%</source>
+				<target state="translated">Retrait, 33/66%</target>
+			</trans-unit>
+			<trans-unit id="frame_class.indent_right" resname="frame_class.indent_right" approved="yes">
+				<source>Indent, 66/33%</source>
+				<target state="translated">Retrait, 66/33%</target>
+			</trans-unit>
+			<trans-unit id="frame_class.none" resname="frame_class.none" approved="yes">
+				<source>No Frame</source>
+				<target state="translated">Pas de cadre</target>
+			</trans-unit>
+			<trans-unit id="frame_class.ruler_after" resname="frame_class.ruler_after" approved="yes">
+				<source>Ruler After</source>
+				<target state="translated">Séparation après</target>
+			</trans-unit>
+			<trans-unit id="frame_class.ruler_before" resname="frame_class.ruler_before" approved="yes">
+				<source>Ruler Before</source>
+				<target state="translated">Séparation avant</target>
+			</trans-unit>
+			<trans-unit id="header" resname="header" approved="no">
+				<source>Header</source>
+				<target state="needs-translation">Titre:</target>
+			</trans-unit>
+			<trans-unit id="header.ALT.div_formlabel" resname="header.ALT.div_formlabel" approved="yes">
+				<source>Name (not visible in frontend)</source>
+				<target state="translated">Nom (invisible sur le site)</target>
+			</trans-unit>
+			<trans-unit id="header.ALT.html_formlabel" resname="header.ALT.html_formlabel" approved="yes">
+				<source>Name (not visible in frontend)</source>
+				<target state="translated">Nom (invisible sur le site)</target>
+			</trans-unit>
+			<trans-unit id="header.ALT.script_formlabel" resname="header.ALT.script_formlabel" approved="yes">
+				<source>Name (not visible in frontend)</source>
+				<target state="translated">Nom (invisible sur le site)</target>
+			</trans-unit>
+			<trans-unit id="header.ALT.shortcut_formlabel" resname="header.ALT.shortcut_formlabel" approved="yes">
+				<source>Name (not visible in frontend)</source>
+				<target state="translated">Nom (non visible en Frontend</target>
+			</trans-unit>
+			<trans-unit id="header_formlabel" resname="header_formlabel" approved="yes">
+				<source>Header</source>
+				<target state="translated">Titre</target>
+			</trans-unit>
+			<trans-unit id="header_layout_formlabel" resname="header_layout_formlabel" approved="yes">
+				<source>Type</source>
+				<target state="translated">Type</target>
+			</trans-unit>
+			<trans-unit id="header_layout.I.1" resname="header_layout.I.1" approved="yes">
+				<source>Layout 1</source>
+				<target state="translated">Disposition 1</target>
+			</trans-unit>
+			<trans-unit id="header_layout.I.2" resname="header_layout.I.2" approved="yes">
+				<source>Layout 2</source>
+				<target state="translated">Disposition 2</target>
+			</trans-unit>
+			<trans-unit id="header_layout.I.3" resname="header_layout.I.3" approved="yes">
+				<source>Layout 3</source>
+				<target state="translated">Disposition 3</target>
+			</trans-unit>
+			<trans-unit id="header_layout.I.4" resname="header_layout.I.4" approved="yes">
+				<source>Layout 4</source>
+				<target state="translated">Disposition 4</target>
+			</trans-unit>
+			<trans-unit id="header_layout.I.5" resname="header_layout.I.5" approved="yes">
+				<source>Layout 5</source>
+				<target state="translated">Disposition 5</target>
+			</trans-unit>
+			<trans-unit id="header_layout.I.6" resname="header_layout.I.6" approved="yes">
+				<source>Hidden</source>
+				<target state="translated">Caché</target>
+			</trans-unit>
+			<trans-unit id="header_link" resname="header_link" approved="no">
+				<source>Link</source>
+				<target state="needs-translation">Lien :</target>
+			</trans-unit>
+			<trans-unit id="header_link_formlabel" resname="header_link_formlabel" approved="yes">
+				<source>Link</source>
+				<target state="translated">Lien:</target>
+			</trans-unit>
+			<trans-unit id="header_position" resname="header_position" approved="no">
+				<source>Align</source>
+				<target state="needs-translation">Alignement :</target>
+			</trans-unit>
+			<trans-unit id="header_position_formlabel" resname="header_position_formlabel" approved="yes">
+				<source>Alignment</source>
+				<target state="translated">Alignement</target>
+			</trans-unit>
+			<trans-unit id="header_position.I.1" resname="header_position.I.1" approved="yes">
+				<source>Center</source>
+				<target state="translated">Centrer</target>
+			</trans-unit>
+			<trans-unit id="header_position.I.2" resname="header_position.I.2" approved="yes">
+				<source>Right</source>
+				<target state="translated">À droite</target>
+			</trans-unit>
+			<trans-unit id="header_position.I.3" resname="header_position.I.3" approved="yes">
+				<source>Left</source>
+				<target state="translated">Gauche</target>
+			</trans-unit>
+			<trans-unit id="hidden_formlabel" resname="hidden_formlabel" approved="yes">
+				<source>Content Element</source>
+				<target state="translated">Elément de contenu</target>
+			</trans-unit>
+			<trans-unit id="hidden.I.0" resname="hidden.I.0" approved="yes">
+				<source>Disable</source>
+				<target state="translated">Désactiver</target>
+			</trans-unit>
+			<trans-unit id="image_altText" resname="image_altText" approved="no">
+				<source>Alternative Text</source>
+				<target state="needs-translation">Texte alternatif:</target>
+			</trans-unit>
+			<trans-unit id="image.ALT.textbox_formlabel" resname="image.ALT.textbox_formlabel" approved="yes">
+				<source>Image Files</source>
+				<target state="translated">Fichiers images</target>
+			</trans-unit>
+			<trans-unit id="imageborder" resname="imageborder" approved="no">
+				<source>Border</source>
+				<target state="needs-translation">Bordure :</target>
+			</trans-unit>
+			<trans-unit id="imageborder_formlabel" resname="imageborder_formlabel" approved="yes">
+				<source>Border</source>
+				<target state="translated">Bordure</target>
+			</trans-unit>
+			<trans-unit id="imagecaption.ALT.script" resname="imagecaption.ALT.script" approved="no">
+				<source>Comments</source>
+				<target state="needs-translation">Commentaires :</target>
+			</trans-unit>
+			<trans-unit id="imagecaption.ALT.script_formlabel" resname="imagecaption.ALT.script_formlabel" approved="yes">
+				<source>Comments</source>
+				<target state="translated">Commentaires</target>
+			</trans-unit>
+			<trans-unit id="imagecaption.ALT.uploads" resname="imagecaption.ALT.uploads" approved="no">
+				<source>Descriptions</source>
+				<target state="needs-translation">Descriptions :</target>
+			</trans-unit>
+			<trans-unit id="imagecaption.ALT.uploads_formlabel" resname="imagecaption.ALT.uploads_formlabel" approved="yes">
+				<source>File Descriptions (one per line)</source>
+				<target state="translated">Descriptions de fichiers (une par ligne)</target>
+			</trans-unit>
+			<trans-unit id="imagecaption_formlabel" resname="imagecaption_formlabel" approved="yes">
+				<source>Captions (one per line)</source>
+				<target state="translated">Libellés (un par ligne)</target>
+			</trans-unit>
+			<trans-unit id="imagecols" resname="imagecols" approved="no">
+				<source>Columns</source>
+				<target state="needs-translation">Colonnes :</target>
+			</trans-unit>
+			<trans-unit id="imagecols_formlabel" resname="imagecols_formlabel" approved="yes">
+				<source>Number of Columns</source>
+				<target state="translated">Nombre de colonnes</target>
+			</trans-unit>
+			<trans-unit id="image_formlabel" resname="image_formlabel" approved="yes">
+				<source>Images</source>
+				<target state="translated">Images</target>
+			</trans-unit>
+			<trans-unit id="image_frames" resname="image_frames" approved="no">
+				<source>Frames</source>
+				<target state="needs-translation">Cadres :</target>
+			</trans-unit>
+			<trans-unit id="image_frames_formlabel" resname="image_frames_formlabel" approved="yes">
+				<source>Graphical Frames</source>
+				<target state="translated">Cadres graphiques</target>
+			</trans-unit>
+			<trans-unit id="image_frames.I.0" resname="image_frames.I.0" approved="yes">
+				<source>(None)</source>
+				<target state="translated">(aucun)</target>
+			</trans-unit>
+			<trans-unit id="image_frames.I.1" resname="image_frames.I.1" approved="yes">
+				<source>Frame 1</source>
+				<target state="translated">Fenêtre 1</target>
+			</trans-unit>
+			<trans-unit id="image_frames.I.2" resname="image_frames.I.2" approved="yes">
+				<source>Frame 2</source>
+				<target state="translated">Fenêtre 2</target>
+			</trans-unit>
+			<trans-unit id="image_frames.I.3" resname="image_frames.I.3" approved="yes">
+				<source>Frame 3</source>
+				<target state="translated">Fenêtre 3</target>
+			</trans-unit>
+			<trans-unit id="image_frames.I.4" resname="image_frames.I.4" approved="yes">
+				<source>Frame 4</source>
+				<target state="translated">Fenêtre 4</target>
+			</trans-unit>
+			<trans-unit id="image_frames.I.5" resname="image_frames.I.5" approved="yes">
+				<source>Frame 5</source>
+				<target state="translated">Fenêtre 5</target>
+			</trans-unit>
+			<trans-unit id="image_frames.I.6" resname="image_frames.I.6" approved="yes">
+				<source>Frame 6</source>
+				<target state="translated">Fenêtre 6</target>
+			</trans-unit>
+			<trans-unit id="image_frames.I.7" resname="image_frames.I.7" approved="yes">
+				<source>Frame 7</source>
+				<target state="translated">Fenêtre 7</target>
+			</trans-unit>
+			<trans-unit id="image_frames.I.8" resname="image_frames.I.8" approved="yes">
+				<source>Frame 8</source>
+				<target state="translated">Fenêtre 8</target>
+			</trans-unit>
+			<trans-unit id="imageheight" resname="imageheight" approved="no">
+				<source>Height (pixels)</source>
+				<target state="needs-translation">Hauteur (pixels) :</target>
+			</trans-unit>
+			<trans-unit id="imageheight_formlabel" resname="imageheight_formlabel" approved="yes">
+				<source>Height (px)</source>
+				<target state="translated">Hauteur (px)</target>
+			</trans-unit>
+			<trans-unit id="image_link" resname="image_link" approved="no">
+				<source>Link</source>
+				<target state="needs-translation">Lien :</target>
+			</trans-unit>
+			<trans-unit id="image_link_formlabel" resname="image_link_formlabel" approved="yes">
+				<source>Links (one per line, one link per image)</source>
+				<target state="translated">Liens (un par ligne, un lien par image)</target>
+			</trans-unit>
+			<trans-unit id="image_longdescURL" resname="image_longdescURL" approved="no">
+				<source>Long Description URL</source>
+				<target state="needs-translation">URL description longue:</target>
+			</trans-unit>
+			<trans-unit id="imageorient" resname="imageorient" approved="no">
+				<source>Position</source>
+				<target state="needs-translation">Position :</target>
+			</trans-unit>
+			<trans-unit id="imageorient_formlabel" resname="imageorient_formlabel" approved="yes">
+				<source>Position and Alignment</source>
+				<target state="translated">Position et alignement</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.0" resname="imageorient.I.0" approved="yes">
+				<source>Above, center</source>
+				<target state="translated">Au-dessus, centré</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.1" resname="imageorient.I.1" approved="yes">
+				<source>Above, right</source>
+				<target state="translated">Au-dessus à droite</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.10" resname="imageorient.I.10" approved="yes">
+				<source>Beside Text, Left</source>
+				<target state="translated">À côté du texte, à gauche</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.2" resname="imageorient.I.2" approved="yes">
+				<source>Above, left</source>
+				<target state="translated">Au-dessus à gauche</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.3" resname="imageorient.I.3" approved="yes">
+				<source>Below, center</source>
+				<target state="translated">En dessous, centré</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.4" resname="imageorient.I.4" approved="yes">
+				<source>Below, right</source>
+				<target state="translated">En dessous à droite</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.5" resname="imageorient.I.5" approved="yes">
+				<source>Below, left</source>
+				<target state="translated">En dessous à gauche</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.6" resname="imageorient.I.6" approved="yes">
+				<source>In text, right</source>
+				<target state="translated">Habillé, à droite</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.7" resname="imageorient.I.7" approved="yes">
+				<source>In text, left</source>
+				<target state="translated">Habillé, à gauche</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.8" resname="imageorient.I.8" approved="yes">
+				<source>__No wrap:__</source>
+				<target state="translated">__Aucun retour ligne:__</target>
+			</trans-unit>
+			<trans-unit id="imageorient.I.9" resname="imageorient.I.9" approved="yes">
+				<source>Beside Text, Right</source>
+				<target state="translated">À côté du texte, à droite</target>
+			</trans-unit>
+			<trans-unit id="images.addFileReference" resname="images.addFileReference" approved="yes">
+				<source>Add image</source>
+				<target state="translated">Ajouter une image</target>
+			</trans-unit>
+			<trans-unit id="image_titleText" resname="image_titleText" approved="no">
+				<source>Title Text</source>
+				<target state="needs-translation">Titre:</target>
+			</trans-unit>
+			<trans-unit id="imagewidth" resname="imagewidth" approved="no">
+				<source>Width (pixels)</source>
+				<target state="needs-translation">Largeur (pixels) :</target>
+			</trans-unit>
+			<trans-unit id="imagewidth_formlabel" resname="imagewidth_formlabel" approved="yes">
+				<source>Width (px)</source>
+				<target state="translated">Largeur (px) :</target>
+			</trans-unit>
+			<trans-unit id="image_zoom" resname="image_zoom" approved="no">
+				<source>Click-enlarge</source>
+				<target state="needs-translation">Cliquer pour agrandir:</target>
+			</trans-unit>
+			<trans-unit id="image_zoom_formlabel" resname="image_zoom_formlabel" approved="yes">
+				<source>Enlarge on Click</source>
+				<target state="translated">Agrandissement au clic</target>
+			</trans-unit>
+			<trans-unit id="layout_formlabel" resname="layout_formlabel" approved="yes">
+				<source>Layout</source>
+				<target state="translated">Disposition</target>
+			</trans-unit>
+			<trans-unit id="layout.I.1" resname="layout.I.1" approved="yes">
+				<source>Layout 1</source>
+				<target state="translated">Disposition 1</target>
+			</trans-unit>
+			<trans-unit id="layout.I.2" resname="layout.I.2" approved="yes">
+				<source>Layout 2</source>
+				<target state="translated">Disposition 2</target>
+			</trans-unit>
+			<trans-unit id="layout.I.3" resname="layout.I.3" approved="yes">
+				<source>Layout 3</source>
+				<target state="translated">Disposition 3</target>
+			</trans-unit>
+			<trans-unit id="linkToTop" resname="linkToTop" approved="no">
+				<source>To top</source>
+				<target state="needs-translation">En haut:</target>
+			</trans-unit>
+			<trans-unit id="linkToTop_formlabel" resname="linkToTop_formlabel" approved="yes">
+				<source>Append with Link to Top of Page</source>
+				<target state="translated">Ajouter un lien vers le haut de la page</target>
+			</trans-unit>
+			<trans-unit id="list_type" resname="list_type" approved="no">
+				<source>Plugin</source>
+				<target state="needs-translation">Plugin :</target>
+			</trans-unit>
+			<trans-unit id="list_type_formlabel" resname="list_type_formlabel" approved="yes">
+				<source>Selected Plugin</source>
+				<target state="translated">Plugin sélectionné</target>
+			</trans-unit>
+			<trans-unit id="longdescURL_formlabel" resname="longdescURL_formlabel" approved="yes">
+				<source>Long Description URLs (one per line)</source>
+				<target state="translated">URL description longue (une par ligne)</target>
+			</trans-unit>
+			<trans-unit id="media" resname="media" approved="yes">
+				<source>Files</source>
+				<target state="translated">Fichiers</target>
+			</trans-unit>
+			<trans-unit id="media.addFileReference" resname="media.addFileReference" approved="yes">
+				<source>Add file</source>
+				<target state="translated">Ajouter un fichier</target>
+			</trans-unit>
+			<trans-unit id="media.ALT.uploads_formlabel" resname="media.ALT.uploads_formlabel" approved="yes">
+				<source>Select single files</source>
+				<target state="translated">Sélection de fichiers</target>
+			</trans-unit>
+			<trans-unit id="media.dataAttributes" resname="media.dataAttributes" approved="yes">
+				<source>Additional data-* Attributes for HTML5 video tag</source>
+				<target state="translated">Attributs data-* supplémentaires pour le marqueur vidéo HTML5</target>
+			</trans-unit>
+			<trans-unit id="media.dataAttributes.attributeName" resname="media.dataAttributes.attributeName" approved="yes">
+				<source>Name of attribute (without data-)</source>
+				<target state="translated">Nom de l'attribut (sans data-)</target>
+			</trans-unit>
+			<trans-unit id="media.dataAttributes.content" resname="media.dataAttributes.content" approved="yes">
+				<source>Content</source>
+				<target state="translated">Contenu</target>
+			</trans-unit>
+			<trans-unit id="menu.ALT.accessibility_bypass_formlabel" resname="menu.ALT.accessibility_bypass_formlabel" approved="yes">
+				<source>Add link to bypass navigation block</source>
+				<target state="translated">Ajouter un lien pour éviter le bloc de navigation</target>
+			</trans-unit>
+			<trans-unit id="menu.ALT.accessibility_bypass_text_formlabel" resname="menu.ALT.accessibility_bypass_text_formlabel" approved="no">
+				<source>Link text to bypass navigation block</source>
+				<target state="needs-translation">Ajouter un lien pour éviter le bloc de navigation</target>
+			</trans-unit>
+			<trans-unit id="menu.ALT.accessibility_title_formlabel" resname="menu.ALT.accessibility_title_formlabel" approved="yes">
+				<source>Menu block title</source>
+				<target state="translated">Titre du bloc de menu</target>
+			</trans-unit>
+			<trans-unit id="menu_type" resname="menu_type" approved="yes">
+				<source>Menu Type</source>
+				<target state="translated">Type de menu</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type_formlabel" resname="menu_type_formlabel" approved="yes">
+				<source>Menu Type</source>
+				<target state="translated">Type de menu</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.0" resname="menu_type.I.0" approved="yes">
+				<source>Menu of selected pages</source>
+				<target state="translated">Menu des pages sélectionnées</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.1" resname="menu_type.I.1" approved="yes">
+				<source>Menu of subpages of selected pages</source>
+				<target state="translated">Menu des sous-pages sélectionnées</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.2" resname="menu_type.I.2" approved="yes">
+				<source>Menu of subpages of selected pages including abstracts</source>
+				<target state="translated">Menu des sous-pages sélectionnées avec résumés</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.3" resname="menu_type.I.3" approved="yes">
+				<source>Menu of subpages of selected pages including sections</source>
+				<target state="translated">Menu des sous-pages sélectionnées avec les sections</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.4" resname="menu_type.I.4" approved="yes">
+				<source>Sitemap</source>
+				<target state="translated">Plan du site</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.5" resname="menu_type.I.5" approved="yes">
+				<source>Section index (page content marked for section menus)</source>
+				<target state="translated">Vue d'ensemble de la section (avec navigation)</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.6" resname="menu_type.I.6" approved="yes">
+				<source>Recently updated pages</source>
+				<target state="translated">Pages récemment mises à jour</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.7" resname="menu_type.I.7" approved="yes">
+				<source>Related pages (based on keywords)</source>
+				<target state="translated">Pages en relation (selon les mots-clés)</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.8" resname="menu_type.I.8" approved="yes">
+				<source>Sitemaps of selected pages</source>
+				<target state="translated">Plan du site des pages sélectionnées</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.categorized_content" resname="menu_type.I.categorized_content" approved="yes">
+				<source>Content elements for selected categories</source>
+				<target state="translated">Eléments de contenu pour les catégories sélectionnées</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="menu_type.I.categorized_pages" resname="menu_type.I.categorized_pages" approved="yes">
+				<source>Pages for selected categories</source>
+				<target state="translated">Pages pour les catégories sélectionnées</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10</note>
+			</trans-unit>
+			<trans-unit id="multimedia" resname="multimedia" approved="no">
+				<source>File</source>
+				<target state="needs-translation">Fichier :</target>
+			</trans-unit>
+			<trans-unit id="multimedia_formlabel" resname="multimedia_formlabel" approved="yes">
+				<source>Selected Media File</source>
+				<target state="translated">Fichier média sélectionné</target>
+			</trans-unit>
+			<trans-unit id="pages.ALT.list_formlabel" resname="pages.ALT.list_formlabel" approved="yes">
+				<source>Record Storage Page</source>
+				<target state="translated">Page de stockage des enregistrements</target>
+			</trans-unit>
+			<trans-unit id="pages.ALT.login" resname="pages.ALT.login" approved="no">
+				<source>Send to Page</source>
+				<target state="needs-translation">Aller à la page:</target>
+			</trans-unit>
+			<trans-unit id="pages.ALT.loginform" resname="pages.ALT.loginform" approved="yes">
+				<source>Selected pages: Target (1st), Frontend user container (2nd)</source>
+				<target state="translated">Pages sélectionnées: cible (1er), dossier des utilisateurs frontend (2ème)</target>
+			</trans-unit>
+			<trans-unit id="pages.ALT.mailform" resname="pages.ALT.mailform" approved="yes">
+				<source>Target Page</source>
+				<target state="translated">Page cible</target>
+			</trans-unit>
+			<trans-unit id="pages.ALT.menu_formlabel" resname="pages.ALT.menu_formlabel" approved="yes">
+				<source>Selected Pages</source>
+				<target state="translated">Pages sélectionnées</target>
+			</trans-unit>
+			<trans-unit id="pages.ALT.script_formlabel" resname="pages.ALT.script_formlabel" approved="yes">
+				<source>Starting Point for This Script</source>
+				<target state="translated">Point de départ pour ce script</target>
+			</trans-unit>
+			<trans-unit id="pages.ALT.search" resname="pages.ALT.search" approved="no">
+				<source>Send to Page</source>
+				<target state="needs-translation">Aller à la page:</target>
+			</trans-unit>
+			<trans-unit id="pages.ALT.searchform" resname="pages.ALT.searchform" approved="yes">
+				<source>Target page</source>
+				<target state="translated">Page cible</target>
+			</trans-unit>
+			<trans-unit id="palette.access" resname="palette.access" approved="yes">
+				<source>Publish Dates and Access Rights</source>
+				<target state="translated">Dates de publication et droits d'accès</target>
+			</trans-unit>
+			<trans-unit id="palette.appearanceLinks" resname="palette.appearanceLinks" approved="yes">
+				<source>Links</source>
+				<target state="translated">Liens</target>
+			</trans-unit>
+			<trans-unit id="palette.frames" resname="palette.frames" approved="yes">
+				<source>Content Element Layout</source>
+				<target state="translated">Disposition des éléments de contenus</target>
+			</trans-unit>
+			<trans-unit id="palette.general" resname="palette.general" approved="yes">
+				<source>Content Element</source>
+				<target state="translated">Elément de contenu</target>
+			</trans-unit>
+			<trans-unit id="palette.header" resname="palette.header" approved="yes">
+				<source>Header</source>
+				<target state="translated">Titre</target>
+			</trans-unit>
+			<trans-unit id="palette.headers" resname="palette.headers" approved="yes">
+				<source>Headlines</source>
+				<target state="translated">En-têtes</target>
+			</trans-unit>
+			<trans-unit id="palette.image_accessibility" resname="palette.image_accessibility" approved="yes">
+				<source>Accessibility</source>
+				<target state="translated">Accessibilité</target>
+			</trans-unit>
+			<trans-unit id="palette.imageblock" resname="palette.imageblock" approved="yes">
+				<source>Image Alignment</source>
+				<target state="translated">Alignement de l'image</target>
+			</trans-unit>
+			<trans-unit id="palette.imagefiles" resname="palette.imagefiles" approved="yes">
+				<source>Images and Captions</source>
+				<target state="translated">Images et descriptions</target>
+			</trans-unit>
+			<trans-unit id="palette.imagelinks" resname="palette.imagelinks" approved="yes">
+				<source>Behavior</source>
+				<target state="translated">Comportement</target>
+			</trans-unit>
+			<trans-unit id="palette.image_settings" resname="palette.image_settings" approved="yes">
+				<source>Image Adjustments</source>
+				<target state="translated">Ajustements d'image</target>
+			</trans-unit>
+			<trans-unit id="palette.loginform" resname="palette.loginform" approved="yes">
+				<source>Redirect Target and Frontend User Container</source>
+				<target state="translated">Rediriger le conteneur utilisateur cible et frontal</target>
+			</trans-unit>
+			<trans-unit id="palette.mailform" resname="palette.mailform" approved="yes">
+				<source>Target and Recipient</source>
+				<target state="translated">Cible et destinataire</target>
+			</trans-unit>
+			<trans-unit id="palette.menu" resname="palette.menu" approved="yes">
+				<source>Menu and Sitemap</source>
+				<target state="translated">Menu et plan du site</target>
+			</trans-unit>
+			<trans-unit id="palette.menu_accessibility" resname="palette.menu_accessibility" approved="yes">
+				<source>Accessibility</source>
+				<target state="translated">Accessibilité</target>
+			</trans-unit>
+			<trans-unit id="palette.multimediafiles" resname="palette.multimediafiles" approved="yes">
+				<source>Media Files and Parameters</source>
+				<target state="translated">Fichiers multimédias et paramètres</target>
+			</trans-unit>
+			<trans-unit id="palette.searchform" resname="palette.searchform" approved="yes">
+				<source>Search Results</source>
+				<target state="translated">Résultats de la recherche</target>
+			</trans-unit>
+			<trans-unit id="palette.table_layout" resname="palette.table_layout">
+				<source>Table Layout</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="palette.textbox" resname="palette.textbox">
+				<source>Render Text into Images</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="palette.textlayout" resname="palette.textlayout" approved="yes">
+				<source>Text Layout</source>
+				<target state="translated">Disposition du texte</target>
+			</trans-unit>
+			<trans-unit id="palette.uploads_layout" resname="palette.uploads_layout" approved="yes">
+				<source>Filelinks Layout</source>
+				<target state="translated">Mise en page du lien vers un fichier</target>
+			</trans-unit>
+			<trans-unit id="palette.visibility" resname="palette.visibility" approved="yes">
+				<source>Visibility</source>
+				<target state="translated">Visibilité</target>
+			</trans-unit>
+			<trans-unit id="pi_flexform" resname="pi_flexform" approved="yes">
+				<source>Plugin Options</source>
+				<target state="translated">Options de plugins</target>
+			</trans-unit>
+			<trans-unit id="records" resname="records" approved="no">
+				<source>Items</source>
+				<target state="needs-translation">Éléments :</target>
+			</trans-unit>
+			<trans-unit id="records_formlabel" resname="records_formlabel" approved="yes">
+				<source>Records</source>
+				<target state="translated">Enregistrements</target>
+			</trans-unit>
+			<trans-unit id="recursive.I.0" resname="recursive.I.0" approved="yes">
+				<source>0 levels (only selected page)</source>
+				<target state="translated">Niveau 0 (Seulement la page sélectionnée)</target>
+			</trans-unit>
+			<trans-unit id="recursive.I.1" resname="recursive.I.1" approved="yes">
+				<source>1 level</source>
+				<target state="translated">1 niveau</target>
+			</trans-unit>
+			<trans-unit id="recursive.I.2" resname="recursive.I.2" approved="yes">
+				<source>2 levels</source>
+				<target state="translated">2 niveaux</target>
+			</trans-unit>
+			<trans-unit id="recursive.I.3" resname="recursive.I.3" approved="yes">
+				<source>3 levels</source>
+				<target state="translated">3 niveaux</target>
+			</trans-unit>
+			<trans-unit id="recursive.I.4" resname="recursive.I.4" approved="yes">
+				<source>4 levels</source>
+				<target state="translated">4 niveaux</target>
+			</trans-unit>
+			<trans-unit id="recursive.I.5" resname="recursive.I.5" approved="yes">
+				<source>Infinite</source>
+				<target state="translated">Infini</target>
+			</trans-unit>
+			<trans-unit id="rte_enabled" resname="rte_enabled" approved="no">
+				<source>Disable Rich Text Editor</source>
+				<target state="needs-translation">Désactiver l'éditeur RTE:</target>
+			</trans-unit>
+			<trans-unit id="rte_enabled_formlabel" resname="rte_enabled_formlabel" approved="yes">
+				<source>Rich Text Editor</source>
+				<target state="translated">Editeur RTE</target>
+			</trans-unit>
+			<trans-unit id="rte_enabled.I.0" resname="rte_enabled.I.0" approved="yes">
+				<source>Disable</source>
+				<target state="translated">Désactiver</target>
+			</trans-unit>
+			<trans-unit id="sectionIndex" resname="sectionIndex" approved="no">
+				<source>Index</source>
+				<target state="needs-translation">Index:</target>
+			</trans-unit>
+			<trans-unit id="sectionIndex_formlabel" resname="sectionIndex_formlabel" approved="yes">
+				<source>Show in Section Menus</source>
+				<target state="translated">Afficher dans le menu</target>
+			</trans-unit>
+			<trans-unit id="selected_categories" resname="selected_categories" approved="yes">
+				<source>Selected categories</source>
+				<target state="translated">Catégories sélectionnées</target>
+			</trans-unit>
+			<trans-unit id="select_key.ALT.script_formlabel" resname="select_key.ALT.script_formlabel" approved="yes">
+				<source>PHP Code</source>
+				<target state="translated">Code PHP</target>
+			</trans-unit>
+			<trans-unit id="select_key.ALT.uploads" resname="select_key.ALT.uploads" approved="no">
+				<source>Read from Path</source>
+				<target state="needs-translation">Chemin du fichier :</target>
+			</trans-unit>
+			<trans-unit id="select_key.ALT.uploads_formlabel" resname="select_key.ALT.uploads_formlabel" approved="yes">
+				<source>Path</source>
+				<target state="translated">Chemin</target>
+			</trans-unit>
+			<trans-unit id="select_key_formlabel" resname="select_key_formlabel" approved="yes">
+				<source>Plugin Mode</source>
+				<target state="translated">Mode du Plugin</target>
+			</trans-unit>
+			<trans-unit id="spaceAfter" resname="spaceAfter" approved="no">
+				<source>After</source>
+				<target state="needs-translation">Après:</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10
+This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v9</note>
+			</trans-unit>
+			<trans-unit id="space_after_class" resname="space_after_class" approved="yes">
+				<source>Space After</source>
+				<target state="translated">Espacement après</target>
+			</trans-unit>
+			<trans-unit id="space_after_class_formlabel" resname="space_after_class_formlabel" approved="yes">
+				<source>Space After</source>
+				<target state="translated">Espacement après</target>
+			</trans-unit>
+			<trans-unit id="spaceAfter_formlabel" resname="spaceAfter_formlabel" approved="yes">
+				<source>Bottom Margin</source>
+				<target state="translated">Marge inférieure</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10
+This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v9</note>
+			</trans-unit>
+			<trans-unit id="spaceBefore" resname="spaceBefore" approved="no">
+				<source>Before</source>
+				<target state="needs-translation">Avant:</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10
+This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v9</note>
+			</trans-unit>
+			<trans-unit id="space_before_class" resname="space_before_class" approved="yes">
+				<source>Space Before</source>
+				<target state="translated">Espacement avant</target>
+			</trans-unit>
+			<trans-unit id="space_before_class_formlabel" resname="space_before_class_formlabel" approved="yes">
+				<source>Space Before</source>
+				<target state="translated">Espacement avant</target>
+			</trans-unit>
+			<trans-unit id="spaceBefore_formlabel" resname="spaceBefore_formlabel" approved="yes">
+				<source>Top Margin</source>
+				<target state="translated">Marge supérieure</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10
+This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v9</note>
+			</trans-unit>
+			<trans-unit id="space_class_extra_large" resname="space_class_extra_large" approved="yes">
+				<source>Extra Large</source>
+				<target state="translated">Très grand</target>
+			</trans-unit>
+			<trans-unit id="space_class_extra_small" resname="space_class_extra_small" approved="yes">
+				<source>Extra Small</source>
+				<target state="translated">Très petit</target>
+			</trans-unit>
+			<trans-unit id="space_class_large" resname="space_class_large" approved="yes">
+				<source>Large</source>
+				<target state="translated">Grand</target>
+			</trans-unit>
+			<trans-unit id="space_class_medium" resname="space_class_medium" approved="yes">
+				<source>Medium</source>
+				<target state="translated">Moyen</target>
+			</trans-unit>
+			<trans-unit id="space_class_none" resname="space_class_none" approved="yes">
+				<source>None</source>
+				<target state="translated">Aucun</target>
+			</trans-unit>
+			<trans-unit id="space_class_small" resname="space_class_small" approved="yes">
+				<source>Small</source>
+				<target state="translated">Petit</target>
+			</trans-unit>
+			<trans-unit id="splash_layout" resname="splash_layout" approved="no">
+				<source>Textbox Type</source>
+				<target state="needs-translation">Type de zone de texte :</target>
+			</trans-unit>
+			<trans-unit id="splash_layout_formlabel" resname="splash_layout_formlabel" approved="yes">
+				<source>Type</source>
+				<target state="translated">Type</target>
+			</trans-unit>
+			<trans-unit id="splash_layout.I.1" resname="splash_layout.I.1" approved="yes">
+				<source>Image Shadow</source>
+				<target state="translated">Ombre de l'image</target>
+			</trans-unit>
+			<trans-unit id="splash_layout.I.2" resname="splash_layout.I.2" approved="yes">
+				<source>Image Frame 1</source>
+				<target state="translated">Cadre d'image 1</target>
+			</trans-unit>
+			<trans-unit id="splash_layout.I.3" resname="splash_layout.I.3" approved="yes">
+				<source>Image Frame 2</source>
+				<target state="translated">Cadre d'image 2</target>
+			</trans-unit>
+			<trans-unit id="splash_layout.I.4" resname="splash_layout.I.4" approved="yes">
+				<source>__Graphical:__</source>
+				<target state="translated">__Graphisme:__</target>
+			</trans-unit>
+			<trans-unit id="splash_layout.I.5" resname="splash_layout.I.5" approved="yes">
+				<source>Postit 1</source>
+				<target state="translated">Post-it 1</target>
+			</trans-unit>
+			<trans-unit id="starttime_formlabel" resname="starttime_formlabel" approved="yes">
+				<source>Publish Date</source>
+				<target state="translated">Date de publication</target>
+			</trans-unit>
+			<trans-unit id="subheader.ALT.mailform" resname="subheader.ALT.mailform" approved="no">
+				<source>Recipient Email</source>
+				<target state="needs-translation">Email du destinataire:</target>
+			</trans-unit>
+			<trans-unit id="subheader.ALT.mailform_formlabel" resname="subheader.ALT.mailform_formlabel" approved="yes">
+				<source>Recipient Email</source>
+				<target state="translated">Email du destinataire</target>
+			</trans-unit>
+			<trans-unit id="subheader_formlabel" resname="subheader_formlabel" approved="yes">
+				<source>Subheader</source>
+				<target state="translated">Sous-titre</target>
+			</trans-unit>
+			<trans-unit id="sys_language_uid_formlabel" resname="sys_language_uid_formlabel" approved="yes">
+				<source>Language</source>
+				<target state="translated">Langue</target>
+			</trans-unit>
+			<trans-unit id="tabs.access" resname="tabs.access" approved="yes">
+				<source>Access</source>
+				<target state="translated">Accès</target>
+			</trans-unit>
+			<trans-unit id="tabs.accessibility" resname="tabs.accessibility" approved="yes">
+				<source>Accessibility</source>
+				<target state="translated">Accessibilité</target>
+			</trans-unit>
+			<trans-unit id="tabs.appearance" resname="tabs.appearance" approved="yes">
+				<source>Appearance</source>
+				<target state="translated">Apparence</target>
+			</trans-unit>
+			<trans-unit id="tabs.behaviour" resname="tabs.behaviour" approved="yes">
+				<source>Behaviour</source>
+				<target state="translated">Comportement</target>
+			</trans-unit>
+			<trans-unit id="tabs.extended" resname="tabs.extended" approved="yes">
+				<source>Extended</source>
+				<target state="translated">Étendu</target>
+			</trans-unit>
+			<trans-unit id="tabs.images" resname="tabs.images" approved="yes">
+				<source>Images</source>
+				<target state="translated">Images</target>
+			</trans-unit>
+			<trans-unit id="tabs.media" resname="tabs.media" approved="yes">
+				<source>Media</source>
+				<target state="translated">Média</target>
+			</trans-unit>
+			<trans-unit id="tabs.plugin" resname="tabs.plugin" approved="yes">
+				<source>Plugin</source>
+				<target state="translated">Plugin</target>
+			</trans-unit>
+			<trans-unit id="tabs.script" resname="tabs.script" approved="yes">
+				<source>Script</source>
+				<target state="translated">Script</target>
+			</trans-unit>
+			<trans-unit id="tabs.text" resname="tabs.text" approved="yes">
+				<source>Text</source>
+				<target state="translated">Texte</target>
+			</trans-unit>
+			<trans-unit id="target" resname="target" approved="no">
+				<source>Target</source>
+				<target state="needs-translation">Cible :</target>
+			</trans-unit>
+			<trans-unit id="target.I.1" resname="target.I.1" approved="yes">
+				<source>New window</source>
+				<target state="translated">Nouvelle fenêtre</target>
+			</trans-unit>
+			<trans-unit id="titleText_formlabel" resname="titleText_formlabel" approved="yes">
+				<source>Titles (one per line)</source>
+				<target state="translated">Titres (un par ligne)</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

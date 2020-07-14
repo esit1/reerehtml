@@ -1,0 +1,66 @@
+<f:if condition="{processedRow.tx_dreiboxv1_bildbox1}">
+    <strong><f:translate key="LLL:EXT:dreibox_v1/Resources/Private/Language/locallang_db.xlf:tt_content.tx_dreiboxv1_bildbox1" /></strong>
+<br><f:for each="{processedRow.tx_dreiboxv1_bildbox1}" as="item">
+    <ul>
+        <li>
+    <ul>
+        <f:for each="{item.uid_local}" as="file">
+            <li><f:translate key="LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.uid_local" /> {file.table}|{file.uid}|{file.title} (id={item.uid})</li>
+        </f:for>
+    </ul>
+        </li>
+    </ul>
+</f:for>
+</f:if>
+<f:if condition="{processedRow.tx_dreiboxv1_textbox1}">
+    <strong><f:translate key="LLL:EXT:dreibox_v1/Resources/Private/Language/locallang_db.xlf:tt_content.tx_dreiboxv1_textbox1" /></strong>
+    {processedRow.tx_dreiboxv1_textbox1} (raw={row.tx_dreiboxv1_textbox1})<br>
+</f:if>
+<f:if condition="{processedRow.tx_dreiboxv1_linkbox1}">
+    <strong><f:translate key="LLL:EXT:dreibox_v1/Resources/Private/Language/locallang_db.xlf:tt_content.tx_dreiboxv1_linkbox1" /></strong>
+    {processedRow.tx_dreiboxv1_linkbox1} (raw={row.tx_dreiboxv1_linkbox1})<br>
+</f:if>
+<f:if condition="{processedRow.tx_dreiboxv1_bildbox2}">
+    <strong><f:translate key="LLL:EXT:dreibox_v1/Resources/Private/Language/locallang_db.xlf:tt_content.tx_dreiboxv1_bildbox2" /></strong>
+<br><f:for each="{processedRow.tx_dreiboxv1_bildbox2}" as="item">
+    <ul>
+        <li>
+    <ul>
+        <f:for each="{item.uid_local}" as="file">
+            <li><f:translate key="LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.uid_local" /> {file.table}|{file.uid}|{file.title} (id={item.uid})</li>
+        </f:for>
+    </ul>
+        </li>
+    </ul>
+</f:for>
+</f:if>
+<f:if condition="{processedRow.tx_dreiboxv1_textbox2}">
+    <strong><f:translate key="LLL:EXT:dreibox_v1/Resources/Private/Language/locallang_db.xlf:tt_content.tx_dreiboxv1_textbox2" /></strong>
+    {processedRow.tx_dreiboxv1_textbox2} (raw={row.tx_dreiboxv1_textbox2})<br>
+</f:if>
+<f:if condition="{processedRow.tx_dreiboxv1_linkbox2}">
+    <strong><f:translate key="LLL:EXT:dreibox_v1/Resources/Private/Language/locallang_db.xlf:tt_content.tx_dreiboxv1_linkbox2" /></strong>
+    {processedRow.tx_dreiboxv1_linkbox2} (raw={row.tx_dreiboxv1_linkbox2})<br>
+</f:if>
+<f:if condition="{processedRow.tx_dreiboxv1_bildbox3}">
+    <strong><f:translate key="LLL:EXT:dreibox_v1/Resources/Private/Language/locallang_db.xlf:tt_content.tx_dreiboxv1_bildbox3" /></strong>
+<br><f:for each="{processedRow.tx_dreiboxv1_bildbox3}" as="item">
+    <ul>
+        <li>
+    <ul>
+        <f:for each="{item.uid_local}" as="file">
+            <li><f:translate key="LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.uid_local" /> {file.table}|{file.uid}|{file.title} (id={item.uid})</li>
+        </f:for>
+    </ul>
+        </li>
+    </ul>
+</f:for>
+</f:if>
+<f:if condition="{processedRow.tx_dreiboxv1_textbox3}">
+    <strong><f:translate key="LLL:EXT:dreibox_v1/Resources/Private/Language/locallang_db.xlf:tt_content.tx_dreiboxv1_textbox3" /></strong>
+    {processedRow.tx_dreiboxv1_textbox3} (raw={row.tx_dreiboxv1_textbox3})<br>
+</f:if>
+<f:if condition="{processedRow.tx_dreiboxv1_linkbox3}">
+    <strong><f:translate key="LLL:EXT:dreibox_v1/Resources/Private/Language/locallang_db.xlf:tt_content.tx_dreiboxv1_linkbox3" /></strong>
+    {processedRow.tx_dreiboxv1_linkbox3} (raw={row.tx_dreiboxv1_linkbox3})<br>
+</f:if>

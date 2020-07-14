@@ -1,0 +1,35 @@
+lib.langmenu = COA
+lib.langmenu {
+    wrap = <div class="languagemenu">|</div>
+
+    10 = HMENU
+    10 {
+
+        special = language
+        special.value = 0,1,2
+
+
+        1 = TMENU
+        1 {
+            NO = 1
+            NO.stdWrap.override = DE || EN || NL
+
+            ACT < .NO
+            ACT {
+                allWrap = <span class="curlang">|</span>
+                doNotLinkIt = 1
+            }
+
+            USERDEF1 < .NO
+            USERDEF1 {
+                #allWrap = <span class="notranslation">|</span>
+                #doNotLinkIt = 1
+                doNotShowLink = 1
+            }
+        }
+
+    }
+
+
+}
+

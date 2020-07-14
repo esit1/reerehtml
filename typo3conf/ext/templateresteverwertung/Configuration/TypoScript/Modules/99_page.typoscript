@@ -1,0 +1,139 @@
+config.contentObjectExceptionHandler = 0
+
+page = PAGE
+
+## Meta-Tags im <head>
+page.meta {
+    X-UA-Compatible = IE=edge
+    X-UA-Compatible.httpEquivalent = 1
+
+    viewport = width=device-width, initial-scale=1, shrink-to-fit=no
+
+    description.field = description
+    description.ifEmpty = Das ist die Standard-Description
+
+    author.field = author
+    author.ifEmpty = Christine Dall
+
+    keywords.field = keywords
+    keywords.ifEmpty = Saisonkalender ,Resteverwertung
+}
+
+## Favicon eininden
+page.shortcutIcon = EXT:templateresteverwertung/Resources/Public/Icons/favicon.ico
+
+## CSS einbinden
+page.includeCSS {
+    10 = EXT:templateresteverwertung/Resources/Public/bootstrap/css/bootstrap.css
+    20 = EXT:templateresteverwertung/Resources/Public/bootstrap/css/bootstrap-flex.min.css
+    30 = EXT:templateresteverwertung/Resources/Public/bootstrap/css/bootstrap-grid.css
+    40 = EXT:typo3conf/ext/templateresteverwertung/Resources/Public/bootstrap/css/bootstrap-reboot.css
+    50 = EXT:templateresteverwertung/Resources/Public/bootstrap/css/sm-core-css.css
+    60 = EXT:typo3conf/ext/templateresteverwertung/Resources/Public/bootstrap/css/sm-simple.css
+    70 = EXT:templateresteverwertung/Resources/Public/bootstrap/css/smartmenu.css
+
+    90 = EXT:templateresteverwertung/Resources/Public/Css/css.css
+}
+
+## JavaScript einbinden
+
+page.includeJSFooterlibs {
+    10 = http://code.jquery.com/jquery-3.1.1.min.js
+    10.external = 1
+    10.disableCompression = 1
+}
+
+page.includeJSFooter {
+    10 = EXT:templateresteverwertung/Resources/Public/bootstrap/js/bootstrap.bundle.min.js
+    10.disableCompression = 1
+
+    20 = EXT:templateresteverwertung/Resources/Public/bootstrap/others/jquery.smartmenus.min.js
+    20.disableCompression = 1
+
+    30 = EXT:templateresteverwertung/Resources/Public/bootstrap/others/jquery.smartmenus.bootstrap.min.js
+    30.disableCompression = 1
+
+    40 = EXT:typo3conf/ext/templateresteverwertung/Resources/Public/bootstrap/js/bootstrap.js
+    40.disableCompression = 1
+
+    90 = EXT:templateresteverwertung/Resources/Public/JavaScript/custom.js
+}
+
+
+page.10 = FLUIDTEMPLATE
+page.10 {
+    layoutRootPath = EXT:templateresteverwertung/Resources/Private/Layouts/
+    partialRootPath = EXT:templateresteverwertung/Resources/Private/Partials/
+
+    file = EXT:templateresteverwertung/Resources/Private/Templates/Default.html
+
+    variables {
+
+        content0 = CONTENT
+        content0 {
+            table = tt_content
+            select.where = colPos=0
+            select.orderBy = sorting
+        }
+
+        content1 < .content0
+        content1.select.where = colPos=1
+
+        content2 < .content0
+        content2.select.where = colPos=2
+
+        content3 < .content0
+        content3.select.where = colPos=3
+
+        content4 < .content0
+        content4.select.where = colPos=4
+
+        content5 < .content0
+        content5.select.where = colPos=5
+
+        backendlayout = CASE
+        backendlayout {
+            key.data = pagelayout
+
+            pagets__Startseite = TEXT
+            pagets__Startseite.value = Startseite
+
+            pagets__2spalten = TEXT
+            pagets__2spalten.value = 2spalten
+
+            pagets__2spaltenOhneUntermenue = TEXT
+            pagets__2spaltenOhneUntermenue.value = 2spaltenOhneUntermenue
+
+            pagets__1spalte = TEXT
+            pagets__1spalte.value = 1spalte
+
+            pagets__jumbotronplusboxen = TEXT
+            pagets__jumbotronplusboxen.value = jumbotronplusboxen
+
+            pagets__2spaltenPlusJumbotron = TEXT
+            pagets__2spaltenPlusJumbotron.value = 2spaltenPlusJumbotron
+
+            pagets__3Box = TEXT
+            pagets__3Box.value = 3Box
+
+            pagets__Rezept = TEXT
+            pagets__Rezept.value = Rezept
+
+            default < .pagets__2spalten
+        }
+
+        siteTitle = TEXT
+        siteTitle {
+            value = {$siteTitle}
+            stdWrap.typolink.parameter = t3://page?uid={$rootId}
+            stdWrap.typolink.title = {$siteTitle} - zur Startseite
+            wrap = <h2 class="nav-brand">|</h2>
+        }
+
+    }
+
+}
+
+
+
+

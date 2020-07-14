@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="nl" type="array">
+			<label index="adminModule.title">EXT:news - Beheermodule</label>
+			<label index="adminModule.description">De beheermodule van EXT:news is een krachtig gereedschap voor redacteuren om nieuwsrecords aan te maken, te bewerken en te vinden.</label>
+			<label index="adminModule.general.title">Beheermodule</label>
+			<label index="adminModule.general.content">Dit is de beste plaats om nieuwe records aan te maken en bestaande te wijzigen.</label>
+			<label index="adminModule.filter.title">Filter schakelen</label>
+			<label index="adminModule.filter.content">Toon en verberg een filter dat u helpt nieuws-records te vinden</label>
+			<label index="adminModule.filter2.title">Klik op het filter-icoon!</label>
+			<label index="adminModule.filter2.content">Open de filterinstellingen!</label>
+			<label index="adminModule.searchWord.title">Zoeken naar tekst</label>
+			<label index="adminModule.searchWord.content">Zoek in titel, teaser en berichttekst</label>
+			<label index="adminModule.timeRestriction.title">Filter op tijdsinterval</label>
+			<label index="adminModule.timeRestriction.content">Gebruik één van de twee datumvelden om nieuwsberichten te filteren op een datumbereik.</label>
+			<label index="adminModule.topNewsRestriction.title">Filter top nieuws records</label>
+			<label index="adminModule.topNewsRestriction.content">Nieuws-records kunnen als "top-nieuws" gemarkeerd worden. Gebruik dit filter om top-nieuws records of niet-top-nieuws records te vinden.</label>
+			<label index="adminModule.sortingField.title">Resultaat sorteren</label>
+			<label index="adminModule.sortingField.content">Resultaat sorteren op het gedefinieerde veld en de sorteervolgorde</label>
+			<label index="adminModule.recursive.title">Zoekactie uitbreiden naar onderliggende pagina's</label>
+			<label index="adminModule.recursive.content">Diepte instellen tot waar de paginaboom wordt doorzocht naar nieuws-records</label>
+			<label index="adminModule.categoryTree.title">Categoriefilter</label>
+			<label index="adminModule.categoryTree.content">Selecteer categorieën die u wilt gebruiken voor extra filtering</label>
+			<label index="adminModule.categoryConjunction.title">Categoriecombinatie</label>
+			<label index="adminModule.categoryConjunction.content">Kies hoe de categorieselectie moet worden gebruikt</label>
+			<label index="adminModule.actionSwitch.title">Wisssel naar de pid lijst</label>
+			<label index="adminModule.actionSwitch.content">Een krachtig overzicht is hier verborgen! Het zorgt ervoor dat pagina's die nieuws records bevatten gevonden worden.</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

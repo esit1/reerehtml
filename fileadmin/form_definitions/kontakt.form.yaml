@@ -1,0 +1,120 @@
+
+renderingOptions:
+  submitButtonLabel: Absenden
+type: Form
+identifier: kontakt
+label: Kontakt
+prototypeName: standard
+finishers:
+  -
+    options:
+      pageUid: '11'
+      additionalParameters: ''
+    identifier: Redirect
+  -
+    options:
+      subject: '{text-2}'
+      recipientAddress: '{email-1}'
+      recipientName: christine-dall@web.de
+      senderAddress: christine-dall@web.de
+      senderName: christine-dall@web.de
+      replyToAddress: ''
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: true
+    identifier: EmailToSender
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: Zurück
+      nextButtonLabel: Absenden
+    type: Page
+    identifier: page-1
+    label: Kontakt
+    renderables:
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-3
+        label: Name
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: Name
+            required: required
+          validationErrorMessages:
+            -
+              code: 1221560910
+              message: 'Keine Name eingeben'
+            -
+              code: 1221560718
+              message: 'Keine Name eingeben'
+            -
+              code: 1347992400
+              message: 'Keine Name eingeben'
+            -
+              code: 1347992453
+              message: 'Keine Name eingeben'
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        validators:
+          -
+            identifier: EmailAddress
+          -
+            identifier: NotEmpty
+        type: Email
+        identifier: email-1
+        label: Email-Adresse
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: Email-Adresse
+            required: required
+          validationErrorMessages:
+            -
+              code: 1221560910
+              message: 'Keine Email-Adresse eingeben'
+            -
+              code: 1221560718
+              message: 'Keine Email-Adresse eingeben'
+            -
+              code: 1347992400
+              message: 'Keine Email-Adresse eingeben'
+            -
+              code: 1347992453
+              message: 'Keine Email-Adresse eingeben'
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: Betreff
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: Betreff
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-1
+        label: Nachricht
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+            placeholder: Nachricht
+          validationErrorMessages:
+            -
+              code: 1221560910
+              message: 'Keine Nachricht eingeben'
+            -
+              code: 1221560718
+              message: 'Keine Nachricht eingeben'
+            -
+              code: 1347992400
+              message: 'Keine Nachricht eingeben'
+            -
+              code: 1347992453
+              message: 'Keine Nachricht eingeben'
+        validators:
+          -
+            identifier: NotEmpty

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2020-02-02T01:12:49Z" product-name="core">
+		<header/>
+		<body>
+			<trans-unit id="LGL.address" resname="LGL.address" approved="no">
+				<source>Address</source>
+				<target state="needs-translation">Adresse</target>
+			</trans-unit>
+			<trans-unit id="LGL.allLanguages" resname="LGL.allLanguages" approved="yes">
+				<source>[All]</source>
+				<target state="translated">[Tout]</target>
+			</trans-unit>
+			<trans-unit id="LGL.any_login" resname="LGL.any_login" approved="yes">
+				<source>Show at any login</source>
+				<target state="translated">Afficher à toutes les connexions</target>
+			</trans-unit>
+			<trans-unit id="LGL.author" resname="LGL.author" approved="no">
+				<source>Author</source>
+				<target state="needs-translation">Auteur</target>
+			</trans-unit>
+			<trans-unit id="LGL.baseStorage" resname="LGL.baseStorage" approved="no">
+				<source>Storage</source>
+				<target state="needs-translation">Dossier de stockage</target>
+			</trans-unit>
+			<trans-unit id="LGL.caption" resname="LGL.caption" approved="no">
+				<source>Caption</source>
+				<target state="needs-translation">Légende</target>
+			</trans-unit>
+			<trans-unit id="LGL.category" resname="LGL.category" approved="no">
+				<source>Category</source>
+				<target state="needs-translation">Catégorie</target>
+			</trans-unit>
+			<trans-unit id="LGL.city" resname="LGL.city" approved="no">
+				<source>City</source>
+				<target state="needs-translation">Localité</target>
+			</trans-unit>
+			<trans-unit id="LGL.code" resname="LGL.code" approved="no">
+				<source>CODE</source>
+				<target state="needs-translation">CODE</target>
+			</trans-unit>
+			<trans-unit id="LGL.company" resname="LGL.company" approved="no">
+				<source>Company</source>
+				<target state="needs-translation">Société</target>
+			</trans-unit>
+			<trans-unit id="LGL.country" resname="LGL.country" approved="no">
+				<source>Country</source>
+				<target state="needs-translation">Pays</target>
+			</trans-unit>
+			<trans-unit id="LGL.creationDate" resname="LGL.creationDate" approved="no">
+				<source>Created At</source>
+				<target state="needs-translation">Créé le</target>
+			</trans-unit>
+			<trans-unit id="LGL.creationUserId" resname="LGL.creationUserId" approved="no">
+				<source>Created By</source>
+				<target state="needs-translation">Créé par</target>
+			</trans-unit>
+			<trans-unit id="LGL.default_value" resname="LGL.default_value" approved="yes">
+				<source>Default</source>
+				<target state="translated">Par défaut</target>
+			</trans-unit>
+			<trans-unit id="LGL.description" resname="LGL.description" approved="no">
+				<source>Description</source>
+				<target state="needs-translation">Description</target>
+			</trans-unit>
+			<trans-unit id="LGL.disable" resname="LGL.disable" approved="no">
+				<source>Disable</source>
+				<target state="needs-translation">Désactiver</target>
+			</trans-unit>
+			<trans-unit id="LGL.disabled" resname="LGL.disabled" approved="no">
+				<source>Disabled</source>
+				<target state="needs-translation">Désactivé</target>
+			</trans-unit>
+			<trans-unit id="LGL.disableRTE" resname="LGL.disableRTE" approved="no">
+				<source>Disable Rich Text Editor</source>
+				<target state="needs-translation">Désactiver l'éditeur de texte avancé (RTE)</target>
+			</trans-unit>
+			<trans-unit id="LGL.email" resname="LGL.email" approved="no">
+				<source>Email</source>
+				<target state="needs-translation">E-mail</target>
+			</trans-unit>
+			<trans-unit id="LGL.enabled" resname="LGL.enabled" approved="yes">
+				<source>Enabled</source>
+				<target state="translated">Activé</target>
+			</trans-unit>
+			<trans-unit id="LGL.endtime" resname="LGL.endtime" approved="yes">
+				<source>Stop</source>
+				<target state="translated">Arrêt</target>
+			</trans-unit>
+			<trans-unit id="LGL.error" resname="LGL.error" approved="yes">
+				<source>Error!</source>
+				<target state="translated">Erreur !</target>
+			</trans-unit>
+			<trans-unit id="LGL.external" resname="LGL.external" approved="yes">
+				<source>External URL</source>
+				<target state="translated">URL externe</target>
+			</trans-unit>
+			<trans-unit id="LGL.fax" resname="LGL.fax" approved="no">
+				<source>Fax</source>
+				<target state="needs-translation">Fax</target>
+			</trans-unit>
+			<trans-unit id="LGL.fe_group" resname="LGL.fe_group" approved="no">
+				<source>Access</source>
+				<target state="needs-translation">Accès</target>
+			</trans-unit>
+			<trans-unit id="LGL.first_name" resname="LGL.first_name" approved="no">
+				<source>First name</source>
+				<target state="needs-translation">Prénom</target>
+			</trans-unit>
+			<trans-unit id="LGL.folder" resname="LGL.folder" approved="no">
+				<source>Folder</source>
+				<target state="needs-translation">Dossier</target>
+			</trans-unit>
+			<trans-unit id="LGL.height" resname="LGL.height" approved="yes">
+				<source>Height</source>
+				<target state="translated">Hauteur</target>
+			</trans-unit>
+			<trans-unit id="LGL.hidden" resname="LGL.hidden" approved="no">
+				<source>Hide</source>
+				<target state="needs-translation">Cacher</target>
+			</trans-unit>
+			<trans-unit id="LGL.hide_at_login" resname="LGL.hide_at_login" approved="yes">
+				<source>Hide at login</source>
+				<target state="translated">Cacher à la connexion</target>
+			</trans-unit>
+			<trans-unit id="LGL.image" resname="LGL.image" approved="no">
+				<source>Image</source>
+				<target state="needs-translation">Image</target>
+			</trans-unit>
+			<trans-unit id="LGL.images" resname="LGL.images" approved="no">
+				<source>Images</source>
+				<target state="needs-translation">Images</target>
+			</trans-unit>
+			<trans-unit id="LGL.keywords" resname="LGL.keywords" approved="no">
+				<source>Keywords (,)</source>
+				<target state="needs-translation">Mots-clés ( , )</target>
+			</trans-unit>
+			<trans-unit id="LGL.l18n_parent" resname="LGL.l18n_parent" approved="no">
+				<source>Transl.Orig</source>
+				<target state="needs-translation">Traduction originale</target>
+			</trans-unit>
+			<trans-unit id="LGL.language" resname="LGL.language" approved="no">
+				<source>Language</source>
+				<target state="needs-translation">Langue</target>
+			</trans-unit>
+			<trans-unit id="LGL.lastlogin" resname="LGL.lastlogin" approved="no">
+				<source>Last login</source>
+				<target state="needs-translation">Dernière connexion</target>
+			</trans-unit>
+			<trans-unit id="LGL.last_name" resname="LGL.last_name" approved="no">
+				<source>Last name</source>
+				<target state="needs-translation">Nom de famille :</target>
+			</trans-unit>
+			<trans-unit id="LGL.layout" resname="LGL.layout" approved="no">
+				<source>Layout</source>
+				<target state="needs-translation">Mise en page</target>
+			</trans-unit>
+			<trans-unit id="LGL.links" resname="LGL.links" approved="yes">
+				<source>Links</source>
+				<target state="translated">Liens :</target>
+			</trans-unit>
+			<trans-unit id="LGL.middle_name" resname="LGL.middle_name" approved="no">
+				<source>Middle name</source>
+				<target state="needs-translation">Deuxième prénom</target>
+			</trans-unit>
+			<trans-unit id="LGL.name" resname="LGL.name" approved="no">
+				<source>Name</source>
+				<target state="needs-translation">Nom</target>
+			</trans-unit>
+			<trans-unit id="LGL.normal" resname="LGL.normal" approved="yes">
+				<source>Normal</source>
+				<target state="translated">Normal</target>
+			</trans-unit>
+			<trans-unit id="LGL.note" resname="LGL.note" approved="no">
+				<source>Note</source>
+				<target state="needs-translation">Note</target>
+			</trans-unit>
+			<trans-unit id="LGL.parameters" resname="LGL.parameters" approved="no">
+				<source>Parameters</source>
+				<target state="needs-translation">Paramètres</target>
+			</trans-unit>
+			<trans-unit id="LGL.phone" resname="LGL.phone" approved="no">
+				<source>Phone</source>
+				<target state="needs-translation">Téléphone</target>
+			</trans-unit>
+			<trans-unit id="LGL.prependAtCopy" resname="LGL.prependAtCopy" approved="yes">
+				<source>(copy %s)</source>
+				<target state="translated">(copie %s)</target>
+			</trans-unit>
+			<trans-unit id="LGL.recursive" resname="LGL.recursive" approved="no">
+				<source>Recursive</source>
+				<target state="needs-translation">Récursion</target>
+			</trans-unit>
+			<trans-unit id="LGL.shortcut_page" resname="LGL.shortcut_page" approved="no">
+				<source>Shortcut to page</source>
+				<target state="needs-translation">Raccourci vers la page</target>
+			</trans-unit>
+			<trans-unit id="LGL.startingpoint" resname="LGL.startingpoint" approved="no">
+				<source>Startingpoint</source>
+				<target state="needs-translation">Point d'entrée</target>
+			</trans-unit>
+			<trans-unit id="LGL.starttime" resname="LGL.starttime" approved="no">
+				<source>Start</source>
+				<target state="needs-translation">Lancement</target>
+			</trans-unit>
+			<trans-unit id="LGL.subheader" resname="LGL.subheader" approved="no">
+				<source>Subheader</source>
+				<target state="needs-translation">Sous-titre</target>
+			</trans-unit>
+			<trans-unit id="LGL.text" resname="LGL.text" approved="no">
+				<source>Text</source>
+				<target state="needs-translation">Texte</target>
+			</trans-unit>
+			<trans-unit id="LGL.timestamp" resname="LGL.timestamp" approved="no">
+				<source>Last Modified</source>
+				<target state="needs-translation">Dernière modification</target>
+			</trans-unit>
+			<trans-unit id="LGL.title" resname="LGL.title" approved="no">
+				<source>Title</source>
+				<target state="needs-translation">Titre</target>
+			</trans-unit>
+			<trans-unit id="LGL.title_person" resname="LGL.title_person" approved="no">
+				<source>Title</source>
+				<target state="needs-translation">Titre</target>
+			</trans-unit>
+			<trans-unit id="LGL.type" resname="LGL.type" approved="no">
+				<source>Type</source>
+				<target state="needs-translation">Type</target>
+			</trans-unit>
+			<trans-unit id="LGL.usergroups" resname="LGL.usergroups" approved="yes">
+				<source>__Usergroups:__</source>
+				<target state="translated">__Groupes utilisateurs :__</target>
+			</trans-unit>
+			<trans-unit id="LGL.versionLabel" resname="LGL.versionLabel" approved="no">
+				<source>Versioning Label</source>
+				<target state="needs-translation">Etiquette de version</target>
+				<note from="developer">This label is deprecated (not used anymore) since TYPO3v10</note>
+				<note>This label is deprecated (not used anymore) since TYPO3v10
+This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v10 This label is deprecated (not used anymore) since TYPO3v9</note>
+			</trans-unit>
+			<trans-unit id="LGL.visible" resname="LGL.visible" approved="yes">
+				<source>Visible</source>
+				<target state="translated">Visible</target>
+			</trans-unit>
+			<trans-unit id="LGL.width" resname="LGL.width" approved="yes">
+				<source>Width</source>
+				<target state="translated">Largeur</target>
+			</trans-unit>
+			<trans-unit id="LGL.www" resname="LGL.www" approved="no">
+				<source>www</source>
+				<target state="needs-translation">www</target>
+			</trans-unit>
+			<trans-unit id="LGL.zip" resname="LGL.zip" approved="no">
+				<source>Zipcode</source>
+				<target state="needs-translation">Code postal</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

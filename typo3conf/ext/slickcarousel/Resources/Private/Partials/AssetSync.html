@@ -1,0 +1,39 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+	 xmlns:f="http://xsd.helhum.io/ns/typo3/cms-fluid/master/ViewHelpers"
+	 data-namespace-typo3-fluid="true">
+
+	<f:section name="Sync">
+		<v:asset.script fluid="true" rewrite="true" name="slick-id{data.uid}">
+			$(document).ready(function () {
+				$('#slick-id{data.uid}-main').slick({
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					arrows: false,
+					fade: true,
+					lazyLoad: '<f:format.raw>{data.pi_flexform.lazyLoad}</f:format.raw>',
+					asNavFor: '<f:format.raw>#slick-id{data.uid}-nav</f:format.raw>'
+				});
+				$('#slick-id{data.uid}-nav').slick({
+					dots: <f:format.raw>{f:if(then: 'true',  else: 'false',  condition: data.pi_flexform.dots)}</f:format.raw>,
+					slidesToShow: <f:format.raw>{data.pi_flexform.slidesToShow}</f:format.raw>,
+					slidesToScroll: <f:format.raw>{data.pi_flexform.slidesToScroll}</f:format.raw>,
+					swipe: <f:format.raw>{f:if(then: 'true',  else: 'false',  condition: data.pi_flexform.swipe)}</f:format.raw>,
+					swipeToSlide: <f:format.raw>{f:if(then: 'true',  else: 'false',  condition: data.pi_flexform.swipeToSlide)}</f:format.raw>,
+					touchMove: <f:format.raw>{f:if(then: 'true',  else: 'false',  condition: data.pi_flexform.touchMove)}</f:format.raw>,
+					asNavFor: '<f:format.raw>#slick-id{data.uid}-main</f:format.raw>',
+					centerMode: <f:format.raw>{f:if(then: 'true',  else: 'false',  condition: data.pi_flexform.centerMode)}</f:format.raw>,
+					centerPadding: '<f:format.raw>{data.pi_flexform.centerPadding}</f:format.raw>',
+					focusOnSelect: true,
+					touchThreshold: 25,
+					autoplay: <f:format.raw>{f:if(then: 'true',  else: 'false',  condition: data.pi_flexform.autoplay)}</f:format.raw>,
+					autoplaySpeed: <f:format.raw>{data.pi_flexform.autoplaySpeed}</f:format.raw>,
+					draggable: <f:format.raw>{f:if(then: 'true',  else: 'false',  condition: data.pi_flexform.draggable)}</f:format.raw>,
+					infinite: <f:format.raw>{f:if(then: 'true',  else: 'false',  condition: data.pi_flexform.infinite)}</f:format.raw>,
+					lazyLoad: '<f:format.raw>{data.pi_flexform.lazyLoad}</f:format.raw>',
+					waitForAnimate: <f:format.raw>{f:if(then: 'true',  else: 'false',  condition: data.pi_flexform.waitForAnimate)}</f:format.raw>
+				});
+			});
+		</v:asset.script>
+	</f:section>
+</div>

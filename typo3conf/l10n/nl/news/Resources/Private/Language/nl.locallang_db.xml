@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="nl" type="array">
+			<label index="tx_news_domain_model_news.tabs.relations">Relaties</label>
+			<label index="tx_news_domain_model_news.palettes.alternativeTitles">Alternatieve titels</label>
+			<label index="tx_news_domain_model_news.palettes.dates">Datums</label>
+			<label index="tx_news_domain_model_news">Nieuws</label>
+			<label index="tx_news_domain_model_news.alternative_title">Alternatieve titel</label>
+			<label index="tx_news_domain_model_news.teaser">Teaser</label>
+			<label index="tx_news_domain_model_news.datetime">Datum &amp; Tijd</label>
+			<label index="tx_news_domain_model_news.archive">Archief</label>
+			<label index="tx_news_domain_model_news.archive.placeholder">Instellen wanneer het nieuws in het archief opgenomen moet worden</label>
+			<label index="tx_news_domain_model_news.categories">Categorieën</label>
+			<label index="tx_news_domain_model_news.related">Gerelateerd Nieuws</label>
+			<label index="tx_news_domain_model_news.related_from">Gerelateerd nieuws (van)</label>
+			<label index="tx_news_domain_model_news.fal_related_files">Gerelateerde Bestanden</label>
+			<label index="tx_news_domain_model_news.fal_related_files.add">Een gerelateerd bestand toevoegen</label>
+			<label index="tx_news_domain_model_news.related_links">Gerelateerde Links</label>
+			<label index="tx_news_domain_model_news.type.I.0">Nieuws</label>
+			<label index="tx_news_domain_model_news.type.I.1">Interne Pagina</label>
+			<label index="tx_news_domain_model_news.type.I.2">Externe Pagina</label>
+			<label index="tx_news_domain_model_news.fal_media">Media-bestand</label>
+			<label index="tx_news_domain_model_news.fal_media.add">Media-bestand toevoegen</label>
+			<label index="tx_news_domain_model_news.istopnews">Top nieuws</label>
+			<label index="tx_news_domain_model_news.content_elements">Content elementen</label>
+			<label index="tx_news_domain_model_news.tags">Tags</label>
+			<label index="tx_news_domain_model_news.tags.add">Voeg een nieuwe tag toe</label>
+			<label index="tx_news_domain_model_news.tags.list">Toon lijst van alle tags</label>
+			<label index="tx_news_domain_model_news.tags.edit">Label bewerken</label>
+			<label index="tx_news_domain_model_news.keywords.placeholder">Trefwoord1, trefwoord2, trefwoord3</label>
+			<label index="tx_news_domain_model_tag.seo.seo_title">&lt;title&gt;-tag</label>
+			<label index="tx_news_domain_model_tag.seo.seo_description">Meta-Description</label>
+			<label index="tx_news_domain_model_tag.seo.seo_headline">Kopregel (H1)</label>
+			<label index="tx_news_domain_model_tag.seo.composeo_text">SEO-tekstvak</label>
+			<label index="tx_news_domain_model_category.tabs.seo">SEO</label>
+			<label index="tx_news_domain_model_category.image">Afbeelding</label>
+			<label index="tx_news_domain_model_category.single_pid">Single-view pagina voor nieuws uit deze categorie</label>
+			<label index="tx_news_domain_model_category.shortcut">Nieuws categorie snelkoppeling</label>
+			<label index="tx_news_domain_model_category.seo.seo_title">&lt;title&gt;-tag</label>
+			<label index="tx_news_domain_model_category.seo.seo_description">Meta-Description</label>
+			<label index="tx_news_domain_model_category.seo.seo_headline">Kopregel (H1)</label>
+			<label index="tx_news_domain_model_category.seo.seo_text">SEO-tekstvak</label>
+			<label index="tx_news_domain_model_link">Nieuws linkelement</label>
+			<label index="tx_news_domain_model_link.title">Titel</label>
+			<label index="tx_news_domain_model_link.description">Beschrijving</label>
+			<label index="tx_news_domain_model_link.uri">URL</label>
+			<label index="tx_news_domain_model_link.uri.placeholder">www.domain.org</label>
+			<label index="tx_news_domain_model_tag.tabs.seo">SEO</label>
+			<label index="tx_news_domain_model_tag">Nieuws Tag</label>
+			<label index="tx_news_domain_model_tag.title">Titel</label>
+			<label index="tx_news_domain_model_media.showinpreview">Toon in lijstweergaven</label>
+			<label index="tx_news_domain_model_media.showinviews">Toon in weergaven</label>
+			<label index="tx_news_domain_model_media.showinviews.0">Toon alleen in detail weergaven</label>
+			<label index="tx_news_domain_model_media.showinviews.1">Toon in alle weergaven</label>
+			<label index="tx_news_domain_model_media.showinviews.2">Toon alleen in lijst weergaven</label>
+			<label index="tx_news_domain_model_news.path_segment">Speaking URL path segment</label>
+			<label index="be_user.tx_news_categorymounts">Nieuws: categoriebeperking</label>
+			<label index="notes">Aantekeningen</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

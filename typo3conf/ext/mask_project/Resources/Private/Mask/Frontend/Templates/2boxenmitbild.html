@@ -1,0 +1,30 @@
+<f:if condition="{data.tx_mask_bildbox1}">
+<f:for each="{data.tx_mask_bildbox1}" as="file">
+  <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
+  {file.description} / {file.identifier}<br />
+</f:for>
+</f:if>
+
+<f:if condition="{data.tx_mask_textbox1}">
+<f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data.tx_mask_textbox1}</f:format.html><br />
+</f:if>
+
+<f:if condition="{data.tx_mask_linkbox1}">
+<f:link.typolink parameter="{data.tx_mask_linkbox1}">{data.tx_mask_linkbox1}</f:link.typolink><br />
+</f:if>
+
+<f:if condition="{data.tx_mask_bildbox2}">
+<f:for each="{data.tx_mask_bildbox2}" as="file">
+  <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
+  {file.description} / {file.identifier}<br />
+</f:for>
+</f:if>
+
+<f:if condition="{data.tx_mask_textbox2}">
+<f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data.tx_mask_textbox2}</f:format.html><br />
+</f:if>
+
+<f:if condition="{data.tx_mask_linkbox2}">
+<f:link.typolink parameter="{data.tx_mask_linkbox2}">{data.tx_mask_linkbox2}</f:link.typolink><br />
+</f:if>
+

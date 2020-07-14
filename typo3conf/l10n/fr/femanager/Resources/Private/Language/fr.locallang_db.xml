@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="tx_femanager_domain_model_user">Utilisateur</label>
+			<label index="tx_femanager_domain_model_user.username">Nom d'utilisateur</label>
+			<label index="tx_femanager_domain_model_user.password">Mot de passe</label>
+			<label index="tx_femanager_domain_model_user.usergroup">Groupe d'utilisateur</label>
+			<label index="tx_femanager_domain_model_user.name">Nom</label>
+			<label index="tx_femanager_domain_model_user.firstName">Prénom</label>
+			<label index="tx_femanager_domain_model_user.middleName">Deuxième Prénom</label>
+			<label index="tx_femanager_domain_model_user.lastName">Nom de famille</label>
+			<label index="tx_femanager_domain_model_user.dateOfBirth">Date de naissance</label>
+			<label index="tx_femanager_domain_model_user.gender">Sexe</label>
+			<label index="tx_femanager_domain_model_user.gender.item0">Homme</label>
+			<label index="tx_femanager_domain_model_user.gender.item1">Femme</label>
+			<label index="tx_femanager_domain_model_user.address">Adresse</label>
+			<label index="tx_femanager_domain_model_user.telephone">Téléphone</label>
+			<label index="tx_femanager_domain_model_user.fax">Fax</label>
+			<label index="tx_femanager_domain_model_user.email">Adresse e-mail</label>
+			<label index="tx_femanager_domain_model_user.title">Titre</label>
+			<label index="tx_femanager_domain_model_user.zip">Code postal</label>
+			<label index="tx_femanager_domain_model_user.city">Ville</label>
+			<label index="tx_femanager_domain_model_user.country">Pays</label>
+			<label index="tx_femanager_domain_model_user.www">Site web</label>
+			<label index="tx_femanager_domain_model_user.company">Société</label>
+			<label index="tx_femanager_domain_model_user.image">Image</label>
+			<label index="tx_femanager_domain_model_user.lastlogin">Dernière connexion</label>
+			<label index="tx_femanager_domain_model_user.captcha">Captcha</label>
+			<label index="tx_femanager_domain_model_user.terms"/>
+			<label index="fe_users.crdate">Date/heure de création</label>
+			<label index="fe_users.tstamp">Date/Heure de dernière mise à jour</label>
+			<label index="fe_users.registrationconfirmedbyuser">Inscription confirmée par l'utilisateur</label>
+			<label index="fe_users.registrationconfirmedbyadmin">Inscription confirmée par l'administrateur</label>
+			<label index="fe_users.tab">Inscription</label>
+			<label index="fe_users.log">Log de l'utilisateur</label>
+			<label index="fe_users.terms"/>
+			<label index="fe_users.terms_version"/>
+			<label index="fe_users.terms_date_of_acceptance"/>
+			<label index="fe_users.changerequest">Demande de modification</label>
+			<label index="tx_femanager_domain_model_log">Journal de l'utilisateur</label>
+			<label index="tx_femanager_domain_model_log.title">Titre</label>
+			<label index="tx_femanager_domain_model_log.crdate">Date de création</label>
+			<label index="tx_femanager_domain_model_log.state">État</label>
+			<label index="tx_femanager_domain_model_log.state.100">Inscription</label>
+			<label index="tx_femanager_domain_model_log.state.101">Nouvelle inscription</label>
+			<label index="tx_femanager_domain_model_log.state.102">Inscription confirmée l'utilisateur</label>
+			<label index="tx_femanager_domain_model_log.state.103">Inscription confirmée par l'administrateur</label>
+			<label index="tx_femanager_domain_model_log.state.104">Inscription refusée par l'utilisateur</label>
+			<label index="tx_femanager_domain_model_log.state.105">Inscription refusée par l'administrateur</label>
+			<label index="tx_femanager_domain_model_log.state.106">Demande de création de profil</label>
+			<label index="tx_femanager_domain_model_log.state.200">Mettre à jour</label>
+			<label index="tx_femanager_domain_model_log.state.201">Compte mis à jour</label>
+			<label index="tx_femanager_domain_model_log.state.202">Mise à jour du profil confirmée par l'administrateur</label>
+			<label index="tx_femanager_domain_model_log.state.203">Modification de profil refusée par l'administrateur</label>
+			<label index="tx_femanager_domain_model_log.state.204">Demande de mise à jour de profil</label>
+			<label index="tx_femanager_domain_model_log.state.205">Erreur de sécurité lors de la mise à jour</label>
+			<label index="tx_femanager_domain_model_log.state.206"/>
+			<label index="tx_femanager_domain_model_log.state.300">Supprimer</label>
+			<label index="tx_femanager_domain_model_log.state.301">Profil supprimé</label>
+			<label index="tx_femanager_domain_model_log.state.400">Invitation</label>
+			<label index="tx_femanager_domain_model_log.state.401">Profil créé et utilisateur invité</label>
+			<label index="tx_femanager_domain_model_log.state.402">Profil supprimé par l'utilisateur</label>
+			<label index="tx_femanager_domain_model_log.state.403">Mauvais Hash</label>
+			<label index="tx_femanager_domain_model_log.state.404">Vous essayez d'accéder à une page dont l'accès est restreint</label>
+			<label index="tx_femanager_domain_model_log.state.405">Mot de passe modifié et profil activé</label>
+			<label index="tx_femanager_domain_model_log.user">Utilisateur</label>
+
+			<label index="flexform.main.title">Configuration principale</label>
+			<label index="flexform.main.view">Choisir la vue</label>
+			<label index="flexform.main.view.0">Inscription</label>
+			<label index="flexform.main.view.1">Éditer</label>
+			<label index="flexform.main.view.2">Liste</label>
+			<label index="flexform.main.view.3">Détail</label>
+			<label index="flexform.main.view.4">Invitation</label>
+			<label index="flexform.main.view.5"/>
+			<label index="flexform.new.title">Inscription</label>
+			<label index="flexform.new.fields">Choisir les champs pour le formulaire de création (vide = tous les champs)</label>
+			<label index="flexform.new.overrideUserGroup">Sélectionnez les groupes d'utilisateur pour le nouvel utilisateur</label>
+			<label index="flexform.new.confirmByUser">L'inscription doit être confirmée par l'utilisateur</label>
+			<label index="flexform.new.showTermsAndConditions"/>
+			<label index="flexform.new.confirmByAdmin">L'inscription doit être confirmée par un administrateur (ajouter une ou plusieurs adresses mail)</label>
+			<label index="flexform.new.notifyAdmin">Notifier l'administrateur à la création (ajouter une ou plusieurs adresses mail)</label>
+			<label index="flexform.edit.title">Éditer</label>
+			<label index="flexform.edit.fields">Choisir les champs pour le formulaire d'édition (vide = tous les champs)</label>
+			<label index="flexform.edit.showDeleteLink">Afficher le bouton de suppression avec le formulaire d'édition</label>
+			<label index="flexform.edit.confirmByAdmin">La mise à jour du compte doit être confirmée par un administrateur (ajouter une ou plusieurs adresses mail)</label>
+			<label index="flexform.edit.notifyAdmin">Notifier l'administrateur à la mise à jour du compte (ajouter une ou plusieurs adresses mail)</label>
+			<label index="flexform.list.title">Vue liste</label>
+			<label index="flexform.list.filter">Montrer le champ de recherche</label>
+			<label index="flexform.list.limit">Limite</label>
+			<label index="flexform.list.orderby">Trier par</label>
+			<label index="flexform.list.orderby.0">Nom de famille</label>
+			<label index="flexform.list.orderby.1">Prénom</label>
+			<label index="flexform.list.orderby.2">Société</label>
+			<label index="flexform.list.sorting">Tri</label>
+			<label index="flexform.list.sorting.0">Croissant</label>
+			<label index="flexform.list.sorting.1">Décroissant</label>
+			<label index="flexform.list.usergroup">Afficher les utilisateurs d'un groupe (vide = tous les utilisateurs)</label>
+			<label index="flexform.show.title">Vue détail</label>
+			<label index="flexform.show.user">Afficher un utilisateur</label>
+			<label index="flexform.show.user.1">Utilisateurs connectés</label>
+			<label index="flexform.invitation.title">Invitation</label>
+			<label index="flexform.invitation.allowedUserGroups">Restreindre "nouvelle invitation" à un ou plusieurs groupes (vide = pas de restriction)</label>
+			<label index="flexform.invitation.fields">Choisir les champs pour le formulaire d'invitation (vide = tous les champs)</label>
+			<label index="flexform.invitation.overrideUserGroup">Choisir le groupe pour les nouveaux utilisateurs</label>
+			<label index="flexform.invitation.confirmByAdmin">L'inscription doit être confirmée par un administrateur (ajouter une ou plusieurs adresses mail)</label>
+			<label index="flexform.invitation.notifyAdminStep1">Notifier un administrateur à l'étape 1 (ajouter une ou plusieurs adresses mail)</label>
+			<label index="flexform.invitation.notifyAdmin">Notifier un administrateur si l'utilisateur entre un mot de passe (ajouter une ou plusieurs adresses mail)</label>
+			<label index="flexform.misc.title"/>
+			<label index="flexform.misc.termsUrl"/>
+
+			<label index="pleaseChoose">Veuillez choisir</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

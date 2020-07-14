@@ -1,0 +1,648 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-13T15:49:07Z" product-name="femanager" target-language="nl">
+		<header/>
+		<body>
+			<trans-unit id="tx_femanager_domain_model_user" approved="yes">
+				<source>User</source>
+			<target state="translated">Gebruiker</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.username" approved="yes">
+				<source>Username</source>
+			<target state="translated">Gebruikersnaam</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.password" approved="yes">
+				<source>Password</source>
+			<target state="translated">Wachtwoord</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.password_repeat" approved="yes">
+				<source>Repeat Password</source>
+			<target state="translated">Herhaal Wachtwoord</target><note>100%</note></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.usergroup" approved="yes">
+				<source>Usergroup</source>
+			<target state="translated">gebruikersgroep</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.name" approved="yes">
+				<source>Full Name</source>
+			<target state="translated">Naam</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.firstName" approved="yes">
+				<source>Firstname</source>
+			<target state="translated">Voornaam</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.middleName" approved="yes">
+				<source>Middlename</source>
+			<target state="translated">Tussenvoegsel</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.lastName" approved="yes">
+				<source>Lastname</source>
+			<target state="translated">Achternaam</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.dateOfBirth" approved="yes">
+				<source>Birthdate</source>
+			<target state="translated">Geboortedatum</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.dateOfBirth.hint" approved="yes">
+				<source>Please type your birthdate as MM/DD/YYYY</source>
+			<target state="translated">Geef de datum als DD-MM-YYYY in aub</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.dateOfBirth.placeholder" approved="yes">
+				<source>MM/DD/YYYY</source>
+			<target state="translated">DD-MM-YYYY</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.dateFormat" approved="yes">
+				<source>m/d/Y</source>
+			<target state="translated">m/d/Y</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.gender">
+				<source>Gender</source>
+			<target></target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Geslacht</target></alt-trans></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.gender.item0" approved="yes">
+				<source>Male</source>
+			<target state="translated">mannelijk</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.gender.item1" approved="yes">
+				<source>Female</source>
+			<target state="translated">vrouwelijk</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.address" approved="yes">
+				<source>Address</source>
+			<target state="translated">Adres</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.telephone" approved="yes">
+				<source>Telephone</source>
+			<target state="translated">Telefoon</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.fax" approved="yes">
+				<source>Fax</source>
+			<target state="translated">Fax</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.email" approved="yes">
+				<source>Email</source>
+			<target state="translated">e-mail</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.title" approved="yes">
+				<source>Title</source>
+			<target state="translated">Titel</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.zip" approved="yes">
+				<source>ZIP</source>
+			<target state="translated">Postcode</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.city" approved="yes">
+				<source>City</source>
+			<target state="translated">Stad</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.country" approved="yes">
+				<source>Country</source>
+			<target state="translated">Land</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.www" approved="yes">
+				<source>Website</source>
+			<target state="translated">Website</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.company" approved="yes">
+				<source>Company</source>
+			<target state="translated">Bedrijf</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.image" approved="yes">
+				<source>Image</source>
+			<target state="translated">Afbeelding</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.terms">
+				<source>I accept the terms and conditions</source>
+			<target></target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.termslinktext">
+				<source>Click here for terms and conditions</source>
+			<target></target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.lastlogin" approved="yes">
+				<source>Last login</source>
+			<target state="translated">Laatste login</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.crdate" approved="yes">
+				<source>Creation Time</source>
+			<target state="translated">Aanmaaktijdstip</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log" approved="yes">
+				<source>User Log</source>
+			<target state="translated">Gebruiker Logboek</target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Gebruiker logboek</target></alt-trans></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.title" approved="yes">
+				<source>Title</source>
+			<target state="translated">Titel</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.crdate" approved="yes">
+				<source>Time</source>
+			<target state="translated">Tijd</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state" approved="yes">
+				<source>State</source>
+			<target state="translated">Status</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.100" approved="yes">
+				<source>Registration</source>
+			<target state="translated">Registratie</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.101" approved="yes">
+				<source>New Registration</source>
+			<target state="translated">Nieuwe Registratie</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.102" approved="yes">
+				<source>Registration confirmed by user</source>
+			<target state="translated">Registratie bevestigd door gebruiker</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.103" approved="yes">
+				<source>Registration confirmed by admin</source>
+			<target state="translated">Registratie bevestigd door beheerder</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.104" approved="yes">
+				<source>Registration refused by user</source>
+			<target state="translated">Registratie geweigerd door gebruiker</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.105" approved="yes">
+				<source>Registration refused by admin</source>
+			<target state="translated">Registratie geweigerd door beheerder</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.106" approved="yes">
+				<source>Profile creation request</source>
+			<target state="translated">Aanvraag voor aanmaak van profiel</target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Aanvraag voor de aanmaak van een profiel</target></alt-trans></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.200" approved="yes">
+				<source>Update</source>
+			<target state="translated">Bijwerken</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.201" approved="yes">
+				<source>Profile updated</source>
+			<target state="translated">Profiel bijgewerkt</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.202" approved="yes">
+				<source>Profile update confirmed by admin</source>
+			<target state="translated">Bijgewerkt profiel bevestigd door beheerder</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.203" approved="yes">
+				<source>Profile update refused by admin</source>
+			<target state="translated">Bijgewerkt profiel geweigerd door beheerder</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.204" approved="yes">
+				<source>Profile update request</source>
+			<target state="translated">Aanvraag voor bijwerken van profiel</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.205" approved="yes">
+				<source>Profile update security failure</source>
+			<target state="translated">Bijwerken profiel uit beveiligingsoogpunt mislukt</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.206">
+				<source>Image deleted</source>
+			<target></target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.300" approved="yes">
+				<source>Delete</source>
+			<target state="translated">Verwijderen</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.301" approved="yes">
+				<source>Profile deleted</source>
+			<target state="translated">Profiel verwijderd</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.400" approved="yes">
+				<source>Invitation</source>
+			<target state="translated">Uitnodiging</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.401" approved="yes">
+				<source>Profile created and user invited</source>
+			<target state="translated">Profiel aangemaakt en gebruiker uitgenodigd</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.402" approved="yes">
+				<source>Profile deleted by user</source>
+			<target state="translated">Profiel van gebruiker verwijderd</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.403" approved="yes">
+				<source>Wrong hash</source>
+			<target state="translated">Fout in controlegetal</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.404" approved="yes">
+				<source>You tried to open a restricted page</source>
+			<target state="translated">U probeerde een beveiligde pagina te openen</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.405" approved="yes">
+				<source>Password changed and profile activated</source>
+			<target state="translated">Wachtwoord aangepast en profiel geactiveerd</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.user" approved="yes">
+				<source>User</source>
+			<target state="translated">Gebruiker</target></trans-unit>
+
+			<trans-unit id="error_no_typoscript" approved="yes">
+				<source>No TypoScript found. Did you already include the static Template?</source>
+			<target state="translated">Geen Typoscript gevonden. Hebt u de statische Template toegevoegd?</target></trans-unit>
+			<trans-unit id="error_no_typoscript_be">
+				<source>No TypoScript found. Did you already setup module.tx_femanager.settings.configPID in your PageTS?</source>
+			<target></target></trans-unit>
+
+			<trans-unit id="error_no_storagepid" approved="yes">
+				<source>No Storage PID was set. Please set the storage PID via TypoScript or in the plugin settings.</source>
+			<target state="translated">Geen Storage Pid ingesteld. Stel aub de Storage PID in via Typoscript of de plug-in instellingen..</target></trans-unit>
+			<trans-unit id="error_not_authorized">
+				<source>You are not authorized for this action</source>
+			<target></target></trans-unit>
+			<trans-unit id="validationError" approved="yes">
+				<source>Error</source>
+			<target state="translated">Fout</target></trans-unit>
+			<trans-unit id="validationErrorRequiredModel" approved="yes">
+				<source>Username and password must be filled</source>
+			<target state="translated">Gebruikersnaam en wachtwoord invullen a.u.b.</target></trans-unit>
+			<trans-unit id="validationErrorWrongDateFormat" approved="yes">
+				<source>Given date format is wrong</source>
+			<target state="translated">Opgegeven datumformaat is fout</target></trans-unit>
+			<trans-unit id="validationErrorRequired" approved="yes">
+				<source>Field %s is required</source>
+			<target state="translated">Veld %s is verplicht</target></trans-unit>
+			<trans-unit id="validationErrorEmail" approved="yes">
+				<source>Field %s is not a valid email address</source>
+			<target state="translated">Veld %s is geen geldig e-mailadres</target></trans-unit>
+			<trans-unit id="validationErrorMin" approved="yes">
+				<source>Please add more characters to field %s</source>
+			<target state="translated">Gelieve meer tekens toe te voegen aan veld %s</target></trans-unit>
+			<trans-unit id="validationErrorMax" approved="yes">
+				<source>Please add less characters to field %s</source>
+			<target state="translated">Gelieve minder tekens te gebruiken voor veld %s</target></trans-unit>
+			<trans-unit id="validationErrorInt" approved="yes">
+				<source>Only numbers are allowed in field %s</source>
+			<target state="translated">Alleen cijfers zijn toegestaan in veld %s</target></trans-unit>
+			<trans-unit id="validationErrorLetters" approved="yes">
+				<source>Only letters are allowed in field %s</source>
+			<target state="translated">Alleen letters zijn toegestaan in veld %s</target></trans-unit>
+			<trans-unit id="validationErrorUniquePage" approved="yes">
+				<source>Value of field %s is already in use</source>
+			<target state="translated">Waarde van veld %s is reeds in gebruik</target></trans-unit>
+			<trans-unit id="validationErrorUniqueDb" approved="yes">
+				<source>Value of field %s is already in use</source>
+			<target state="translated">Waarde van veld %s is reeds in gebruik</target></trans-unit>
+			<trans-unit id="validationErrorMustInclude">
+				<source>Try another value for field %s</source>
+			<target></target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Probeer een andere waarde voor veld %s</target></alt-trans></trans-unit>
+			<trans-unit id="validationErrorMustNotInclude">
+				<source>Not allowed signs in field %s</source>
+			<target></target></trans-unit>
+			<trans-unit id="validationErrorInList" approved="yes">
+				<source>This value is not allowed in field %s</source>
+			<target state="translated">Deze waarde is niet toegestaan in veld %s</target></trans-unit>
+			<trans-unit id="validationErrorSameAs" approved="yes">
+				<source>Please check your value</source>
+			<target state="translated">Kijk uw waarde na a.u.b.</target></trans-unit>
+			<trans-unit id="validationErrorPasswordRepeat" approved="yes">
+				<source>Both passwords do not fit</source>
+			<target state="translated">Beide wachtwoorden zijn niet gelijk</target></trans-unit>
+			<trans-unit id="validationErrorDate" approved="yes">
+				<source>Date has the wrong format</source>
+			<target state="translated">Datum heeft een fout formaat</target></trans-unit>
+			<trans-unit id="validationErrorCaptcha" approved="yes">
+				<source>Wrong Captcha code</source>
+			<target state="translated">Foute Captcha code</target></trans-unit>
+			<trans-unit id="validationErrorGeneral">
+				<source>Field could not be validated</source>
+			<target></target></trans-unit>
+
+			<trans-unit id="emailCreateAdminConfirmationSubject" approved="yes">
+				<source>Please confirm a new registration</source>
+			<target state="translated">Bevestig een nieuwe registratie a.u.b.</target></trans-unit>
+			<trans-unit id="emailCreateAdminConfirmationSalutation" approved="yes">
+				<source>Dear Admin,</source>
+			<target state="translated">Beste Beheerder,</target></trans-unit>
+			<trans-unit id="emailCreateAdminConfirmationUserProperties" approved="yes">
+				<source>User properties:</source>
+			<target state="translated">Gebruikerseigenschappen</target></trans-unit>
+			<trans-unit id="emailCreateAdminConfirmationText1" approved="yes">
+				<source>Please confirm registration of %s by clicking the following link:</source>
+			<target state="translated">Bevestig de registratie van %s door op volgende link te klikken:</target></trans-unit>
+			<trans-unit id="emailCreateAdminConfirmationLinkConfirm" approved="yes">
+				<source>Confirm registration</source>
+			<target state="translated">Bevestig registratie</target></trans-unit>
+			<trans-unit id="emailCreateAdminConfirmationText2" approved="yes">
+				<source>If you want to delete the registration, click this link:</source>
+			<target state="translated">Als u de registratie wenst te verwijderen, klik op volgende link:</target></trans-unit>
+			<trans-unit id="emailCreateAdminConfirmationLinkConfirmRefused" approved="yes">
+				<source>Delete profile</source>
+			<target state="translated">Profiel verwijderen</target></trans-unit>
+			<trans-unit id="emailCreateAdminConfirmationText3" approved="yes">
+				<source>If you want to delete the registration, without sending an email to the user, click this link:</source>
+			<target state="translated">Indien u de registratie wenst te verwijderen, zonder de gebruiker te verwittigen via email, klik op volgende link:</target></trans-unit>
+			<trans-unit id="emailCreateAdminConfirmationLinkConfirmRefusedSilent" approved="yes">
+				<source>Silently delete profile</source>
+			<target state="translated">Profiel zonder bevestiging verwijderen</target></trans-unit>
+			<trans-unit id="emailCreateUserConfirmationSubject" approved="yes">
+				<source>Please confirm your profile creation request</source>
+			<target state="translated">Bevestig de aanvraag om een profiel aan te maken a.u.b.</target></trans-unit>
+			<trans-unit id="emailCreateUserConfirmationSalutation" approved="yes">
+				<source>Dear</source>
+			<target state="translated">Beste</target></trans-unit>
+			<trans-unit id="emailCreateUserConfirmationText1" approved="yes">
+				<source>Please confirm your profile registration on our server by clicking the following link:</source>
+			<target state="translated">Bevestig de registratie van uw profiel op onze server, door op volgende link te klikken a.u.b.:</target></trans-unit>
+			<trans-unit id="emailCreateUserConfirmationLinkConfirm" approved="yes">
+				<source>Confirm profile</source>
+			<target state="translated">Profiel bevestigen</target></trans-unit>
+			<trans-unit id="emailCreateUserConfirmationText2" approved="yes">
+				<source>If you don't want to be registered on our system, click this link:</source>
+			<target state="translated">Indien u niet geregistreerd wenst te worden in ons systeem, klik op volgende link:</target></trans-unit>
+			<trans-unit id="emailCreateUserConfirmationLinkConfirmRefused" approved="yes">
+				<source>Delete profile</source>
+			<target state="translated">Profiel verwijderen</target></trans-unit>
+			<trans-unit id="emailCreateUserConfirmationSignature" approved="yes">
+				<source>Your website team.</source>
+			<target state="translated">Uw website team.</target></trans-unit>
+			<trans-unit id="emailCreateUserNotifySubject" approved="yes">
+				<source>Your registration was confirmed</source>
+			<target state="translated">Uw registratie werd bevestigd</target></trans-unit>
+			<trans-unit id="emailCreateUserNotifySalutation" approved="yes">
+				<source>Dear</source>
+			<target state="translated">Beste</target></trans-unit>
+			<trans-unit id="emailCreateUserNotifyText1" approved="yes">
+				<source>Your profile was confirmed and successfully created.</source>
+			<target state="translated">Uw profiel is bevestigd en succesvol aangemaakt.</target></trans-unit>
+			<trans-unit id="emailCreateUserNotifySignature" approved="yes">
+				<source>Your website team.</source>
+			<target state="translated">Uw website team.</target></trans-unit>
+			<trans-unit id="emailCreateUserNotifyRefusedSubject" approved="yes">
+				<source>Dear</source>
+			<target state="translated">Beste</target></trans-unit>
+			<trans-unit id="emailCreateUserNotifyRefusedSalutation" approved="yes">
+				<source>Dear</source>
+			<target state="translated">Beste</target></trans-unit>
+			<trans-unit id="emailCreateUserNotifyRefusedText1" approved="yes">
+				<source>Thank you for your profile request. We're sorry to tell you, that we had to refuse your request.</source>
+			<target state="translated">Dank u voor uw profiel aanvraag. Het spijt ons u te moeten zeggen, dat we uw verzoek moesten weigeren.</target></trans-unit>
+			<trans-unit id="emailCreateUserNotifyRefusedSignature" approved="yes">
+				<source>Your website team.</source>
+			<target state="translated">Uw website team.</target></trans-unit>
+			<trans-unit id="emailCreateNotifySubject" approved="yes">
+				<source>New profile registration</source>
+			<target state="translated">Registratie nieuw profiel</target></trans-unit>
+			<trans-unit id="emailCreateNotifySalutation" approved="yes">
+				<source>Dear Admin,</source>
+			<target state="translated">Beste Beheerder,</target></trans-unit>
+			<trans-unit id="emailCreateNotifyText1" approved="yes">
+				<source>Profile creation - User %s</source>
+			<target state="translated">Nieuwe uitnodiging van profiel van %s</target></trans-unit>
+			<trans-unit id="emailCreateNotifyText2" approved="yes">
+				<source>Profile creation - User %s set a new password and profile was enabled</source>
+			<target state="translated">Profiel invitatie - Gebruiker % heeft een nieuw wachtwoord ingesteld en is geactiveerd</target></trans-unit>
+			<trans-unit id="emailCreateNotifyUserProperties" approved="yes">
+				<source>Profile properties:</source>
+			<target state="translated">Profieleigenschappen:</target></trans-unit>
+			<trans-unit id="emailUpdateNotifySubject" approved="yes">
+				<source>Profile update</source>
+			<target state="translated">Profiel bijwerken</target></trans-unit>
+			<trans-unit id="emailUpdateNotifySalutation" approved="yes">
+				<source>Dear Admin,</source>
+			<target state="translated">Beste beheerder,</target></trans-unit>
+			<trans-unit id="emailUpdateNotifyText1" approved="yes">
+				<source>Profile change by user %s</source>
+			<target state="translated">Wijziging van profiel van %s</target></trans-unit>
+			<trans-unit id="emailUpdateNotifyField" approved="yes">
+				<source>Fieldname</source>
+			<target state="translated">Veldnaam</target></trans-unit>
+			<trans-unit id="emailUpdateNotifyOld" approved="yes">
+				<source>Old value</source>
+			<target state="translated">Oude waarde</target></trans-unit>
+			<trans-unit id="emailUpdateNotifyNew" approved="yes">
+				<source>New value</source>
+			<target state="translated">Nieuwe waarde</target></trans-unit>
+			<trans-unit id="emailUpdateRequestSubject" approved="yes">
+				<source>New profile change request</source>
+			<target state="translated">Nieuwe aanvraag tot profiel wijziging</target></trans-unit>
+			<trans-unit id="emailUpdateRequestSalutation" approved="yes">
+				<source>Dear Admin,</source>
+			<target state="translated">Beste beheerder,</target></trans-unit>
+			<trans-unit id="emailUpdateRequestText1">
+				<source>Profile change request from %s</source>
+			<target></target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Aanvraag wijziging profiel van %s</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestText2">
+				<source>All changes:</source>
+			<target></target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Alle wijzigingen:</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestField" approved="yes">
+				<source>Fieldname</source>
+			<target state="translated">Veldnaam</target><note>100%</note><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Veldnaam</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestOld" approved="no">
+				<source>Old value</source>
+			<target state="needs-translation">Oude waarde</target><note>88%</note><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Oude waarde</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestNew" approved="no">
+				<source>New value</source>
+			<target state="needs-translation">Nieuwe waarde</target><note>88%</note><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Nieuwe waarde</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestLinkConfirm">
+				<source>Confirm changes</source>
+			<target></target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Bevestig wijzigingen</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestLinkRefuse">
+				<source>Refuse changes and notify user</source>
+			<target></target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Weiger wijzigingen en verwitig gebruiker</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestLinkSiltentRefuse">
+				<source>Refuse changes and do not notify user</source>
+			<target></target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Weiger wijzigingen en verwittig gebruiker niet</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestRefusedSubject">
+				<source>Your update request was refused</source>
+			<target></target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Uw aanvraag tot bijwerken is geweigerd</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestRefusedSalutation" approved="yes">
+				<source>Dear</source>
+			<target state="translated">Beste</target><note>100%</note><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Beste</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestRefusedText1">
+				<source>Thank you for your update request. We're sorry to tell you, that we had to refuse your request.</source>
+			<target></target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Bedankt voor uw aanvraag tot bijwerken. Het spijt ons u te moeten meedelen, dat we uw aanvraag moesten weigeren.</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestRefusedText2">
+				<source>Please contact %s for further information.</source>
+			<target></target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Contacteer %s voor meer informatie aub.</target></alt-trans></trans-unit>
+			<trans-unit id="emailUpdateRequestRefusedSignature" approved="yes">
+				<source>Your website team.</source>
+			<target state="translated">Uw website team.</target><note>100%</note><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Uw website team.</target></alt-trans></trans-unit>
+			<trans-unit id="emailInvitationSubject" approved="no">
+				<source>Confirm your profile</source>
+			<target state="needs-translation">Profiel bevestigen</target><note>75% 100%</note><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Bevestig uw profiel</target></alt-trans></trans-unit>
+			<trans-unit id="emailInvitationSalutation" approved="yes">
+				<source>Dear</source>
+			<target state="translated">Beste</target><note>100%</note><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Beste</target></alt-trans></trans-unit>
+			<trans-unit id="emailInvitationText1" approved="yes">
+				<source>Your new profile was just created.</source>
+			<target state="translated">Uw nieuwe profiel is aangemaakt.</target></trans-unit>
+			<trans-unit id="emailInvitationText2" approved="yes">
+				<source>Please confirm your profile registration on our server by clicking the following link. After that, you can define a password.</source>
+			<target state="translated">Bevestig uw profiel registratie op onze server door op volgende link te klikken. Daarna kan u een wachtwoord instellen.</target></trans-unit>
+			<trans-unit id="emailInvitationLinkConfirm" approved="yes">
+				<source>Confirm Profile</source>
+			<target state="translated">Bevestig Profiel</target></trans-unit>
+			<trans-unit id="emailInvitationText3" approved="yes">
+				<source>If you don't want to be registered on our system, click this link.</source>
+			<target state="translated">Als u niet wenst geregistreerd te worden op ons systeem, klik dan op de volgende link:</target></trans-unit>
+			<trans-unit id="emailInvitationLinkConfirmRefused" approved="yes">
+				<source>Delete Profile</source>
+			<target state="translated">Verwijder Profiel</target></trans-unit>
+			<trans-unit id="emailInvitationSignature" approved="yes">
+				<source>Your website team.</source>
+			<target state="translated">Uw website team</target></trans-unit>
+			<trans-unit id="emailInvitationAdminNotifiyStep1Subject" approved="yes">
+				<source>User was invited</source>
+			<target state="translated">Gebruiker werd uitgenodigd</target></trans-unit>
+			<trans-unit id="emailInvitationAdminNotifiySubject" approved="yes">
+				<source>User invitation - Profile finally created</source>
+			<target state="translated">Gebruik uitnodiging - Profiel aangemaakt</target></trans-unit>
+			<trans-unit id="emailInvitationUserRefusedAdminNotifiyStep1Subject" approved="yes">
+				<source>User refused invitation</source>
+			<target state="translated">Gebruiker weigerde uitnodiging</target></trans-unit>
+			<trans-unit id="emailInvitationUserRefusedAdminNotifiySalutation" approved="yes">
+				<source>Dear Admin,</source>
+			<target state="translated">Beste beheerder,</target></trans-unit>
+			<trans-unit id="emailInvitationUserRefusedAdminNotifiyText1" approved="yes">
+				<source>Profile invitation of %s</source>
+			<target state="translated">Profiel uitnodiging van %s</target></trans-unit>
+			<trans-unit id="emailInvitationUserRefusedAdminNotifiyText2" approved="yes">
+				<source>Profile invitation - User %s refused to set a new password. The profile was deleted.</source>
+			<target state="translated">Profiel uitnodiging - Gebruiker %s weigerde een nieuw wachtwoord in te stellen. Profiel werd verwijderd.</target></trans-unit>
+			<trans-unit id="emailInvitationUserRefusedAdminNotifiyUserProperties" approved="yes">
+				<source>Profile properties:</source>
+			<target state="translated">Profiel eigenschappen:</target></trans-unit>
+			<trans-unit id="noRecordsFound" approved="yes">
+				<source>No records found.</source>
+			<target state="translated">Geen records gevonden</target></trans-unit>
+			<trans-unit id="noRecordsFoundClearFilter" approved="yes">
+				<source>Clean filter.</source>
+			<target state="translated">Filter leegmaken</target></trans-unit>
+			<trans-unit id="noRecordsFoundGoToPage0" approved="no">
+				<source>Show all users from all pages (for administrators only).</source>
+			<target state="needs-translation">Toon alle gebruikers van alle pagina's</target></trans-unit>
+			<trans-unit id="noRecordFoundShow" approved="yes">
+				<source>No FE_User given or not logged in</source>
+			<target state="translated">Geen FE_User gegeven of niet ingelogd</target></trans-unit>
+			<trans-unit id="notLoggedIn" approved="yes">
+				<source>Please log in before</source>
+			<target state="translated">Log eerst in aub</target></trans-unit>
+			<trans-unit id="submitNew" approved="yes">
+				<source>Create Profile Now</source>
+			<target state="translated">Creëer Profiel Nu</target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Maak uw profiel nu aan</target></alt-trans></trans-unit>
+			<trans-unit id="submitResend">
+				<source>Resend now</source>
+			<target></target></trans-unit>
+			<trans-unit id="passwordRepeat" approved="yes">
+				<source>Repeat Password</source>
+			<target state="translated">Herhaal Wachtwoord</target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Herhaal wachtwoord</target></alt-trans></trans-unit>
+			<trans-unit id="titleCreateProfile" approved="yes">
+				<source>Create a new user-profile</source>
+			<target state="translated">Creëer een nieuw gebruikersprofiel</target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Maak een nieuw gebruikersprofiel aan</target></alt-trans></trans-unit>
+			<trans-unit id="resendConfirmationMailTitle">
+				<source>Resend confirmation mail</source>
+			<target></target></trans-unit>
+			<trans-unit id="resendConfirmationMailFieldsetLegend">
+				<source>Please enter your email address</source>
+			<target></target></trans-unit>
+			<trans-unit id="submitEdit" approved="yes">
+				<source>Update Profile</source>
+			<target state="translated">Profiel Bijwerken</target><alt-trans xml:space="preserve" origin="koenvannuffelen"><target>Profiel bijwerken</target></alt-trans></trans-unit>
+			<trans-unit id="create" approved="yes">
+				<source>Profile successfully created</source>
+			<target state="translated">Profiel succesvol aangemaakt</target></trans-unit>
+			<trans-unit id="createAndInvited" approved="yes">
+				<source>Profile successfully created and user informed</source>
+			<target state="translated">Profiel succesvol aangemaakt en gebruiker verwittigd</target></trans-unit>
+			<trans-unit id="createAndInvitedFinished" approved="yes">
+				<source>Profile successfully changed and enabled</source>
+			<target state="translated">Profiel succesvol gewijzigd en ingeschakeld</target></trans-unit>
+			<trans-unit id="createRequestWaitingForUserConfirm" approved="yes">
+				<source>Thank you for your request. Please check your mail account to confirm the profile.</source>
+			<target state="translated">Bedankt voor uw aanvraag. Bekijk uw email account om uw profiel te bevestigen.</target></trans-unit>
+			<trans-unit id="createRequestWaitingForAdminConfirm" approved="no">
+				<source>Thank you for your confirmation. Your profile will be available as soon as the admin confirms your request.</source>
+			<target state="needs-translation">Bedankt voor uw bevestiging. Uw profiel zal beschikbaar zijn zodra de beheerder uw aanvraag bevestigd.</target></trans-unit>
+			<trans-unit id="resendConfirmationMailSend">
+				<source>An Email was send to your account. Please check your inbox.</source>
+			<target></target></trans-unit>
+			<trans-unit id="resendConfirmationMailFail">
+				<source>We received no valid mail.</source>
+			<target></target></trans-unit>
+
+			<trans-unit id="createFailedProfile" approved="yes">
+				<source>Profile creation failed</source>
+			<target state="translated">Profiel aanmaak mislukt.</target></trans-unit>
+			<trans-unit id="userAlreadyConfirmed" approved="yes">
+				<source>Profile is already confirmed</source>
+			<target state="translated">Profiel is reeds bevestigd</target></trans-unit>
+			<trans-unit id="missingUserInDatabase" approved="yes">
+				<source>No Profile found in database. Maybe it was deleted before.</source>
+			<target state="translated">Geen profiel gevonden in de database. Mischien was het ervoor reeds verwijderd</target></trans-unit>
+			<trans-unit id="createProfileDeleted" approved="yes">
+				<source>Profile successfully deleted</source>
+			<target state="translated">Profiel succesvol verwijderd</target></trans-unit>
+			<trans-unit id="titleUpdateProfile" approved="yes">
+				<source>Update your user-profile</source>
+			<target state="translated">Werk uw gebruikersprofiel bij.</target></trans-unit>
+			<trans-unit id="update" approved="yes">
+				<source>Profile successfully changed</source>
+			<target state="translated">Profiel succesvol gewijzigd.</target></trans-unit>
+			<trans-unit id="noChanges" approved="yes">
+				<source>No changes detected, nothing to update</source>
+			<target state="translated">Geen wijzigingen aangetroffen, niets om bij te werken</target></trans-unit>
+			<trans-unit id="updateRequest" approved="yes">
+				<source>Your change request was transmitted to the administrator. After a confirmation, your profile will be up-to-date.</source>
+			<target state="translated">Uw aanvraag tot wijzigen is doorgegeven aan de beheerder. Na zijn bevestiging zal uw profiel aangepast worden.</target></trans-unit>
+			<trans-unit id="login" approved="yes">
+				<source>You're successfully logged in now</source>
+			<target state="translated">U bent nu succesvol ingelogd.</target></trans-unit>
+			<trans-unit id="deleteProfile" approved="yes">
+				<source>Delete Profile</source>
+			<target state="translated">Verwijder Profiel</target></trans-unit>
+			<trans-unit id="updateProfile" approved="yes">
+				<source>Profile successfully updated</source>
+			<target state="translated">Profiel succesvol bijgewerkt</target></trans-unit>
+			<trans-unit id="updateFailedProfile" approved="yes">
+				<source>Profile update failed</source>
+			<target state="translated">Profiel bijwerken mislukt</target></trans-unit>
+			<trans-unit id="field_image_fineuploader" approved="yes">
+				<source>Please enable fineUploader plugin</source>
+			<target state="translated">Schakel fineUploader plugin in aub</target></trans-unit>
+			<trans-unit id="field_image_drag" approved="yes">
+				<source>Drag file</source>
+			<target state="translated">Sleep Bestand</target></trans-unit>
+			<trans-unit id="field_image_drag_processing" approved="yes">
+				<source>Drag in progress ...</source>
+			<target state="translated">Slepen in voortgang</target></trans-unit>
+			<trans-unit id="field_image_upload" approved="yes">
+				<source>Upload</source>
+			<target state="translated">Uploaden</target></trans-unit>
+			<trans-unit id="empty" approved="yes">
+				<source>empty</source>
+			<target state="translated">Leeg</target></trans-unit>
+			<trans-unit id="pleaseChoose" approved="yes">
+				<source>Please choose ...</source>
+			<target state="translated">Kiezen aub ...</target></trans-unit>
+			<trans-unit id="FilterLabel" approved="yes">
+				<source>Search</source>
+			<target state="translated">Zoeken</target></trans-unit>
+			<trans-unit id="FilterPlaceholder" approved="yes">
+				<source>Search ...</source>
+			<target state="translated">Zoeken ...</target></trans-unit>
+			<trans-unit id="FilterSubmit" approved="yes">
+				<source>Filter now</source>
+			<target state="translated">Filter Nu</target></trans-unit>
+			<trans-unit id="UserDeleteConfirmation" approved="yes">
+				<source>Are you sure to delete your profile?</source>
+			<target state="translated">Bent u zeker dat u uw profiel wenst te verwijderen?</target></trans-unit>
+			<trans-unit id="titleInvitationProfile" approved="yes">
+				<source>Invite a new user</source>
+			<target state="translated">Nodig een nieuwe gebruiker uit</target></trans-unit>
+			<trans-unit id="titleInvitationSetPassword" approved="yes">
+				<source>Please set a new password</source>
+			<target state="translated">Stel een nieuw wachtwoord in aub</target></trans-unit>
+			<trans-unit id="BackendListUserDelete" approved="yes">
+				<source>Delete</source>
+			<target state="translated">Verwijderen</target></trans-unit>
+			<trans-unit id="BackendListUserDeleteConfirmation" approved="yes">
+				<source>Are you sure to delete this User?</source>
+			<target state="translated">Bent u zeker dat u deze gebruiker wenst te verwijderen?</target></trans-unit>
+			<trans-unit id="BackendListUserEdit">
+				<source>Edit</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendListUserLogout">
+				<source>Logout</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendListUserStatusOffline">
+				<source>Offline</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendListUserStatusOnline">
+				<source>Online</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendListUserVisibilityHide">
+				<source>Disable</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendListUserVisibilityHidden">
+				<source>Hidden</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendListUserVisibilityUnhide">
+				<source>Enable</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendListFilterLabel" approved="yes">
+				<source>Search</source>
+			<target state="translated">Zoeken</target></trans-unit>
+			<trans-unit id="BackendListLoginAs">
+				<source>Login as</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendConfirmationNoteTitle">
+				<source>Possible action:</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendConfirmationNoteText">
+				<source>%s approval(s) available</source>
+			</trans-unit>
+			<trans-unit id="BackendConfirmationNoteText">
+				<source>%s missing user confirmation(s) available</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendConfirmationColumnAction">
+				<source>Actions</source>
+			</trans-unit>
+			<trans-unit id="BackendConfirmationColumnAction">
+				<source>Actions</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendConfirmationColumnUid">
+				<source>UID</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendConfirmationFlashMessageConfirmed">
+				<source>%s was successfully approved</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendConfirmationFlashMessageRefused">
+				<source>%s was refused</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendConfirmationResendUserConfirmationRequest">
+				<source>resend user confirmation e-mail</source>
+			<target></target></trans-unit>
+			<trans-unit id="BackendConfirmationFlashMessageReSend">
+				<source>%s confirmation mail was resend</source>
+			<target></target></trans-unit>
+			<trans-unit id="resendConfirmationDialogueMessage">
+				<source>Your userprofile is not confirmed yet.</source>
+			<target></target></trans-unit>
+			<trans-unit id="resendConfirmationDialogueLink">
+				<source>Resend confirmation email?</source>
+			<target></target></trans-unit>
+		</body>
+	</file>
+</xliff>

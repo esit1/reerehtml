@@ -1,0 +1,22 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+	 xmlns:f="http://xsd.helhum.io/ns/typo3/cms-fluid/master/ViewHelpers"
+	 data-namespace-typo3-fluid="true">
+
+	<f:section name="Basic">
+		<v:asset.script fluid="true" rewrite="true" name="slick-id{data.uid}">
+			$(document).ready(function () {
+				$('#slick-id{data.uid}').slick({
+					autoplay: <f:format.raw>{f:if(then: 'true',  else: 'false',  condition: data.pi_flexform.autoplay)}</f:format.raw>,
+					autoplaySpeed: <f:format.raw>{data.pi_flexform.autoplaySpeed}</f:format.raw>,
+					infinite: true,
+					dots: true,
+					speed: 800,
+					touchThreshold: 25,
+					cssEase: 'cubic-bezier(0.455, 0.03, 0.515, 0.955)',
+					useTransform: true
+				});
+			});
+		</v:asset.script>
+	</f:section>
+</div>

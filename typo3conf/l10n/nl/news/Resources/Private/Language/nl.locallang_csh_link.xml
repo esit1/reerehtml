@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="nl" type="array">
+			<label index=".description">Link record</label>
+			<label index=".details">Relatie naar andere pagina's en records.</label>
+			<label index="_.seeAlso">Zie ook de website http://www.news.com/</label>
+			<label index="hidden.description">Verborgen elementen worden nooit getoond aan de voorkant.</label>
+			<label index="title.description">Optionele titel van de link.</label>
+			<label index="description.description">Beschrijving van de link.</label>
+			<label index="uri.description">Link naar een bestand, ... .</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

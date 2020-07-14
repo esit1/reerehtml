@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-13T15:49:07Z" product-name="femanager" target-language="nl">
+		<header/>
+		<body>
+			<trans-unit id="tx_femanager_domain_model_user" approved="yes">
+				<source>User</source>
+			<target state="translated">Gebruiker</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.username" approved="yes">
+				<source>Username</source>
+			<target state="translated">Gebruikersnaam</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.password" approved="yes">
+				<source>Password</source>
+			<target state="translated">Wachtwoord</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.usergroup" approved="yes">
+				<source>Usergroup</source>
+			<target state="translated">Gebruikersgroep</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.name" approved="yes">
+				<source>Name</source>
+			<target state="translated">Naam</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.firstName" approved="yes">
+				<source>Firstname</source>
+			<target state="translated">Voornaam</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.middleName" approved="yes">
+				<source>Middlename</source>
+			<target state="translated">Tussenvoegsel</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.lastName" approved="yes">
+				<source>Lastname</source>
+			<target state="translated">Achternaam</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.dateOfBirth" approved="yes">
+				<source>Birthdate</source>
+			<target state="translated">Geboortedatum</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.gender" approved="yes">
+				<source>Gender</source>
+			<target state="translated">Geslacht</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.gender.item0" approved="yes">
+				<source>male</source>
+			<target state="translated">mannelijk</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.gender.item1" approved="yes">
+				<source>female</source>
+			<target state="translated">vrouwelijk</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.address" approved="yes">
+				<source>Address</source>
+			<target state="translated">Adres</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.telephone" approved="yes">
+				<source>Telephone</source>
+			<target state="translated">Telefoon</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.fax" approved="yes">
+				<source>Fax</source>
+			<target state="translated">Fax</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.email" approved="yes">
+				<source>Email</source>
+			<target state="translated">e-mail</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.title" approved="yes">
+				<source>Title</source>
+			<target state="translated">Titel</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.zip" approved="yes">
+				<source>ZIP</source>
+			<target state="translated">Postcode</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.city" approved="yes">
+				<source>City</source>
+			<target state="translated">Gemeente</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.country" approved="yes">
+				<source>Country</source>
+			<target state="translated">Land</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.www" approved="yes">
+				<source>Website</source>
+			<target state="translated">Website</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.company" approved="yes">
+				<source>Company</source>
+			<target state="translated">Bedrijf</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.image" approved="yes">
+				<source>Image</source>
+			<target state="translated">Afbeelding</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.lastlogin" approved="yes">
+				<source>Last login</source>
+			<target state="translated">Laatste login</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.captcha" approved="yes">
+				<source>Captcha</source>
+			<target state="translated">Captcha</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_user.terms">
+				<source>Terms and conditions</source>
+			<target></target></trans-unit>
+			<trans-unit id="fe_users.crdate" approved="yes">
+				<source>Creation Time</source>
+			<target state="translated">Tijd creatie</target></trans-unit>
+			<trans-unit id="fe_users.tstamp" approved="yes">
+				<source>Last profile change at</source>
+			<target state="translated">Laatste profiel wijziging om</target></trans-unit>
+			<trans-unit id="fe_users.registrationconfirmedbyuser" approved="yes">
+				<source>Registration confirmed by user</source>
+			<target state="translated">Registratie bevestigd door de gebruiker</target></trans-unit>
+			<trans-unit id="fe_users.registrationconfirmedbyadmin" approved="yes">
+				<source>Registration confirmed by admin</source>
+			<target state="translated">Registratie bevestigd door de beheerder</target></trans-unit>
+			<trans-unit id="fe_users.tab" approved="yes">
+				<source>Registration</source>
+			<target state="translated">Registratie</target></trans-unit>
+			<trans-unit id="fe_users.log" approved="yes">
+				<source>FE_user Log</source>
+			<target state="translated">FE_User Log</target></trans-unit>
+			<trans-unit id="fe_users.terms">
+				<source>User accepted terms and conditions</source>
+			<target></target></trans-unit>
+			<trans-unit id="fe_users.terms_version">
+				<source>Accepted version of terms and conditions</source>
+			<target></target></trans-unit>
+			<trans-unit id="fe_users.terms_date_of_acceptance">
+				<source>Accepted datetime of terms and conditions</source>
+			<target></target></trans-unit>
+			<trans-unit id="fe_users.changerequest" approved="yes">
+				<source>Change Request</source>
+			<target state="translated">Aanvraag tot wijzigen</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log" approved="yes">
+				<source>User Log</source>
+			<target state="translated">Gebruiker Log</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.title" approved="yes">
+				<source>Title</source>
+			<target state="translated">Titel</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.crdate" approved="yes">
+				<source>Time</source>
+			<target state="translated">Tijd</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state" approved="yes">
+				<source>State</source>
+			<target state="translated">Status</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.100" approved="yes">
+				<source>Registration</source>
+			<target state="translated">Registratie</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.101" approved="yes">
+				<source>New Registration</source>
+			<target state="translated">Nieuwe registratie</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.102" approved="yes">
+				<source>Registration confirmed by user</source>
+			<target state="translated">Registratie bevestigd door gebruiker</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.103" approved="yes">
+				<source>Registration confirmed by admin</source>
+			<target state="translated">Registratie bevestigd door beheerder</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.104" approved="yes">
+				<source>Registration refused by user</source>
+			<target state="translated">Registratie geweigerd door gebruiker</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.105" approved="yes">
+				<source>Registration refused by admin</source>
+			<target state="translated">Registratie geweigerd door beheerder</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.106" approved="yes">
+				<source>Profile creation request</source>
+			<target state="translated">Aanmaken Profiel verzoek</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.200" approved="yes">
+				<source>Update</source>
+			<target state="translated">Bijwerken</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.201" approved="yes">
+				<source>Profile updated</source>
+			<target state="translated">Profiel bijgewerkt</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.202" approved="yes">
+				<source>Profile update confirmed by admin</source>
+			<target state="translated">Profiel bijwerken bevestigd door beheerder</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.203" approved="yes">
+				<source>Profile update refused by admin</source>
+			<target state="translated">Profiel bijwerken geweigerd door gebruiker</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.204" approved="yes">
+				<source>Profile update request</source>
+			<target state="translated">Bijwerken profiel verzoek</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.205" approved="yes">
+				<source>Profile update security failure</source>
+			<target state="translated">Profiel bijwerken beveiligingsfout</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.206">
+				<source>Image deleted</source>
+			<target></target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.300" approved="yes">
+				<source>Delete</source>
+			<target state="translated">Verwijderen</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.301" approved="yes">
+				<source>Profile deleted</source>
+			<target state="translated">Profiel verwijderd</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.400" approved="yes">
+				<source>Invitation</source>
+			<target state="translated">Uitnodiging</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.401" approved="yes">
+				<source>Profile created and User invited</source>
+			<target state="translated">Profiel aangemaakt en Gebruiker uitgenodigd</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.402" approved="yes">
+				<source>Profile deleted from User</source>
+			<target state="translated">Profiel van Gebruiker verwijderd</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.403" approved="yes">
+				<source>Wrong Hash</source>
+			<target state="translated">Foute Hash</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.404" approved="yes">
+				<source>You tried to open a restricted page</source>
+			<target state="translated">U probeerde een beveiligde pagina te openen</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.state.405" approved="yes">
+				<source>Password changed and Profile activated</source>
+			<target state="translated">Wachtwoord gewijzigd en Profiel geactiveerd</target></trans-unit>
+			<trans-unit id="tx_femanager_domain_model_log.user" approved="yes">
+				<source>User</source>
+			<target state="translated">Gebruiker</target></trans-unit>
+
+			<trans-unit id="flexform.main.title" approved="yes">
+				<source>Main Settings</source>
+			<target state="translated">Hoofd Instellingen</target></trans-unit>
+			<trans-unit id="flexform.main.view" approved="yes">
+				<source>Choose View</source>
+			<target state="translated">Weergave kiezen</target></trans-unit>
+			<trans-unit id="flexform.main.view.0" approved="yes">
+				<source>Registration</source>
+			<target state="translated">Registratie</target></trans-unit>
+			<trans-unit id="flexform.main.view.1" approved="yes">
+				<source>Edit</source>
+			<target state="translated">Bewerken</target></trans-unit>
+			<trans-unit id="flexform.main.view.2" approved="yes">
+				<source>List</source>
+			<target state="translated">Lijst</target></trans-unit>
+			<trans-unit id="flexform.main.view.3" approved="yes">
+				<source>Detail</source>
+			<target state="translated">Detail</target></trans-unit>
+			<trans-unit id="flexform.main.view.4" approved="yes">
+				<source>Invitation</source>
+			<target state="translated">Uitnodiging</target></trans-unit>
+			<trans-unit id="flexform.main.view.5">
+				<source>Resend confirmation mail</source>
+			<target></target></trans-unit>
+			<trans-unit id="flexform.new.title" approved="yes">
+				<source>Registration</source>
+			<target state="translated">Registratie</target></trans-unit>
+			<trans-unit id="flexform.new.fields" approved="yes">
+				<source>Select Fields for New-Form (empty = all fields)</source>
+			<target state="translated">Selecteer velden voor Nieuw Formulier (leeg = alle velden)</target></trans-unit>
+			<trans-unit id="flexform.new.overrideUserGroup" approved="yes">
+				<source>Select Usergroups for new Users</source>
+			<target state="translated">Selecteer gebruikersgroepen voor nieuwe gebruikers</target></trans-unit>
+			<trans-unit id="flexform.new.confirmByUser" approved="yes">
+				<source>Registration must be confirmed from sender</source>
+			<target state="translated">Registratie moet worden bevestigd door gebruiker</target></trans-unit>
+			<trans-unit id="flexform.new.showTermsAndConditions">
+				<source>User must accept terms and conditions</source>
+			<target></target></trans-unit>
+			<trans-unit id="flexform.new.confirmByAdmin" approved="yes">
+				<source>Registration must be confirmed from an admin (add one or more emails)</source>
+			<target state="translated">Registratie moet worden bevestigd door een beheerder (Voeg een of meer e-mail adressen toe)</target></trans-unit>
+			<trans-unit id="flexform.new.notifyAdmin" approved="yes">
+				<source>Notify admin on registration (add one or more emails)</source>
+			<target state="translated">Bericht beheerder bij registratie (voeg een of meer e-mail adressen toe)</target></trans-unit>
+			<trans-unit id="flexform.edit.title" approved="yes">
+				<source>Edit</source>
+			<target state="translated">Bewerken</target></trans-unit>
+			<trans-unit id="flexform.edit.fields" approved="yes">
+				<source>Select Fields for Edit-Form (empty = all fields)</source>
+			<target state="translated">Selecteer velden voor het Bewerken Formulier (leeg = alle velden)</target></trans-unit>
+			<trans-unit id="flexform.edit.showDeleteLink" approved="yes">
+				<source>Show Delete Button in Edit Form</source>
+			<target state="translated">Toon Verwijderen Knop in Bewerken Formulier</target></trans-unit>
+			<trans-unit id="flexform.edit.confirmByAdmin" approved="yes">
+				<source>Profile update must be confirmed from an admin (add one or more emails)</source>
+			<target state="translated">Profiel bijwerken moet worden bevestigd door een beheerder (Voeg een of meer e-mail adressen toe)</target></trans-unit>
+			<trans-unit id="flexform.edit.notifyAdmin" approved="yes">
+				<source>Notify admin on Profile update (add one or more emails)</source>
+			<target state="translated">Bericht een beheerder bij Profiel bewerken (voeg een of meer e-mail adressen toe)</target></trans-unit>
+			<trans-unit id="flexform.list.title" approved="yes">
+				<source>Listview</source>
+			<target state="translated">Lijstweergave</target></trans-unit>
+			<trans-unit id="flexform.list.filter" approved="yes">
+				<source>Show Searchfield</source>
+			<target state="translated">Toon Zoekvelden</target></trans-unit>
+			<trans-unit id="flexform.list.limit" approved="yes">
+				<source>Limit</source>
+			<target state="translated">Limiet</target></trans-unit>
+			<trans-unit id="flexform.list.orderby" approved="yes">
+				<source>Order by</source>
+			<target state="translated">Sorteren Op</target></trans-unit>
+			<trans-unit id="flexform.list.orderby.0" approved="yes">
+				<source>Lastname</source>
+			<target state="translated">Achternaam</target></trans-unit>
+			<trans-unit id="flexform.list.orderby.1" approved="yes">
+				<source>Firstname</source>
+			<target state="translated">Voornaam</target></trans-unit>
+			<trans-unit id="flexform.list.orderby.2" approved="yes">
+				<source>Company</source>
+			<target state="translated">Bedrijf</target></trans-unit>
+			<trans-unit id="flexform.list.sorting" approved="yes">
+				<source>Sorting</source>
+			<target state="translated">Sorteren</target></trans-unit>
+			<trans-unit id="flexform.list.sorting.0" approved="yes">
+				<source>Ascending</source>
+			<target state="translated">Ascending</target></trans-unit>
+			<trans-unit id="flexform.list.sorting.1" approved="yes">
+				<source>Descending</source>
+			<target state="translated">Descending</target></trans-unit>
+			<trans-unit id="flexform.list.usergroup" approved="yes">
+				<source>Show from usergroup (empty = show all)</source>
+			<target state="translated">Toon van gebruikersgroep (leeg = toon alle)</target></trans-unit>
+			<trans-unit id="flexform.show.title" approved="yes">
+				<source>Detailview</source>
+			<target state="translated">Detail weergave</target></trans-unit>
+			<trans-unit id="flexform.show.user" approved="yes">
+				<source>User to show</source>
+			<target state="translated">Te tonen Gebruiker</target></trans-unit>
+			<trans-unit id="flexform.show.user.1" approved="yes">
+				<source>[Logged in FE User]</source>
+			<target state="translated">[Ingelogd in FE User]</target></trans-unit>
+			<trans-unit id="flexform.invitation.title" approved="yes">
+				<source>Invitation</source>
+			<target state="translated">Uitnodiging</target></trans-unit>
+			<trans-unit id="flexform.invitation.allowedUserGroups" approved="yes">
+				<source>Restrict "Add Invitation" to one or more Usergroups (empty = No Restriction)</source>
+			<target state="translated">Beperk "Voeg Uitnodiging Toe" tot een of meerdere gebruikersgroepen (leeg = geen beperkingen)</target></trans-unit>
+			<trans-unit id="flexform.invitation.fields" approved="yes">
+				<source>Select Fields for invitation-Form (empty = all fields)</source>
+			<target state="translated">Selecteer velden voor uitnodiging formulier (leeg = alle velden)</target></trans-unit>
+			<trans-unit id="flexform.invitation.overrideUserGroup" approved="yes">
+				<source>Select Usergroups for new Users</source>
+			<target state="translated">Selecteer Gebruikersgroepen voor nieuwe gebruikers</target></trans-unit>
+			<trans-unit id="flexform.invitation.confirmByAdmin" approved="yes">
+				<source>Registration must be confirmed from an admin (add one or more emails)</source>
+			<target state="translated">Registratie moet bevestigd worden door een beheerder (voeg een of meer e-mail velden toe)</target></trans-unit>
+			<trans-unit id="flexform.invitation.notifyAdminStep1" approved="yes">
+				<source>Notify admin on step 1 (add one or more emails)</source>
+			<target state="translated">Bericht beheerder bij stap 1 (voeg een of meer e-mail adressen toe)</target></trans-unit>
+			<trans-unit id="flexform.invitation.notifyAdmin">
+				<source>Notify admin if user sets a password (add one or more emails)</source>
+			<target></target></trans-unit>
+			<trans-unit id="flexform.misc.title">
+				<source>Additional Settings</source>
+			<target></target></trans-unit>
+			<trans-unit id="flexform.misc.termsUrl">
+				<source>Page with terms and conditions</source>
+			<target></target></trans-unit>
+
+			<trans-unit id="pleaseChoose">
+				<source>Please choose...</source>
+			<target></target></trans-unit>
+		</body>
+	</file>
+</xliff>

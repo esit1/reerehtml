@@ -1,0 +1,45 @@
+<div class="rezept">
+
+    <div class="rezept_uberschrift">
+        <h2>
+            <f:if condition="{data.header}">
+                {data.header}<br/>
+            </f:if>
+        </h2>
+    </div>
+    <br>
+    <div class="rezept_uberschrift2"><h3>Zutaten</h3></div>
+    <div class="rezept_zutaten_liste">
+
+        <f:if condition="{data_tx_rezeptev1_mengeundnamederzutat}">
+            <ul>
+                <f:for as="data_item" each="{data_tx_rezeptev1_mengeundnamederzutat}">
+                    <li>
+                        <f:if condition="{data_item.data.tx_rezeptev1_menge}">
+                            {data_item.data.tx_rezeptev1_menge}<br/>
+                        </f:if>
+                    </li>
+                </f:for>
+            </ul>
+        </f:if>
+    </div>
+    <hr>
+    <div class="rezept_uberschrift2"><h3>Zubereitung</h3></div>
+    <br>
+    <div class="rezept_zubereitung">
+        <f:if condition="{data.tx_rezeptev1_zubereitung}">
+            <f:format.nl2br>{data.tx_rezeptev1_zubereitung}</f:format.nl2br>
+            <br/>
+        </f:if>
+
+    </div>
+    <br>
+    <div class="rezept_bild">
+        <f:if condition="{data_image}">
+            <f:for as="file" each="{data_image}">
+                <f:image alt="{file.alternative}" image="{file}" title="{file.title}" width="200"/>
+                <br/>
+            </f:for>
+        </f:if>
+    </div>
+</div>

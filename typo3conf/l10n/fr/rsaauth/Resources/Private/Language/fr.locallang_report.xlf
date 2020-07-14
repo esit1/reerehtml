@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2020-02-02T06:27:36Z" product-name="rsaauth">
+		<header/>
+		<body>
+			<trans-unit id="report.description" resname="report.description">
+				<source>The extension rsaauth is marked as deprecated.</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="report.sslActive" resname="report.sslActive">
+				<source>You are already using SSL/TLS, there is no need to use the extension "rsaauth", you can safely disable it.</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="report.sslInactive" resname="report.sslInactive">
+				<source>Please enable SSL/TLS and disable the extension "rsaauth".</source>
+				<target/>
+			</trans-unit>
+			<trans-unit id="report.title" resname="report.title">
+				<source>Usage of EXT:rsaauth</source>
+				<target/>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

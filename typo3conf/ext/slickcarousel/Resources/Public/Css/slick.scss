@@ -1,0 +1,237 @@
+$slick-arrow-color: #000 !default;
+$transparentbg: rgba(0, 0, 0, .5);
+$slick-light: #fff;
+$slick-dark: #000;
+
+@import "../bower_components/animatewithsass/properties";
+@import "../bower_components/animatewithsass/_fading-entrances/fadeInUp";
+@import "../bower_components/animatewithsass/_fading-exits/fadeOutDown";
+@import "../bower_components/animatewithsass/_fading-entrances/fadeIn";
+
+@import "../bower_components/slick-carousel/slick/slick.scss";
+@import "../bower_components/slick-carousel/slick/slick-theme.scss";
+
+@keyframes slowFadeIn {
+  0% {
+    color: rgba(255, 255, 255, 0);
+    letter-spacing: -.02em;
+    opacity: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    transform: scale(.7);
+
+  }
+  30% {
+    text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+
+  }
+  100% {
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: .3em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    transform: scale(1);
+  }
+}
+
+.slick-container {
+  position: relative;
+
+  [ID*="loader-slick-"] {
+    bottom: -1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    opacity: .5;
+  }
+}
+
+.slick-slider {
+  figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    figcaption {
+      background: $transparentbg;
+      bottom: 0;
+      color: $slick-light;
+      font-size: 22px;
+      padding: 1vh;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  &.slick-bgimg {
+    .slick-item {
+      background-size: cover;
+    }
+  }
+
+  .slick-img {
+    max-width: none;
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .slick-next,
+  .slick-prev {
+    border: 0;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 100%;
+    line-height: 0;
+    margin-top: -10px;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25%;
+    z-index: 10;
+
+    &:before {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      color: $slick-light;
+      font-family: slick;
+      font-size: 50px;
+      line-height: 1;
+      opacity: 1;
+      z-index: 11;
+    }
+  }
+
+  .slick-next {
+    right: 0;
+  }
+
+  .slick-prev {
+    left: 0;
+  }
+
+  .slick-dots {
+    li {
+      height: 20px;
+      margin: 0 3px;
+      width: 20px;
+
+      button {
+        height: 20px;
+        width: 20px;
+
+        &:before {
+          color: $slick-dark;
+          font-family: slick;
+          font-size: 14px;
+          height: 14px;
+          line-height: 14px;
+          opacity: .25;
+          text-align: center;
+          width: 14px;
+        }
+
+      }
+
+      &.slick-active {
+
+        button:before {
+          opacity: 1;
+        }
+      }
+
+      &:hover,
+      &:focus {
+
+        button:before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  &:hover {
+
+    .slick-next {
+      opacity: 1;
+
+      &:before {
+        margin-right: -60%;
+      }
+    }
+
+    .slick-prev {
+      opacity: 1;
+
+      &:before {
+        margin-left: -60%;
+      }
+    }
+  }
+}
+
+.slick-bgimg {
+  .slick-item {
+    background: no-repeat 0 0;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+
+    .slick-text {
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      width: 96%;
+      margin-left: 2%;
+      text-align: center;
+      transform: translateY(-50%);
+
+      .h1 {
+        border: 0;
+        color: rgba(255, 255, 255, 1);
+        display: block;
+        font-size: 42px;
+        font-weight: 700;
+        letter-spacing: 0.3em;
+        line-height: 1.16;
+        margin: auto;
+        text-align: center;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        white-space: nowrap;
+        word-break: keep-all;
+      }
+
+      .h2 {
+        color: rgba(255, 255, 255, 1);
+        display: block;
+        font-size: 42px;
+        font-weight: 700;
+        letter-spacing: 0.3em;
+        line-height: 1.16;
+        text-align: center;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        white-space: nowrap;
+        word-break: keep-all;
+      }
+    }
+
+    &.slick-active {
+      .slick-text {
+        .h1,
+        .h2 {
+          animation: slowFadeIn 3s ease;
+        }
+      }
+    }
+  }
+}
+
+.slick-prev,
+.slick-next,
+.slick-prev:before,
+.slick-next:before,
+.slick-slider .slick-dots li button:before {
+  transition: all .25s;
+}

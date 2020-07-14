@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="nl" datatype="plaintext" original="messages" date="2020-02-02T07:57:17Z" product-name="viewpage">
+		<header/>
+		<body>
+			<trans-unit id="automatic" resname="automatic" approved="yes">
+				<source>Automatic</source>
+				<target state="translated">Automatisch</target>
+				<note>This label is deprecated (not used anymore) since TYPO3v6</note>
+			</trans-unit>
+			<trans-unit id="autoSize" resname="autoSize" approved="yes">
+				<source>Auto Size</source>
+				<target state="translated">Automatische grootte</target>
+			</trans-unit>
+			<trans-unit id="computer" resname="computer" approved="yes">
+				<source>Computer</source>
+				<target state="translated">Desktop</target>
+			</trans-unit>
+			<trans-unit id="custom" resname="custom" approved="yes">
+				<source>Custom</source>
+				<target state="translated">Aangepast</target>
+				<note>This label is deprecated (not used anymore) since TYPO3v6</note>
+			</trans-unit>
+			<trans-unit id="customWidth" resname="customWidth" approved="yes">
+				<source>Custom Size</source>
+				<target state="translated">Aangepaste grootte</target>
+			</trans-unit>
+			<trans-unit id="desktop" resname="desktop" approved="yes">
+				<source>Desktop</source>
+				<target state="translated">Bureaublad</target>
+				<note>This label is deprecated (not used anymore) since TYPO3v6</note>
+			</trans-unit>
+			<trans-unit id="language" resname="language" approved="yes">
+				<source>Language</source>
+				<target state="translated">Taal</target>
+			</trans-unit>
+			<trans-unit id="maximized" resname="maximized" approved="yes">
+				<source>Maximized</source>
+				<target state="translated">Gemaximaliseerd</target>
+				<note>This label is deprecated (not used anymore) since TYPO3v6</note>
+			</trans-unit>
+			<trans-unit id="mobile" resname="mobile" approved="yes">
+				<source>Mobile</source>
+				<target state="translated">Mobiel</target>
+			</trans-unit>
+			<trans-unit id="noValidPageSelected" resname="noValidPageSelected" approved="yes">
+				<source>Please select a page with a valid page type in the page tree on the left to preview the selected page in different screen resolutions.</source>
+				<target state="translated">Kies een pagina met een geldig paginatype in de paginaboom links om de gekozen pagina in verschillende schermresoluties te bekijken.</target>
+				<note>This label is deprecated (not used anymore) since TYPO3v6</note>
+			</trans-unit>
+			<trans-unit id="refreshPage" resname="refreshPage" approved="yes">
+				<source>Refresh page</source>
+				<target state="translated">Pagina verversen</target>
+			</trans-unit>
+			<trans-unit id="tablet" resname="tablet" approved="yes">
+				<source>Tablet</source>
+				<target state="translated">Tablet</target>
+			</trans-unit>
+			<trans-unit id="unidentified" resname="unidentified" approved="yes">
+				<source>Unidentified</source>
+				<target state="translated">Onbekend</target>
+				<note>This label is deprecated (not used anymore) since TYPO3v6</note>
+			</trans-unit>
+			<trans-unit id="width" resname="width" approved="yes">
+				<source>Width</source>
+				<target state="translated">Breedte</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

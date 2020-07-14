@@ -1,0 +1,41 @@
+{
+  "name": "jambagecom/tslib-fetce",
+  "type": "typo3-cms-extension",
+  "description": "This extension brings the TYPO3 4.x class tslib_feTCE and the processScript FEData setup with new features partly back into TYPO3 9.x",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "tslib_feTCE"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/tslib_fetce/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "https://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "typo3/cms-core": ">=8.7.0,<=9.5.99"
+  },
+  "autoload": {
+    "psr-4": {
+      "JambageCom\\TslibFetce\\": "Classes"
+    }
+  },
+  "replace": {
+    "jambagecom/tslib-fetce": "self.version",
+    "typo3-ter/tslib-fetce": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "tslib_fetce"
+    }
+  }
+}

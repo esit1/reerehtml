@@ -1,0 +1,27 @@
+{
+    "name": "dreiboxv1/dreibox-v1",
+    "description": "",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-backend": "^9.5",
+        "typo3/cms-core": "^9.5",
+        "typo3/cms-extbase": "^9.5",
+        "typo3/cms-fluid": "^9.5",
+        "typo3/cms-frontend": "^9.5"
+    },
+    "replace": {
+        "dreibox_v1": "self.version",
+        "typo3-ter/dreibox-v1": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "DreiboxV1\\DreiboxV1\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "dreibox_v1"
+        }
+    }
+}

@@ -1,0 +1,83 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <f:if condition="{data_tx_dreiboxv1_bildbox1}">
+                        <f:for each="{data_tx_dreiboxv1_bildbox1}" as="file">
+                            <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="400"/>
+                            <br/>
+                        </f:for>
+                    </f:if>
+                </div>
+            </div>
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    <f:if condition="{data.tx_dreiboxv1_textbox1}">
+                        <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data.tx_dreiboxv1_textbox1}</f:format.html>
+                        <br/>
+                    </f:if>
+                </p>
+                <footer class="blockquote-footer">
+                    <f:if condition="{data.tx_dreiboxv1_linkbox1}">
+                        <f:link.typolink parameter="{data.tx_dreiboxv1_linkbox1}">Zu den Rezepten.
+                        </f:link.typolink>
+                    </f:if>
+                </footer>
+            </blockquote>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <f:if condition="{data_tx_dreiboxv1_bildbox2}">
+                        <f:for each="{data_tx_dreiboxv1_bildbox2}" as="file">
+                            <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="400"/>
+                            <br/>
+                        </f:for>
+                    </f:if>
+                </div>
+            </div>
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    <f:if condition="{data.tx_dreiboxv1_textbox2}">
+                        <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data.tx_dreiboxv1_textbox2}</f:format.html>
+                        <br/>
+                    </f:if>
+                </p>
+                <footer class="blockquote-footer">
+                    <f:if condition="{data.tx_dreiboxv1_linkbox2}">
+                        <f:link.typolink parameter="{data.tx_dreiboxv1_linkbox2}">Zu den Rezepten.
+                        </f:link.typolink>
+                    </f:if>
+                </footer>
+            </blockquote>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <f:if condition="{data_tx_dreiboxv1_bildbox3}">
+                        <f:for each="{data_tx_dreiboxv1_bildbox3}" as="file">
+                            <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="400"/>
+                            <br/>
+                        </f:for>
+                    </f:if>
+                </div>
+            </div>
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    <f:if condition="{data.tx_dreiboxv1_textbox3}">
+                        <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data.tx_dreiboxv1_textbox3}</f:format.html>
+                        <br/>
+                    </f:if>
+                </p>
+                <footer class="blockquote-footer">
+                    <f:if condition="{data.tx_dreiboxv1_linkbox3}">
+                        <f:link.typolink parameter="{data.tx_dreiboxv1_linkbox3}">Zu den Rezepten.
+                        </f:link.typolink>
+                    </f:if>
+
+                </footer>
+            </blockquote>
+        </div>
+    </div>
+</div>

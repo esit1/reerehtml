@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="nl" type="array">
+			<label index="mlang_tabs_tab">Extension Builder</label>
+			<label index="mlang_labels_tabdescr">Extensie-objecten bekijken / wijzigen</label>
+			<label index="mlang_Tx_ExtensionBuilder_domain_model_person_developer">Ontwikkelaar</label>
+			<label index="mlang_Tx_ExtensionBuilder_domain_model_person_product_manager">Productmanager</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

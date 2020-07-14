@@ -1,0 +1,215 @@
+<f:layout name="Standard"/>
+
+<f:section name="Jumbotron">
+    <div class="jumbotron">
+        <div class="container">
+            <!–-TYPO3SEARCH_begin-–>
+            <f:format.raw>{content4}</f:format.raw>
+            <!–-TYPO3SEARCH_end-–>
+        </div>
+    </div>
+</f:section>
+
+
+<f:section name="rootline">
+    <div class="container">
+        <f:cObject typoscriptObjectPath="lib.rootline"/>
+        <br>
+    </div>
+</f:section>
+
+
+<f:section name="Startseite">
+    <div class="container">
+        <div class="Startseite_main">
+            <!–-TYPO3SEARCH_begin-–>
+            <f:format.raw>{content0}</f:format.raw>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="card-group">
+            <div class="card">
+                <f:cObject typoscriptObjectPath="lib.picture1"/>
+                <div class="card-body">
+                    <f:format.raw>{content1}</f:format.raw>
+                </div>
+            </div>
+            <div class="card">
+                <f:cObject typoscriptObjectPath="lib.picture2"/>
+                <div class="card-body">
+                    <f:format.raw>{content3}</f:format.raw>
+                </div>
+            </div>
+            <div class="card">
+                <f:cObject typoscriptObjectPath="lib.picture3"/>
+                <div class="card-body">
+                    <f:format.raw>{content2}</f:format.raw>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="Startseite_main">
+            <f:format.raw>{content5}</f:format.raw>
+        </div>
+        <!–-TYPO3SEARCH_end-–>
+        <br>
+        <br>
+    </div>
+</f:section>
+
+<f:section name="2Spalten">
+    <div class="container maincontent">
+        <div class="row">
+            <div class="col-md-4">
+                <f:cObject typoscriptObjectPath="lib.subnavigation"/>
+                <!–-TYPO3SEARCH_begin-–>
+                <f:format.raw>{content2}</f:format.raw>
+                <!–-TYPO3SEARCH_end-–>
+            </div>
+            <div class="col-md-8">
+                <!–-TYPO3SEARCH_begin-–>
+                <f:format.raw>{content0}</f:format.raw>
+                <!–-TYPO3SEARCH_end-–>
+            </div>
+        </div>
+</f:section>
+
+<f:section name="2spaltenOhneUntermenue">
+    <div class="container maincontent">
+        <div class="row">
+            <div class="col-md-8">
+                <br>
+                <br>
+                <!–-TYPO3SEARCH_begin-–>
+                <f:format.raw>{content0}</f:format.raw>
+            </div>
+            <div class="col-md-4">
+                <br>
+                <br>
+                <f:format.raw>{content2}</f:format.raw>
+                <!–-TYPO3SEARCH_end-–>
+            </div>
+        </div>
+        <br>
+        <br>
+</f:section>
+
+
+<f:section name="1Spalte">
+    <div class="container maincontent">
+        <div class="row">
+            <div class="col-md-12">
+                <!–-TYPO3SEARCH_begin-–>
+                <f:format.raw>{content0}</f:format.raw>
+                <!–-TYPO3SEARCH_end-–>
+            </div>
+        </div>
+</f:section>
+
+
+<f:section name="3Box">
+    <div class="container maincontent">
+        <div class="row">
+            <div class="col-md-12">
+                <!–-TYPO3SEARCH_begin-–>
+                <f:format.raw>{content0}</f:format.raw>
+                <!–-TYPO3SEARCH_end-–>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <!–-TYPO3SEARCH_begin-–>
+                <f:format.raw>{content1}</f:format.raw>
+                <!–-TYPO3SEARCH_end-–>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img alt="Obst" src="/fileadmin/images/Saisonkalender/orchard-1872997_1920.jpg">
+                        </div>
+                        <div class="flip-card-back">
+                            <br>
+                            <br>
+                            <br>
+                            <!–-TYPO3SEARCH_begin-–>
+                            <f:format.raw>{content1}</f:format.raw>
+                            <!–-TYPO3SEARCH_end-–>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <!–-TYPO3SEARCH_begin-–>
+                <f:format.raw>{content3}</f:format.raw>
+                <!–-TYPO3SEARCH_end-–>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img alt="Obst" src="/fileadmin/images/Saisonkalender/salad-4755777_1920.jpg">
+                        </div>
+                        <div class="flip-card-back">
+                            <br>
+                            <br>
+                            <br>
+                            <!–-TYPO3SEARCH_begin-–>
+                            <f:format.raw>{content3}</f:format.raw>
+                            <!–-TYPO3SEARCH_end-–>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <!–-TYPO3SEARCH_begin-–>
+                <f:format.raw>{content2}</f:format.raw>
+                <!–-TYPO3SEARCH_end-–>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img alt="Obst" src="fileadmin/images/Saisonkalender/italian-4246406_1920.jpg">
+                        </div>
+                        <div class="flip-card-back">
+                            <br>
+                            <br>
+                            <br>
+                            <!–-TYPO3SEARCH_begin-–>
+                            <f:format.raw>{content2}</f:format.raw>
+                            <!–-TYPO3SEARCH_end-–>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+</f:section>
+
+<f:section name="Rezept">
+    <div class="container maincontent">
+
+        <!–-TYPO3SEARCH_begin-–>
+        <f:format.raw>{content0}</f:format.raw>
+        <f:format.raw>{content2}</f:format.raw>
+        <!–-TYPO3SEARCH_end-–>
+        <hr>
+        <h3> Weitere Rezepte in dieser Kategorie. </h3>
+        <f:cObject typoscriptObjectPath="lib.navigationRezepte"/>
+    </div>
+</f:section>
+
+
+<f:section name="jumbotronplusboxen">
+    <div class="container maincontent">
+        <!–-TYPO3SEARCH_begin-–>
+        <f:format.raw>{content1}</f:format.raw>
+        <!–-TYPO3SEARCH_end-–>
+    </div>
+</f:section>
+
+

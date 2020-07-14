@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2020-02-02T00:03:38Z" product-name="adminpanel">
+		<header/>
+		<body>
+			<trans-unit id="countUserInt" resname="countUserInt" approved="yes">
+				<source>Count of USER_INT objects</source>
+				<target state="translated">Anzahl von USER_INT-Objekten</target>
+			</trans-unit>
+			<trans-unit id="DocumentSize" resname="DocumentSize" approved="yes">
+				<source>Document size</source>
+				<target state="translated">Dokumentgröße</target>
+			</trans-unit>
+			<trans-unit id="feuserId" resname="feuserId" approved="yes">
+				<source>Id of logged in FE-User</source>
+				<target state="translated">ID des angemeldeten FE-Benutzers</target>
+			</trans-unit>
+			<trans-unit id="feuserName" resname="feuserName" approved="yes">
+				<source>Name of logged in FE-User</source>
+				<target state="translated">Name des angemeldeten FE-Benutzers</target>
+			</trans-unit>
+			<trans-unit id="groupList" resname="groupList" approved="yes">
+				<source>Frontenduser group combination</source>
+				<target state="translated">Kombination von Frontend-Benutzergruppen</target>
+			</trans-unit>
+			<trans-unit id="imagesOnPage" resname="imagesOnPage" approved="yes">
+				<source>Images on this page</source>
+				<target state="translated">Bilder auf dieser Seite</target>
+			</trans-unit>
+			<trans-unit id="imagesSize" resname="imagesSize" approved="yes">
+				<source>Total image file sizes</source>
+				<target state="translated">Ingesamte Bilddateigröße</target>
+			</trans-unit>
+			<trans-unit id="key" resname="key" approved="yes">
+				<source>Key</source>
+				<target state="translated">Schlüssel</target>
+			</trans-unit>
+			<trans-unit id="module.label" resname="module.label" approved="yes">
+				<source>Info</source>
+				<target state="translated">Info</target>
+			</trans-unit>
+			<trans-unit id="module.shortinfo" resname="module.shortinfo" approved="yes">
+				<source>(Load Time: %s ms)</source>
+				<target state="translated">(Ladezeit: %s ms)</target>
+			</trans-unit>
+			<trans-unit id="noCache" resname="noCache" approved="yes">
+				<source>Page cached</source>
+				<target state="translated">Seite gecacht</target>
+			</trans-unit>
+			<trans-unit id="noCache_no" resname="noCache_no" approved="yes">
+				<source>No</source>
+				<target state="translated">Nein</target>
+			</trans-unit>
+			<trans-unit id="noCache_yes" resname="noCache_yes" approved="yes">
+				<source>Yes</source>
+				<target state="translated">Ja</target>
+			</trans-unit>
+			<trans-unit id="pageType" resname="pageType" approved="yes">
+				<source>Page type</source>
+				<target state="translated">Seitentyp</target>
+			</trans-unit>
+			<trans-unit id="pageUid" resname="pageUid" approved="yes">
+				<source>Page Uid</source>
+				<target state="translated">Seiten-UID</target>
+			</trans-unit>
+			<trans-unit id="sub.general.label" resname="sub.general.label" approved="yes">
+				<source>General</source>
+				<target state="translated">Allgemein</target>
+			</trans-unit>
+			<trans-unit id="sub.php.label" resname="sub.php.label" approved="yes">
+				<source>PHP</source>
+				<target state="translated">PHP</target>
+			</trans-unit>
+			<trans-unit id="sub.request.label" resname="sub.request.label" approved="yes">
+				<source>REQUEST</source>
+				<target state="translated">REQUEST</target>
+			</trans-unit>
+			<trans-unit id="totalParsetime" resname="totalParsetime" approved="yes">
+				<source>Total parsetime</source>
+				<target state="translated">Insgesamte Parsezeit</target>
+			</trans-unit>
+			<trans-unit id="value" resname="value" approved="yes">
+				<source>Value</source>
+				<target state="translated">Wert</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

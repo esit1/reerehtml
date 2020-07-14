@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2020-02-02T17:24:39+01:00" product-name="dreibox_v1">
+    <header/>
+    <body>
+      <trans-unit id="wizards.newContentElement.3boxenmitbild_title" xml:space="preserve">
+        <source>3 Boxen mit Bild</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.3boxenmitbild_description" xml:space="preserve">
+        <source>3 Boxen nebeneinander mit Bild</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.rezepte_title" xml:space="preserve">
+        <source>Rezept</source>
+      </trans-unit>
+      <trans-unit id="wizards.newContentElement.rezepte_description" xml:space="preserve">
+        <source>Neue Rezepte eingben. </source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

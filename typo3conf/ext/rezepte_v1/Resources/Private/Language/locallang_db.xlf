@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2020-01-25T18:36:21+01:00" product-name="rezepte_v1">
+    <header/>
+    <body>
+      <trans-unit id="tx_rezeptev1_mengeundnamederzutat" xml:space="preserve">
+        <source>tx_rezeptev1_mengeundnamederzutat</source>
+      </trans-unit>
+      <trans-unit id="tx_rezeptev1_mengeundnamederzutat.tx_rezeptev1_menge" xml:space="preserve">
+        <source>Menge und Name der Zutat</source>
+      </trans-unit>
+      <trans-unit id="tx_rezeptev1_mengeundzutat" xml:space="preserve">
+        <source>tx_rezeptev1_mengeundzutat</source>
+      </trans-unit>
+      <trans-unit id="tx_rezeptev1_zubereitung" xml:space="preserve">
+        <source>tx_rezeptev1_zubereitung</source>
+      </trans-unit>
+      <trans-unit id="tx_rezeptev1_zutat" xml:space="preserve">
+        <source>tx_rezeptev1_zutat</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_rezeptev1_mengeundnamederzutat" xml:space="preserve">
+        <source>Menge und Name der Zutat</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_rezeptev1_zubereitung" xml:space="preserve">
+        <source>Zubereitung</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.div._rezeptev1_" xml:space="preserve">
+        <source>rezepte_v1</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.rezeptev1_rezepte" xml:space="preserve">
+        <source>Rezept</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

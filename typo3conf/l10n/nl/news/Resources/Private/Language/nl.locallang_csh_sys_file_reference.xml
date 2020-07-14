@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="nl" type="array">
+			<label index="showinpreview.description">Indien actief, wordt dit media-element getoond in de lijstweergave (of waar het gewenst wordt, door sjablonen te wijzigen).</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

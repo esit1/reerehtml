@@ -1,0 +1,85 @@
+
+renderingOptions:
+  submitButtonLabel: Absenden
+type: Form
+identifier: rezepteinreichen
+label: 'Rezept einreichen'
+prototypeName: standard
+finishers:
+  -
+    options:
+      message: 'Das Rezept wurde erfolgreich eingereicht. '
+      contentElementUid: ''
+    identifier: Confirmation
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: Absenden
+    type: Page
+    identifier: page-1
+    label: 'Rezept einreichen'
+    renderables:
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-1
+        label: 'Benötigte Zutaten und Menge'
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+          validationErrorMessages:
+            -
+              code: 1221560910
+              message: 'Keine Eingabe'
+            -
+              code: 1221560718
+              message: 'Keine Eingabe'
+            -
+              code: 1347992400
+              message: 'Keine Eingabe'
+            -
+              code: 1347992453
+              message: 'Keine Eingabe'
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-2
+        label: Zubereitung
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+          validationErrorMessages:
+            -
+              code: 1221560910
+              message: 'Keine Zubereitung eingetragen'
+            -
+              code: 1221560718
+              message: 'Keine Zubereitung eingetragen'
+            -
+              code: 1347992400
+              message: 'Keine Zubereitung eingetragen'
+            -
+              code: 1347992453
+              message: 'Keine Zubereitung eingetragen'
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        properties:
+          saveToFileMount: '1:/user_upload/'
+          allowedMimeTypes:
+            - image/jpeg
+            - image/png
+            - image/bmp
+        type: ImageUpload
+        identifier: imageupload-1
+        label: Bildupload
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-3
+        label: Anmerkungen

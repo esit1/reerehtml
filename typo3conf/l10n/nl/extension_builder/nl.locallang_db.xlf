@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2012-04-14T17:43:11Z" product-name="extension_builder" target-language="nl">
+		<header/>
+		<body>
+			<trans-unit id="Tx_ExtensionBuilder_extension" approved="yes">
+				<source>Extension Builder: Extension</source>
+			<target state="translated">Extension Builder: Extensie</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_extension.extensionkey" approved="yes">
+				<source>extensionKey</source>
+			<target state="translated">extensiesleutel</target><alt-trans xml:space="preserve" origin="jigal"><target>extensiesleutel</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_extension.title" approved="yes">
+				<source>Title</source>
+			<target state="translated">Titel</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_extension.description" approved="yes">
+				<source>Description</source>
+			<target state="translated">Beschrijving</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_extension.state" approved="yes">
+				<source>State</source>
+			<target state="translated">Status</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_extension.languages" approved="yes">
+				<source>Languages</source>
+			<target state="translated">Talen</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_extension.persons" approved="yes">
+				<source>Persons</source>
+			<target state="translated">Personen</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_extension.domainobjects" approved="yes">
+				<source>Domain Objects</source>
+			<target state="translated">domeinobjecten</target><alt-trans xml:space="preserve" origin="jigal"><target>domeinobjecten</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_person" approved="yes">
+				<source>Extension Builder: Person</source>
+			<target state="translated">Extension Builder: persoon</target><note from="translator">82%</note><alt-trans xml:space="preserve" origin="jigal"><target>Extension Builder: persoon</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_person.name" approved="yes">
+				<source>Person Name</source>
+			<target state="translated">Naam van persoon</target><alt-trans xml:space="preserve" origin="jigal"><target>Naam van persoon</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_person.email" approved="yes">
+				<source>Person Email</source>
+			<target state="translated">Persoon e-mail</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_person.role" approved="yes">
+				<source>Role</source>
+			<target state="translated">Rol</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_person.extension" approved="yes">
+				<source>Extension</source>
+			<target state="translated">Extensie</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_domainObjects" approved="yes">
+				<source>Extension Builder: Domain Objects</source>
+			<target state="translated">Extension Builder: domeinobjecten</target><alt-trans xml:space="preserve" origin="jigal"><target>Extension Builder: domeinobjecten</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_domainObjects.name" approved="yes">
+				<source>Name</source>
+			<target state="translated">Naam</target><note from="translator">100%</note><alt-trans xml:space="preserve" origin="jigal"><target>Naam</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_domainObjects.description" approved="yes">
+				<source>Description</source>
+			<target state="translated">Beschrijving</target><note from="translator">100%</note><alt-trans xml:space="preserve" origin="jigal"><target>Beschrijving</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_domainObjects.relateddomainobjects" approved="yes">
+				<source>Related Domain Objects</source>
+			<target state="translated">Gerelateerde domeinobjecten</target><alt-trans xml:space="preserve" origin="jigal"><target>Gerelateerde domeinobjecten</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_domainObjects.extension" approved="yes">
+				<source>Extension this Domain Object belongs to</source>
+			<target state="translated">De extensie waartoe dit domeinobject behoort</target><alt-trans xml:space="preserve" origin="jigal"><target>De extensie waartoe dit domeinobject behoord</target></alt-trans><alt-trans xml:space="preserve" origin="jigal"><target>De extensie waartoe dit domeinobject behoort</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_domainObjects.backendconfigurationoptions" approved="yes">
+				<source>Backend Configuration Options</source>
+			<target state="translated">Opties voor configuratie van de backend</target><alt-trans xml:space="preserve" origin="jigal"><target>Opties voor configuratie van de backend</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_domainObjects.properties" approved="yes">
+				<source>Properties</source>
+			<target state="translated">Eigenschappen</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_properties" approved="yes">
+				<source>Extension Builder: Properties</source>
+			<target state="translated">Extension Builder: eigenschappen</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_properties.name" approved="yes">
+				<source>Name</source>
+			<target state="translated">Naam</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_properties.description" approved="yes">
+				<source>Description</source>
+			<target state="translated">Beschrijving</target></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_properties.validationrules" approved="yes">
+				<source>validationRules</source>
+			<target state="translated">validatieregels</target><alt-trans xml:space="preserve" origin="jigal"><target>validatieregels</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_properties.isrequired" approved="yes">
+				<source>isRequired</source>
+			<target state="translated">isVerplicht</target><alt-trans xml:space="preserve" origin="jigal"><target>isVerplicht</target></alt-trans></trans-unit>
+			<trans-unit id="Tx_ExtensionBuilder_properties.accessmethods" approved="yes">
+				<source>Access Methods</source>
+			<target state="translated">Toegankelijkheidsmethodes</target><alt-trans xml:space="preserve" origin="jigal"><target>Toegankelijkheidsmethodes</target></alt-trans></trans-unit>
+		</body>
+	</file>
+</xliff>

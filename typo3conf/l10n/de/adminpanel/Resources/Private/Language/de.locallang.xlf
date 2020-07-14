@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2020-02-02T00:03:38Z" product-name="adminpanel">
+		<header/>
+		<body>
+			<trans-unit id="button.close" resname="button.close" approved="yes">
+				<source>Close</source>
+				<target state="translated">Schließen</target>
+			</trans-unit>
+			<trans-unit id="button.view" resname="button.view" approved="yes">
+				<source>View</source>
+				<target state="translated">Anzeigen</target>
+			</trans-unit>
+			<trans-unit id="deprecatedModuleLabel" resname="deprecatedModuleLabel" approved="yes">
+				<source>General</source>
+				<target state="translated">Allgemein</target>
+			</trans-unit>
+			<trans-unit id="settings.label" resname="settings.label" approved="yes">
+				<source>Settings</source>
+				<target state="translated">Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="settings.updateButtonLabel" resname="settings.updateButtonLabel" approved="yes">
+				<source>Update Settings</source>
+				<target state="translated">Einstellungen aktualisieren</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

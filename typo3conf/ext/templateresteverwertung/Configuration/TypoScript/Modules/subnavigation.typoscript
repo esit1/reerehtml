@@ -1,0 +1,31 @@
+lib.subnavigation = HMENU
+lib.subnavigation {
+
+    stdWrap.wrap = <div class ="subnavigation">|</div>
+    stdWrap.required = 1
+
+    entryLevel = 1
+
+    1 = TMENU
+    1 {
+        NO = 1
+        NO {
+            wrapItemAndSub = <li class="nav-item">|</li>
+            stdWrap.htmlSpecialChars = 1
+            ATagTitle.field = description // subtitle // title
+            ATagParams = class="nav-link"
+        }
+
+        CUR < .NO
+        CUR.ATagParams = class="subnavigationAktuell"
+
+        ACT < .NO
+        ACT.ATagParams = class="subnavigationActiv"
+    }
+
+    2 < .1
+    2.wrap = <ul>|</ul>
+
+    3 < .2
+    4 < .2
+}

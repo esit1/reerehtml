@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="fr" type="array">
+			<label index="mlang_tabs_tab">Utilisateurs front end</label>
+			<label index="mlang_labels_tabdescr">FE Manager permet d'afficher une liste d'utilisateurs et de les filtrer. Il est possible de filtrer les utilisateurs d'un groupe, depuis une recherche ou afficher les utilisateurs en ligne</label>
+			<label index="mlang_labels_tablabel">FE Manager</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

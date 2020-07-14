@@ -1,0 +1,147 @@
+{
+    "tt_content": {
+        "elements": {
+            "rezepte": {
+                "color": "#000000",
+                "columns": {
+                    "0": "header",
+                    "1": "tx_mask_mengeundnamederzutat",
+                    "3": "tx_mask_zubereitung",
+                    "4": "image"
+                },
+                "description": "Neue Rezepte eingben. ",
+                "icon": "",
+                "key": "rezepte",
+                "label": "Rezept",
+                "labels": {
+                    "0": "Rezept Name",
+                    "1": "Menge und Name der Zutat",
+                    "3": "Zubereitung",
+                    "4": "Bild(er) des Gerichtes"
+                },
+                "shortLabel": ""
+            }
+        },
+        "sql": {
+            "tx_mask_mengeundnamederzutat": {
+                "tt_content": {
+                    "tx_mask_mengeundnamederzutat": "int(11) unsigned DEFAULT '0' NOT NULL"
+                }
+            },
+            "tx_mask_zubereitung": {
+                "tt_content": {
+                    "tx_mask_zubereitung": "mediumtext"
+                }
+            }
+        },
+        "tca": {
+            "tx_mask_mengeundnamederzutat": {
+                "config": {
+                    "appearance": {
+                        "enabledControls": {
+                            "dragdrop": "1"
+                        },
+                        "levelLinksPosition": "bottom",
+                        "newRecordLinkTitle": "Neue Zutat",
+                        "useSortable": "1"
+                    },
+                    "foreign_field": "parentid",
+                    "foreign_sortby": "sorting",
+                    "foreign_table": "--inlinetable--",
+                    "foreign_table_field": "parenttable",
+                    "maxitems": "",
+                    "minitems": "1",
+                    "type": "inline"
+                },
+                "exclude": "1",
+                "inlineIcon": "",
+                "inlineLabel": "",
+                "key": "mengeundnamederzutat",
+                "l10n_mode": ""
+            },
+            "tx_mask_zubereitung": {
+                "config": {
+                    "cols": "",
+                    "default": "",
+                    "eval": "required,trim",
+                    "format": "",
+                    "max": "",
+                    "placeholder": "",
+                    "rows": "",
+                    "type": "text"
+                },
+                "exclude": "1",
+                "key": "zubereitung",
+                "l10n_mode": ""
+            }
+        }
+    },
+    "tx_mask_mengeundnamederzutat": {
+        "sql": {
+            "tx_mask_menge": {
+                "tx_mask_mengeundnamederzutat": {
+                    "tx_mask_menge": "tinytext"
+                }
+            }
+        },
+        "tca": {
+            "tx_mask_menge": {
+                "config": {
+                    "default": "",
+                    "eval": "trim",
+                    "is_in": "",
+                    "max": "",
+                    "placeholder": "",
+                    "size": "",
+                    "type": "input"
+                },
+                "exclude": "1",
+                "inlineParent": "tx_mask_mengeundnamederzutat",
+                "key": "menge",
+                "l10n_mode": "",
+                "label": "Menge und Name der Zutat",
+                "order": 2
+            }
+        }
+    },
+    "tx_mask_mengeundzutat": {
+        "sql": [],
+        "tca": []
+    },
+    "tx_mask_zubereitung": {
+        "sql": {
+            "tx_mask_zutat": {
+                "tx_mask_zubereitung": {
+                    "tx_mask_zutat": "tinytext"
+                }
+            }
+        },
+        "tca": {
+            "tx_mask_zutat": {
+                "config": {
+                    "default": "",
+                    "eval": "",
+                    "is_in": "",
+                    "max": "",
+                    "placeholder": "",
+                    "size": "",
+                    "type": "input"
+                },
+                "exclude": "1",
+                "inlineParent": "tx_mask_zubereitung",
+                "key": "zutat",
+                "l10n_mode": "",
+                "label": "",
+                "order": 1
+            }
+        }
+    },
+    "tx_mask_zutat": {
+        "sql": [],
+        "tca": []
+    },
+    "mask_export": {
+        "extensionName": "rezepte_v1",
+        "vendorName": "RezepteV1"
+    }
+}

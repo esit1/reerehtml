@@ -1,0 +1,276 @@
+mod.web_layout.BackendLayouts {
+  jumbotronplusboxen {
+    title = Jumbotron plus Haupteil (1Spalte)
+    icon = EXT:templateresteverwertung/Resources/Public/Icons/BackendLayouts/jumbotronplusboxen.png
+    config {
+      backend_layout {
+        colCount = 1
+        rowCount = 2
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Überschrift
+                colPos = 4
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = Boxen
+                colPos = 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+mod.web_layout.BackendLayouts {
+  2spalten {
+    title = 2 Spalten ohne Jumbotron plus Untermenü
+    icon = EXT:templateresteverwertung/Resources/Public/Icons/BackendLayouts/2spalten.png
+ config {
+      backend_layout {
+        colCount = 3
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Linke Spalte
+                colPos = 2
+              }
+              2 {
+                name = Hauptbereich
+                colspan = 2
+                colPos = 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+mod.web_layout.BackendLayouts {
+  2spaltenPlusJumbotron {
+    title = 2 Spalten plus Jumbotron ohne Untermenü
+    icon = EXT:templateresteverwertung/Resources/Public/Icons/BackendLayouts/2spaltenPlusJumbotron.png
+   config {
+         backend_layout {
+           colCount = 3
+           rowCount = 2
+           rows {
+             1 {
+               columns {
+                 1 {
+                   name = Überschrift
+                   colspan = 3
+                   colPos = 4
+                 }
+               }
+             }
+             2 {
+               columns {
+                 1 {
+                   name = Linke Spalte
+                   colPos = 2
+                 }
+                 2 {
+                   name = Hauptbereich
+                   colspan = 2
+                   colPos = 0
+                 }
+               }
+             }
+           }
+         }
+       }
+     }
+   }
+
+mod.web_layout.BackendLayouts {
+  2spaltenOhneUntermenue {
+    title = 2 Spalten, ohne Jumbotron, ohne Untermenü
+    icon = EXT:templateresteverwertung/Resources/Public/Icons/BackendLayouts/2spaltenOhneUntermenue.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Hauptbereich
+                colspan = 2
+                colPos = 0
+              }
+              2 {
+                name = Linke Spalte
+                colPos = 2
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+mod.web_layout.BackendLayouts {
+  1spalte {
+    title = 1 Spalte, ohne Jumbotron, ohne Untermenü
+    icon = EXT:templateresteverwertung/Resources/Public/Icons/BackendLayouts/1spalte.png
+    config {
+      backend_layout {
+        colCount = 1
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Hauptbereich
+                colPos = 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+mod.web_layout.BackendLayouts {
+  Rezept {
+     title = Rezept
+     icon = EXT:templateresteverwertung/Resources/Public/Icons/BackendLayouts/Rezept.png
+     config {
+       backend_layout {
+         colCount = 1
+         rowCount = 1
+         rows {
+           1 {
+             columns {
+               1 {
+                 name = Rezept
+                 colPos = 0
+               }
+             }
+           }
+         }
+       }
+     }
+   }
+ }
+
+mod.web_layout.BackendLayouts {
+Startseite {
+    title = Startseite
+    icon = EXT:templateresteverwertung/Resources/Public/Icons/BackendLayouts/Startseite.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 4
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Seiten Überschrift
+                colspan = 3
+                colPos = 4
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = oberer Bereich
+                colspan = 3
+                colPos = 0
+              }
+            }
+          }
+          3 {
+            columns {
+              1 {
+                name = Linke Spalte
+                colPos = 1
+              }
+              2 {
+                name = Mittlere Spalte
+                colPos = 3
+              }
+              3 {
+                name = Linke Spalte
+                colPos = 2
+              }
+            }
+          }
+          4 {
+            columns {
+              1 {
+                name = unterer Bereich
+                colspan = 3
+                colPos = 5
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+mod.web_layout.BackendLayouts {
+  3Box {
+    title = 3Box
+    icon = EXT:templateresteverwertung/Resources/Public/Icons/BackendLayouts/3Box.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 4
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Seiten Überschrift
+                colspan = 3
+                colPos = 4
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = oberer Bereich
+                colspan = 3
+                colPos = 0
+              }
+            }
+          }
+          3 {
+            columns {
+              1 {
+                name = Linke Spalte
+                colPos = 1
+              }
+              2 {
+                name = Mittlere Spalte
+                colPos = 3
+              }
+              3 {
+                name = Linke Spalte
+                colPos = 2
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

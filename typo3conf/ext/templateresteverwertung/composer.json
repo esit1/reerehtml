@@ -1,0 +1,19 @@
+{
+    "name": "wwagner/typo38videotraining",
+    "type": "typo3-cms-extension",
+    "description": "Template Extension f\u00fcr das Videotraining",
+    "author": [
+        {
+            "name": "Wolfgang Wagner",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwagner\\Typo38videotraining\\": "Classes"
+        }
+    }
+}

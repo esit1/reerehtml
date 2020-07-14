@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="nl" type="array">
+			<label index="tx_femanager_domain_model_user">Gebruiker</label>
+			<label index="tx_femanager_domain_model_user.username">Gebruikersnaam</label>
+			<label index="tx_femanager_domain_model_user.password">Wachtwoord</label>
+			<label index="tx_femanager_domain_model_user.usergroup">Gebruikersgroep</label>
+			<label index="tx_femanager_domain_model_user.name">Naam</label>
+			<label index="tx_femanager_domain_model_user.firstName">Voornaam</label>
+			<label index="tx_femanager_domain_model_user.middleName">Tussenvoegsel</label>
+			<label index="tx_femanager_domain_model_user.lastName">Achternaam</label>
+			<label index="tx_femanager_domain_model_user.dateOfBirth">Geboortedatum</label>
+			<label index="tx_femanager_domain_model_user.gender">Geslacht</label>
+			<label index="tx_femanager_domain_model_user.gender.item0">mannelijk</label>
+			<label index="tx_femanager_domain_model_user.gender.item1">vrouwelijk</label>
+			<label index="tx_femanager_domain_model_user.address">Adres</label>
+			<label index="tx_femanager_domain_model_user.telephone">Telefoon</label>
+			<label index="tx_femanager_domain_model_user.fax">Fax</label>
+			<label index="tx_femanager_domain_model_user.email">e-mail</label>
+			<label index="tx_femanager_domain_model_user.title">Titel</label>
+			<label index="tx_femanager_domain_model_user.zip">Postcode</label>
+			<label index="tx_femanager_domain_model_user.city">Gemeente</label>
+			<label index="tx_femanager_domain_model_user.country">Land</label>
+			<label index="tx_femanager_domain_model_user.www">Website</label>
+			<label index="tx_femanager_domain_model_user.company">Bedrijf</label>
+			<label index="tx_femanager_domain_model_user.image">Afbeelding</label>
+			<label index="tx_femanager_domain_model_user.lastlogin">Laatste login</label>
+			<label index="tx_femanager_domain_model_user.captcha">Captcha</label>
+			<label index="tx_femanager_domain_model_user.terms"/>
+			<label index="fe_users.crdate">Tijd creatie</label>
+			<label index="fe_users.tstamp">Laatste profiel wijziging om</label>
+			<label index="fe_users.registrationconfirmedbyuser">Registratie bevestigd door de gebruiker</label>
+			<label index="fe_users.registrationconfirmedbyadmin">Registratie bevestigd door de beheerder</label>
+			<label index="fe_users.tab">Registratie</label>
+			<label index="fe_users.log">FE_User Log</label>
+			<label index="fe_users.terms"/>
+			<label index="fe_users.terms_version"/>
+			<label index="fe_users.terms_date_of_acceptance"/>
+			<label index="fe_users.changerequest">Aanvraag tot wijzigen</label>
+			<label index="tx_femanager_domain_model_log">Gebruiker Log</label>
+			<label index="tx_femanager_domain_model_log.title">Titel</label>
+			<label index="tx_femanager_domain_model_log.crdate">Tijd</label>
+			<label index="tx_femanager_domain_model_log.state">Status</label>
+			<label index="tx_femanager_domain_model_log.state.100">Registratie</label>
+			<label index="tx_femanager_domain_model_log.state.101">Nieuwe registratie</label>
+			<label index="tx_femanager_domain_model_log.state.102">Registratie bevestigd door gebruiker</label>
+			<label index="tx_femanager_domain_model_log.state.103">Registratie bevestigd door beheerder</label>
+			<label index="tx_femanager_domain_model_log.state.104">Registratie geweigerd door gebruiker</label>
+			<label index="tx_femanager_domain_model_log.state.105">Registratie geweigerd door beheerder</label>
+			<label index="tx_femanager_domain_model_log.state.106">Aanmaken Profiel verzoek</label>
+			<label index="tx_femanager_domain_model_log.state.200">Bijwerken</label>
+			<label index="tx_femanager_domain_model_log.state.201">Profiel bijgewerkt</label>
+			<label index="tx_femanager_domain_model_log.state.202">Profiel bijwerken bevestigd door beheerder</label>
+			<label index="tx_femanager_domain_model_log.state.203">Profiel bijwerken geweigerd door gebruiker</label>
+			<label index="tx_femanager_domain_model_log.state.204">Bijwerken profiel verzoek</label>
+			<label index="tx_femanager_domain_model_log.state.205">Profiel bijwerken beveiligingsfout</label>
+			<label index="tx_femanager_domain_model_log.state.206"/>
+			<label index="tx_femanager_domain_model_log.state.300">Verwijderen</label>
+			<label index="tx_femanager_domain_model_log.state.301">Profiel verwijderd</label>
+			<label index="tx_femanager_domain_model_log.state.400">Uitnodiging</label>
+			<label index="tx_femanager_domain_model_log.state.401">Profiel aangemaakt en Gebruiker uitgenodigd</label>
+			<label index="tx_femanager_domain_model_log.state.402">Profiel van Gebruiker verwijderd</label>
+			<label index="tx_femanager_domain_model_log.state.403">Foute Hash</label>
+			<label index="tx_femanager_domain_model_log.state.404">U probeerde een beveiligde pagina te openen</label>
+			<label index="tx_femanager_domain_model_log.state.405">Wachtwoord gewijzigd en Profiel geactiveerd</label>
+			<label index="tx_femanager_domain_model_log.user">Gebruiker</label>
+
+			<label index="flexform.main.title">Hoofd Instellingen</label>
+			<label index="flexform.main.view">Weergave kiezen</label>
+			<label index="flexform.main.view.0">Registratie</label>
+			<label index="flexform.main.view.1">Bewerken</label>
+			<label index="flexform.main.view.2">Lijst</label>
+			<label index="flexform.main.view.3">Detail</label>
+			<label index="flexform.main.view.4">Uitnodiging</label>
+			<label index="flexform.main.view.5"/>
+			<label index="flexform.new.title">Registratie</label>
+			<label index="flexform.new.fields">Selecteer velden voor Nieuw Formulier (leeg = alle velden)</label>
+			<label index="flexform.new.overrideUserGroup">Selecteer gebruikersgroepen voor nieuwe gebruikers</label>
+			<label index="flexform.new.confirmByUser">Registratie moet worden bevestigd door gebruiker</label>
+			<label index="flexform.new.showTermsAndConditions"/>
+			<label index="flexform.new.confirmByAdmin">Registratie moet worden bevestigd door een beheerder (Voeg een of meer e-mail adressen toe)</label>
+			<label index="flexform.new.notifyAdmin">Bericht beheerder bij registratie (voeg een of meer e-mail adressen toe)</label>
+			<label index="flexform.edit.title">Bewerken</label>
+			<label index="flexform.edit.fields">Selecteer velden voor het Bewerken Formulier (leeg = alle velden)</label>
+			<label index="flexform.edit.showDeleteLink">Toon Verwijderen Knop in Bewerken Formulier</label>
+			<label index="flexform.edit.confirmByAdmin">Profiel bijwerken moet worden bevestigd door een beheerder (Voeg een of meer e-mail adressen toe)</label>
+			<label index="flexform.edit.notifyAdmin">Bericht een beheerder bij Profiel bewerken (voeg een of meer e-mail adressen toe)</label>
+			<label index="flexform.list.title">Lijstweergave</label>
+			<label index="flexform.list.filter">Toon Zoekvelden</label>
+			<label index="flexform.list.limit">Limiet</label>
+			<label index="flexform.list.orderby">Sorteren Op</label>
+			<label index="flexform.list.orderby.0">Achternaam</label>
+			<label index="flexform.list.orderby.1">Voornaam</label>
+			<label index="flexform.list.orderby.2">Bedrijf</label>
+			<label index="flexform.list.sorting">Sorteren</label>
+			<label index="flexform.list.sorting.0">Ascending</label>
+			<label index="flexform.list.sorting.1">Descending</label>
+			<label index="flexform.list.usergroup">Toon van gebruikersgroep (leeg = toon alle)</label>
+			<label index="flexform.show.title">Detail weergave</label>
+			<label index="flexform.show.user">Te tonen Gebruiker</label>
+			<label index="flexform.show.user.1">[Ingelogd in FE User]</label>
+			<label index="flexform.invitation.title">Uitnodiging</label>
+			<label index="flexform.invitation.allowedUserGroups">Beperk "Voeg Uitnodiging Toe" tot een of meerdere gebruikersgroepen (leeg = geen beperkingen)</label>
+			<label index="flexform.invitation.fields">Selecteer velden voor uitnodiging formulier (leeg = alle velden)</label>
+			<label index="flexform.invitation.overrideUserGroup">Selecteer Gebruikersgroepen voor nieuwe gebruikers</label>
+			<label index="flexform.invitation.confirmByAdmin">Registratie moet bevestigd worden door een beheerder (voeg een of meer e-mail velden toe)</label>
+			<label index="flexform.invitation.notifyAdminStep1">Bericht beheerder bij stap 1 (voeg een of meer e-mail adressen toe)</label>
+			<label index="flexform.invitation.notifyAdmin"/>
+			<label index="flexform.misc.title"/>
+			<label index="flexform.misc.termsUrl"/>
+
+			<label index="pleaseChoose"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

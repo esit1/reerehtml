@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="nl" type="array">
+			<label index="mlang_tabs_tab">Beheer nieuws</label>
+			<label index="mlang_labels_tablabel">Beheer nieuws items in een losse module</label>
+			<label index="mlang_labels_tabdescr">Deze module biedt een eenvoudige manier om nieuws- en categorierecords te beheren.</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

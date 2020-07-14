@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="nl" type="array">
+			<label index="Tx_ExtensionBuilder_extension">Extension Builder: Extensie</label>
+			<label index="Tx_ExtensionBuilder_extension.extensionkey">extensiesleutel</label>
+			<label index="Tx_ExtensionBuilder_extension.title">Titel</label>
+			<label index="Tx_ExtensionBuilder_extension.description">Beschrijving</label>
+			<label index="Tx_ExtensionBuilder_extension.state">Status</label>
+			<label index="Tx_ExtensionBuilder_extension.languages">Talen</label>
+			<label index="Tx_ExtensionBuilder_extension.persons">Personen</label>
+			<label index="Tx_ExtensionBuilder_extension.domainobjects">domeinobjecten</label>
+			<label index="Tx_ExtensionBuilder_person">Extension Builder: persoon</label>
+			<label index="Tx_ExtensionBuilder_person.name">Naam van persoon</label>
+			<label index="Tx_ExtensionBuilder_person.email">Persoon e-mail</label>
+			<label index="Tx_ExtensionBuilder_person.role">Rol</label>
+			<label index="Tx_ExtensionBuilder_person.extension">Extensie</label>
+			<label index="Tx_ExtensionBuilder_domainObjects">Extension Builder: domeinobjecten</label>
+			<label index="Tx_ExtensionBuilder_domainObjects.name">Naam</label>
+			<label index="Tx_ExtensionBuilder_domainObjects.description">Beschrijving</label>
+			<label index="Tx_ExtensionBuilder_domainObjects.relateddomainobjects">Gerelateerde domeinobjecten</label>
+			<label index="Tx_ExtensionBuilder_domainObjects.extension">De extensie waartoe dit domeinobject behoort</label>
+			<label index="Tx_ExtensionBuilder_domainObjects.backendconfigurationoptions">Opties voor configuratie van de backend</label>
+			<label index="Tx_ExtensionBuilder_domainObjects.properties">Eigenschappen</label>
+			<label index="Tx_ExtensionBuilder_properties">Extension Builder: eigenschappen</label>
+			<label index="Tx_ExtensionBuilder_properties.name">Naam</label>
+			<label index="Tx_ExtensionBuilder_properties.description">Beschrijving</label>
+			<label index="Tx_ExtensionBuilder_properties.validationrules">validatieregels</label>
+			<label index="Tx_ExtensionBuilder_properties.isrequired">isVerplicht</label>
+			<label index="Tx_ExtensionBuilder_properties.accessmethods">Toegankelijkheidsmethodes</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

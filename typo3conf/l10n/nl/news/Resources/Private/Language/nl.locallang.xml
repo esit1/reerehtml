@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="nl" type="array">
+			<label index="search-text">Er zijn %1$s resultaten voor "%2$s".</label>
+			<label index="search-start">Zoeken starten</label>
+			<label index="search-noresult">Geen nieuws gevonden.</label>
+			<label index="search-subject">Tekst</label>
+			<label index="search-minimumDate">Ondergrens datum</label>
+			<label index="search-maximumDate">Bovengrens datum</label>
+			<label index="more-link">Lees meer</label>
+			<label index="back-link">Terug</label>
+			<label index="related-news">Gerelateerd nieuws</label>
+			<label index="related-files">Gerelateerde bestanden</label>
+			<label index="related-links">Gerelateerde links</label>
+			<label index="author">Aangemaakt door %s</label>
+			<label index="author_simple">Aangemaakt door</label>
+			<label index="paginate_overall">Pagina %s van %s.</label>
+			<label index="paginate_next">Volgende</label>
+			<label index="paginate_previous">Vorige</label>
+			<label index="categories">Categorieën</label>
+			<label index="tags">Labels</label>
+			<label index="entry">item</label>
+			<label index="entries">items</label>
+			<label index="month.01">januari</label>
+			<label index="month.02">februari</label>
+			<label index="month.03">maart</label>
+			<label index="month.04">april</label>
+			<label index="month.05">mei</label>
+			<label index="month.06">juni</label>
+			<label index="month.07">juli</label>
+			<label index="month.08">augustus</label>
+			<label index="month.09">september</label>
+			<label index="month.10">oktober</label>
+			<label index="month.11">november</label>
+			<label index="month.12">december</label>
+			<label index="day.1">maandag</label>
+			<label index="day.2">dinsdag</label>
+			<label index="day.3">woensdag</label>
+			<label index="day.4">donderdag</label>
+			<label index="day.5">vrijdag</label>
+			<label index="day.6">zaterdag</label>
+			<label index="day.7">zondag</label>
+			<label index="dateFormat">%d-%m-%Y</label>
+			<label index="list_nonewsfound">Geen nieuws beschikbaar.</label>
+			<label index="list_nocategoriesfound">Geen categorieën beschikbaar.</label>
+			<label index="newsNotFound">Het nieuwsbericht is niet meer beschikbaar.</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

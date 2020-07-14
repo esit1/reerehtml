@@ -1,0 +1,134 @@
+
+
+
+<div class="languagemenu">
+ <f:render partial="LanguageMenu"/>
+    </div>
+
+<div class="mainnav">
+    <nav>
+
+        <input id="main-menu-state" type="checkbox"/>
+        <label class="main-menu-btn" for="main-menu-state">
+            <span class="main-menu-btn-icon"></span>
+        </label>
+
+        <f:render arguments="{_all}" partial="MainNavigation"/>
+    </nav>
+
+
+</div>
+<body>
+
+<f:if condition="{backendlayout}=='Startseite'">
+<header>
+    <f:render section="Jumbotron"/>
+</header>
+</f:if>
+
+<f:if condition="{backendlayout}=='jumbotronplusboxen'">
+    <header>
+        <f:render section="Jumbotron"/>
+    </header>
+</f:if>
+
+<f:if condition="{backendlayout}=='3Box'">
+    <header>
+        <f:render section="Jumbotron"/>
+    </header>
+</f:if>
+
+<f:if condition="{backendlayout}=='2spaltenPlusJumbotron'">
+    <header>
+        <f:render section="Jumbotron"/>
+    </header>
+</f:if>
+
+<div class="main">
+    <div class="container">
+
+        <f:if condition="{backendlayout}=='Startseite'">
+            <f:render section="Startseite"/>
+        </f:if>
+
+        <f:if condition="{backendlayout}=='2spaltenPlusJumbotron'">
+            <f:render section="rootline"/>
+            <f:render section="2Spalten"/>
+        </f:if>
+
+        <f:if condition="{backendlayout}=='2spalten'">
+            <f:render section="rootline"/>
+            <f:render section="2Spalten"/>
+        </f:if>
+
+        <f:if condition="{backendlayout}=='2spaltenOhneUntermenue'">
+            <f:render section="rootline"/>
+            <f:render section="2spaltenOhneUntermenue"/>
+        </f:if>
+
+        <f:if condition="{backendlayout}=='jumbotronplusboxen'">
+            <f:render section="jumbotronplusboxen"/>
+        </f:if>
+
+        <f:if condition="{backendlayout}=='1spalte'">
+            <f:render section="rootline"/>
+            <f:render section="1Spalte"/>
+        </f:if>
+
+        <f:if condition="{backendlayout}=='3Box'">
+            <f:render section="rootline"/>
+            <f:render section="3Box"/>
+        </f:if>
+
+        <f:if condition="{backendlayout}=='Rezept'">
+            <f:render section="rootline"/>
+            <f:render section="Rezept"/>
+        </f:if>
+
+    </div>
+
+    <br><br><br>
+    <br><br><br>
+</div>
+
+
+
+
+
+<footer>
+    <div class="container">
+        <f:render partial="Footer"/>
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

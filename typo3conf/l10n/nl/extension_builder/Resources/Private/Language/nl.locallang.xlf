@@ -1,0 +1,515 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2012-02-29T20:52:35Z" product-name="extension_builder" target-language="nl">
+		<header/>
+		<body>
+			<trans-unit id="error.extension.0" approved="yes">
+				<source>An extension key must have minimum 3, maximum 30 characters (not counting underscores)</source>
+			<target state="translated">Een extensiesleutel moet uit tussen de 3 en 30 tekens bestaan (underscores niet meegeteld)</target></trans-unit>
+			<trans-unit id="error.extension.1" approved="yes">
+				<source>Illegal character(s) in extension key. Allowed characters are: a-z (lowercase), 0-9 and '_'
+					(underscore)
+				</source>
+			<target state="translated">Ongeldig(e) teken(s) in de extensiesleutel. Toegestaan zijn: a-z (kleine letters), 0-9 en '_' (underscore)</target></trans-unit>
+			<trans-unit id="error.extension.2" approved="yes">
+				<source>The key may not begin with one of the following prefixes:
+					tx,u,user_,pages,tt_,sys_,ts_language_,csh_
+				</source>
+			<target state="translated">De sleutel mag niet beginnen met een van de volgende prefixen: tx, u, user_, pages, tt_, sys_, ts_language, csh_</target></trans-unit>
+			<trans-unit id="error.extension.3" approved="yes">
+				<source>Extension keys cannot start or end with 0-9 and '_' (underscore)</source>
+			<target state="translated">Extensiesleutels kunnen niet beginnen of eindige met 0-9 en '_' (underscore)</target></trans-unit>
+			<trans-unit id="error.extension.500" approved="yes">
+				<source>There is an existing piBased extension with this extension key. Please choose another extension
+					key or rename the existing extension directory
+				</source>
+			<target state="translated">Er is een reeds bestaande piBase extensie met de extensiesleutel. Kies a.u.b. een ander extensiesleutel of hernoem de bestaande extensie-directory</target></trans-unit>
+			<trans-unit id="name" approved="yes">
+				<source>Name</source>
+			<target state="translated">Naam</target></trans-unit>
+			<trans-unit id="key" approved="yes">
+				<source>Key</source>
+			<target state="translated">Sleutel</target></trans-unit>
+			<trans-unit id="extensionTitle" approved="yes">
+				<source>Extension title</source>
+			<target state="translated">Extensietitel</target></trans-unit>
+			<trans-unit id="extensionKey" approved="yes">
+				<source>Extension Key</source>
+			<target state="translated">Extensiesleutel</target></trans-unit>
+			<trans-unit id="descr_extensionKey" approved="yes">
+				<source>The extensionkey should be lowercase and without spaces. It will be the unique identifier for
+					this extension.
+				</source>
+			<target state="translated">De exensiesleutel moet uit kleine letters bestaan en geen spaties bevatten. Het is de unieke identificatie voor deze extensie.</target></trans-unit>
+			<trans-unit id="vendorName" approved="yes">
+				<source>Vendor name</source>
+			<target state="translated">Bedrijfsnaam</target></trans-unit>
+			<trans-unit id="descr_vendorName" approved="yes">
+				<source>The vendor name is the first part of the new package identifier</source>
+			<target state="translated">De bedrijfsnaam is het eerst deel van de unieke naam van het pakket</target></trans-unit>
+			<trans-unit id="short_description" approved="yes">
+				<source>Descr.</source>
+			<target state="translated">Beschr.</target></trans-unit>
+			<trans-unit id="description" approved="yes">
+				<source>Description</source>
+			<target state="translated">Beschrijving</target></trans-unit>
+			<trans-unit id="version" approved="yes">
+				<source>Version</source>
+			<target state="translated">Versie</target></trans-unit>
+			<trans-unit id="target_version" approved="yes">
+				<source>Target version</source>
+			<target state="translated">Doelversie</target></trans-unit>
+			<trans-unit id="descr_target_version" approved="no">
+				<source>Select the TYPO3 version the extension requires.</source>
+			<target state="needs-translation">Als de extensie features gebruikt van Extbase/Fluid versies later dan 1.3 dan is de doelversie hier te kiezen. De afhankelijkheid moet handmatig toegevoegd worden in het veld "Afhankelijk van"</target></trans-unit>
+			<trans-unit id="state" approved="yes">
+				<source>State</source>
+			<target state="translated">Status</target></trans-unit>
+			<trans-unit id="alpha" approved="yes">
+				<source>Alpha</source>
+			<target state="translated">Alfa</target></trans-unit>
+			<trans-unit id="beta" approved="yes">
+				<source>Beta</source>
+			<target state="translated">Beta</target></trans-unit>
+			<trans-unit id="stable" approved="yes">
+				<source>Stable</source>
+			<target state="translated">Stabiel</target></trans-unit>
+			<trans-unit id="experimental" approved="yes">
+				<source>Experimental</source>
+			<target state="translated">Experimenteel</target></trans-unit>
+			<trans-unit id="test" approved="yes">
+				<source>Test</source>
+			<target state="translated">Test</target></trans-unit>
+			<trans-unit id="category" approved="yes">
+				<source>Category</source>
+			<target state="translated">Categorie</target></trans-unit>
+			<trans-unit id="custom_category" approved="yes">
+				<source>OR custom</source>
+			<target state="translated">OF aangepast</target></trans-unit>
+			<trans-unit id="descr_custom_category" approved="yes">
+				<source>You can define an own category here</source>
+			<target state="translated">Hier kan een eigen categorie gemaakt worden</target></trans-unit>
+			<trans-unit id="descr_category" approved="yes">
+				<source>The category this extension belongs to in the extension manager.</source>
+			<target state="translated">De categorie in Extensiebeheer waar deze extensie toe behoort.</target></trans-unit>
+			<trans-unit id="misc" approved="yes">
+				<source>Miscellaneous</source>
+			<target state="translated">Overig</target></trans-unit>
+			<trans-unit id="services" approved="yes">
+				<source>Services</source>
+			<target state="translated">Service</target></trans-unit>
+			<trans-unit id="backend" approved="yes">
+				<source>Backend</source>
+			<target state="translated">Backend</target></trans-unit>
+			<trans-unit id="frontend" approved="yes">
+				<source>Frontend</source>
+			<target state="translated">Frontend</target></trans-unit>
+			<trans-unit id="templates" approved="yes">
+				<source>Templates</source>
+			<target state="translated">Sjablonen</target></trans-unit>
+			<trans-unit id="examples" approved="yes">
+				<source>Examples</source>
+			<target state="translated">Voorbeelden</target></trans-unit>
+			<trans-unit id="distribution">
+				<source>Distribution</source>
+			<target></target></trans-unit>
+			<trans-unit id="documentation" approved="yes">
+				<source>Documentation</source>
+			<target state="translated">Documentatie</target></trans-unit>
+			<trans-unit id="disableVersioning" approved="yes">
+				<source>Disable versioning</source>
+			<target state="translated">Versiebeheer uitschakelen</target></trans-unit>
+			<trans-unit id="descr_disableVersioning" approved="yes">
+				<source>Check this if your extension needs no support for versioning. This will skip the creation of
+					versioning related columns in the database
+				</source>
+			<target state="translated">Vink dit aan als de extensie versiebeheer niet hoeft te ondersteunen. Hierdoor zullen de velden nodig voor versiebeheer niet in de database aangemaakt worden.</target></trans-unit>
+			<trans-unit id="disableLocalization">
+				<source>Disable localization</source>
+			<target></target></trans-unit>
+			<trans-unit id="descr_disableLocalization">
+				<source>Check this if your extension needs no support for localization. This will skip the creation of
+					localization related columns in the database
+				</source>
+			<target></target></trans-unit>
+			<trans-unit id="skipGenerateDocumentationTemplate">
+				<source>Don't generate doc-template</source>
+			<target></target></trans-unit>
+			<trans-unit id="descr_skipGenerateDocumentationTemplate">
+				<source>Check this if you don't want a documentation-template generated for your extension.</source>
+			<target></target></trans-unit>
+			<trans-unit id="sourceLanguage">
+				<source>Source language for xliff files</source>
+			<target></target></trans-unit>
+			<trans-unit id="descr_sourceLanguage">
+				<source>The source language for xliff files is the language in which the "source" of a label is defined,
+					which can be translated into other languages. In general it should be english.
+				</source>
+			<target></target></trans-unit>
+			<trans-unit id="dependsOn" approved="yes">
+				<source>Depends on</source>
+			<target state="translated">Afhankelijk van</target></trans-unit>
+			<trans-unit id="descr_dependsOn" approved="no">
+				<source>If the extension is depending on other extensions, enter the extension keys here (one per line
+					followed by a double arrow and the lowest version number).
+				</source>
+			<target state="needs-translation">Als de extensie afhankelijk is van andere extensies, voer dan hier de extensiesleutels in (een per regel, gevolgd door een dubbele pijl en het laagste versienummer). Extbase en fluid horen niet genoemd te worden want deze zijn sowieso noodzakelijk.</target></trans-unit>
+			<trans-unit id="persons" approved="no">
+				<source>Extension Authors</source>
+			<target state="needs-translation">Personen</target></trans-unit>
+			<trans-unit id="role" approved="yes">
+				<source>Role</source>
+			<target state="translated">Rol</target></trans-unit>
+			<trans-unit id="developer" approved="yes">
+				<source>Developer</source>
+			<target state="translated">Ontwikkelaar</target></trans-unit>
+			<trans-unit id="product_manager" approved="yes">
+				<source>Product Manager</source>
+			<target state="translated">Productmanager</target></trans-unit>
+			<trans-unit id="email" approved="yes">
+				<source>Email</source>
+			<target state="translated">E-mail</target></trans-unit>
+			<trans-unit id="company" approved="yes">
+				<source>Company</source>
+			<target state="translated">Bedrijf</target></trans-unit>
+			<trans-unit id="plugins" approved="yes">
+				<source>Frontend plugins</source>
+			<target state="translated">Fronten plug-ins</target></trans-unit>
+			<trans-unit id="descr_plugins" approved="yes">
+				<source>The frontend plugins which have to be registered in the extension</source>
+			<target state="translated">De frontend plug-ins die geregistreerd moeten worden in de extensie</target></trans-unit>
+			<trans-unit id="controller_action_combinations" approved="yes">
+				<source>Controller action combinations</source>
+			<target state="translated">Combinaties van controller acties</target></trans-unit>
+			<trans-unit id="descr_controller_action_combinations" approved="yes">
+				<source>Here you can configure, which controller action combinations this plugin/module should have.
+					Example: &lt;br /&gt;Blog =&gt; list,show &lt;br /&gt;(one controller per line, actions comma
+					separated) &lt;br /&gt;If you leave this empty, all available actions are configured for this
+					plugin.
+				</source>
+			<target state="translated">Hier is in te stellen welke combinaties van controller actions de plug-in/module moet hebben. Voorbeeld: &lt;br /&gt;Blog =&gt; list,show &lt;br /&gt; (een controller per regel, acties door komma's gescheiden)&lt;br /&gt;Indien het veld leeg gelaten wordt zullen alle beschikbare actie ingesteld worden voor deze plug-in.</target></trans-unit>
+			<trans-unit id="noncacheable_actions" approved="yes">
+				<source>Non cacheable actions</source>
+			<target state="translated">Niet-cachebare acties</target></trans-unit>
+			<trans-unit id="descr_noncacheable_actions" approved="yes">
+				<source>Typically create, delete and update actions should not be cached. (Same format as above)
+				</source>
+			<target state="translated">Over het algemeen zullen de acties create, delete en update niet gecached horen te worden (Zelfde formaat als hierboven)</target></trans-unit>
+			<trans-unit id="switchableActions" approved="yes">
+				<source>Switchable actions</source>
+			<target state="translated">Schakelbare acties</target></trans-unit>
+			<trans-unit id="descr_switchableActions" approved="yes">
+				<source>Make actions switchable in the plugin's form. One line for the label, one for the list of
+					allowed Controller-&gt;action pairs (semicolon separated). Example: &lt;br /&gt;Display items&lt;br
+					/&gt;Model-&gt;list; Model-&gt;show;&lt;br /&gt;Admin&lt;br /&gt;Model-&gt;new; Model-&gt;create;
+					Model-&gt;edit; Model-&gt;update;
+				</source>
+			<target state="translated">Maak acties schakelbaar in het plug-in formulier. Een regel voor het label, een voor de lijst van toegestane Controller-&gt;actie combinaties (gescheiden door puntkomma). Voorbeeld: &lt;br /&gt;Items afbeelden&lt;br /&gt;Model-&gt;list; Model-&gt;show;&lt;br /&gt;Admin&lt;br /&gt;Model-&gt;new; Model-&gt;create; Model-&gt;edit; Model-&gt;update;</target></trans-unit>
+			<trans-unit id="backendModules" approved="yes">
+				<source>Backend modules</source>
+			<target state="translated">Backend modules</target></trans-unit>
+			<trans-unit id="mainModule" approved="yes">
+				<source>Main module</source>
+			<target state="translated">Hoofdmodule</target></trans-unit>
+			<trans-unit id="uniqueInThisModel" approved="yes">
+				<source>Should be unique for this model</source>
+			<target state="translated">Hoort uniek te zijn voor dit model</target></trans-unit>
+			<trans-unit id="type" approved="yes">
+				<source>Type</source>
+			<target state="translated">Type</target></trans-unit>
+			<trans-unit id="more" approved="yes">
+				<source>More</source>
+			<target state="translated">Meer</target></trans-unit>
+			<trans-unit id="moreOptions" approved="yes">
+				<source>More options</source>
+			<target state="translated">Meer opties</target></trans-unit>
+			<trans-unit id="advancedOptions" approved="yes">
+				<source>Advanced options</source>
+			<target state="translated">Geavanceerde opties</target></trans-unit>
+			<trans-unit id="remove" approved="yes">
+				<source>Remove</source>
+			<target state="translated">Verwijderen</target></trans-unit>
+			<trans-unit id="add" approved="yes">
+				<source>Add</source>
+			<target state="translated">Toevoegen</target></trans-unit>
+			<trans-unit id="zeroToOne" approved="yes">
+				<source>1:1</source>
+			<target state="translated">1:1</target></trans-unit>
+			<trans-unit id="manyToOne" approved="yes">
+				<source>n:1</source>
+			<target state="translated">n:1</target></trans-unit>
+			<trans-unit id="zeroToMany" approved="yes">
+				<source>1:n</source>
+			<target state="translated">1:n</target></trans-unit>
+			<trans-unit id="manyToMany" approved="yes">
+				<source>m:n</source>
+			<target state="translated">m:n</target></trans-unit>
+			<trans-unit id="renderType">
+				<source>Render type</source>
+			<target></target></trans-unit>
+			<trans-unit id="desc_renderType">
+				<source>How should the relation be displayed in backend forms?</source>
+			<target></target></trans-unit>
+			<trans-unit id="selectSingleBox">
+				<source>Dropdown (multiple)</source>
+			<target></target></trans-unit>
+			<trans-unit id="selectCheckBox">
+				<source>Checkboxes</source>
+			<target></target></trans-unit>
+			<trans-unit id="selectMultipleSideBySide">
+				<source>Side by side multi select</source>
+			<target></target></trans-unit>
+			<trans-unit id="inline">
+				<source>Inline (IRRE)</source>
+			<target></target></trans-unit>
+			<trans-unit id="select">
+				<source>Dropdown</source>
+			<target></target></trans-unit>
+			<trans-unit id="isExcludeField" approved="yes">
+				<source>Is exclude field?</source>
+			<target state="translated">Uitsluitveld?</target></trans-unit>
+			<trans-unit id="descr_isExcludeField" approved="yes">
+				<source>If set to true, this field will only be visible for admin users per default</source>
+			<target state="translated">Indien ingeschakeld zal het veld standaard alleen zichtbaar zijn voor beheerders</target></trans-unit>
+			<trans-unit id="isL10nModeExclude">
+				<source>Is l10n_mode = exclude?</source>
+			<target></target></trans-unit>
+			<trans-unit id="descr_isL10nModeExclude">
+				<source>If set to true, this field will be set to l10n_mode = exclude</source>
+			<target></target></trans-unit>
+			<trans-unit id="newModelObject" approved="yes">
+				<source>New model object</source>
+			<target state="translated">Nieuw model-object</target></trans-unit>
+			<trans-unit id="domainObjectSettings" approved="yes">
+				<source>Domain object settings</source>
+			<target state="translated">Instellingen voor domain object</target></trans-unit>
+			<trans-unit id="objectType" approved="yes">
+				<source>Object type</source>
+			<target state="translated">Objecttype</target></trans-unit>
+			<trans-unit id="descr_objectType" approved="yes">
+				<source>Value objects are simple objects that are defined by their value and have no 'identity'</source>
+			<target state="translated">Value objecten zijn simpele object die door hun waarde bepaald worden en geen eigen identiteit hebben</target></trans-unit>
+			<trans-unit id="entity" approved="yes">
+				<source>Entity</source>
+			<target state="translated">Entiteit</target></trans-unit>
+			<trans-unit id="valueObject" approved="yes">
+				<source>Value object</source>
+			<target state="translated">Value object</target></trans-unit>
+			<trans-unit id="isAggregateRoot" approved="yes">
+				<source>Is aggregate root?</source>
+			<target state="translated">Is het de aggregatiebasis?</target></trans-unit>
+			<trans-unit id="descr_isAggregateRoot" approved="no">
+				<source>If true, the extension builder will generate a repository for this model</source>
+			<target state="needs-translation">Indien ingeschakeld zal de extension builder een repository en standaar controller-acties aanmaken voor dit model</target></trans-unit>
+			<trans-unit id="enableSorting" approved="yes">
+				<source>Enable sorting?</source>
+			<target state="translated">Sorteren inschakelen?</target></trans-unit>
+			<trans-unit id="descr_enableSorting" approved="yes">
+				<source>If true, sorting in the backend is enabled</source>
+			<target state="translated">Indien ingeschakeld is handmatig sorteren in de backen mogelijk</target></trans-unit>
+			<trans-unit id="addDeletedField">
+				<source>Add deleted field</source>
+			<target></target></trans-unit>
+			<trans-unit id="descr_addDeletedField">
+				<source>Deleting a record with "delete" field will not really delete the record, but just set the delete
+					flag to true
+				</source>
+			<target></target></trans-unit>
+			<trans-unit id="addHiddenField">
+				<source>Add hidden field</source>
+			<target></target></trans-unit>
+			<trans-unit id="descr_addHiddenField">
+				<source>The hidden field is an "enable" field. Only records which are not hidden will be displayed
+				</source>
+			<target></target></trans-unit>
+			<trans-unit id="addStarttimeEndtimeFields">
+				<source>Add starttime/endtime fields</source>
+			<target></target></trans-unit>
+			<trans-unit id="descr_addStarttimeEndtimeFields">
+				<source>If set, the related records will have a startime and endtime as "enable" field</source>
+			<target></target></trans-unit>
+			<trans-unit id="enableCategorizable">
+				<source>Enable categorization?</source>
+			<target></target></trans-unit>
+			<trans-unit id="descr_enableCategorizable">
+				<source>If true, categorization in the backend is enabled for this model</source>
+			<target></target></trans-unit>
+			<trans-unit id="mapToTable" approved="yes">
+				<source>Map to existing table</source>
+			<target state="translated">Aan bestaande tabel koppelen</target></trans-unit>
+			<trans-unit id="descr_mapToTable" approved="yes">
+				<source>If the model should extend an existing table, you can configure this here</source>
+			<target state="translated">Als het model een bestaande tabel moet uitbreiden is dat hier in te stellen</target></trans-unit>
+			<trans-unit id="parentClass" approved="yes">
+				<source>Extend existing model class</source>
+			<target state="translated">Bestaande model-klasse uitbreiden</target></trans-unit>
+			<trans-unit id="descr_parentClass" approved="yes">
+				<source>If this model should extend an existing other model, name it here</source>
+			<target state="translated">Als dit model een bestaand model moet uitbreiden, vermeld dit dan hier</target></trans-unit>
+			<trans-unit id="defaultActions" approved="yes">
+				<source>Default actions</source>
+			<target state="translated">Standaardacties</target></trans-unit>
+			<trans-unit id="actionType" approved="yes">
+				<source>Action type</source>
+			<target state="translated">Actietype</target></trans-unit>
+			<trans-unit id="descr_actionType" approved="yes">
+				<source>For each selected action, the extension builder will generate a template and a action method in
+					the controller of this model. If the model is an aggregate root the default CRUD actions will be
+					generated per default.
+				</source>
+			<target state="translated">Voor elke geselecteerd actie zal de extension builder een template en een action method in de crontroller van dit model aanmaken. Als het model een aggregatiebasis is zullen standaard de CRUD acties gegenereerd worden.</target></trans-unit>
+			<trans-unit id="show" approved="yes">
+				<source>show</source>
+			<target state="translated">tonen</target></trans-unit>
+			<trans-unit id="list" approved="yes">
+				<source>list</source>
+			<target state="translated">lijst</target></trans-unit>
+			<trans-unit id="create_new" approved="yes">
+				<source>new/create</source>
+			<target state="translated">nieuw/aanmaken</target></trans-unit>
+			<trans-unit id="edit_update" approved="yes">
+				<source>edit/update</source>
+			<target state="translated">bewerken/bijwerken</target></trans-unit>
+			<trans-unit id="delete" approved="yes">
+				<source>delete</source>
+			<target state="translated">verwijderen</target></trans-unit>
+			<trans-unit id="properties" approved="yes">
+				<source>Properties</source>
+			<target state="translated">eigenschappen</target></trans-unit>
+			<trans-unit id="propertyName" approved="yes">
+				<source>Property name</source>
+			<target state="translated">naam eigenschap</target></trans-unit>
+			<trans-unit id="descr_propertyName" approved="yes">
+				<source>The name should be lowerCamelCase and unique in this model</source>
+			<target state="translated">De naam moet in 'lowerCamelCase' en moet uniek zijn in dit model</target></trans-unit>
+			<trans-unit id="propertyType" approved="yes">
+				<source>Property type</source>
+			<target state="translated">Type eigenschap</target></trans-unit>
+			<trans-unit id="descr_propertyType" approved="yes">
+				<source>All types with * are not yet supported by the frontend form generation/validation</source>
+			<target state="translated">Alle types met een * worden momenteel niet ondersteund bij het bouwen van een frontend formulier en de validatie</target></trans-unit>
+			<trans-unit id="string" approved="yes">
+				<source>String</source>
+			<target state="translated">Tekenreeks</target></trans-unit>
+			<trans-unit id="text" approved="yes">
+				<source>Text</source>
+			<target state="translated">Tekst</target></trans-unit>
+			<trans-unit id="richText" approved="yes">
+				<source>Rich text*</source>
+			<target state="translated">Tekst met opmaak*</target></trans-unit>
+			<trans-unit id="integer" approved="yes">
+				<source>Integer</source>
+			<target state="translated">Geheel getal</target></trans-unit>
+			<trans-unit id="floatingPoint" approved="yes">
+				<source>Floating point</source>
+			<target state="translated">Getal met drijvende komma</target></trans-unit>
+			<trans-unit id="boolean" approved="yes">
+				<source>Boolean</source>
+			<target state="translated">Boolean</target></trans-unit>
+			<trans-unit id="dateTime" approved="no">
+				<source>DateTime (timestamp)</source>
+			<target state="needs-translation">Datum en tijd</target></trans-unit>
+			<trans-unit id="date" approved="no">
+				<source>Date (timestamp)</source>
+			<target state="needs-translation">Datum*</target></trans-unit>
+			<trans-unit id="nativeDateTime" approved="no">
+				<source>DateTime</source>
+			<target state="needs-translation">Datum en tijd</target></trans-unit>
+			<trans-unit id="nativeDate" approved="no">
+				<source>Date</source>
+			<target state="needs-translation">Datum*</target></trans-unit>
+			<trans-unit id="time" approved="yes">
+				<source>Time*</source>
+			<target state="translated">Tijd*</target></trans-unit>
+			<trans-unit id="timeSec" approved="yes">
+				<source>Time/Sec*</source>
+			<target state="translated">Tijd/Seconden*</target></trans-unit>
+			<trans-unit id="selectList" approved="yes">
+				<source>Select list</source>
+			<target state="translated">Keuzelijst</target></trans-unit>
+			<trans-unit id="file" approved="yes">
+				<source>File*</source>
+			<target state="translated">Bestand*</target></trans-unit>
+			<trans-unit id="image" approved="yes">
+				<source>Image*</source>
+			<target state="translated">Afbeelding*</target></trans-unit>
+			<trans-unit id="fileReference" approved="yes">
+				<source>File reference*</source>
+			<target state="translated">Bestandsreferentie</target></trans-unit>
+			<trans-unit id="folder" approved="yes">
+				<source>Folder*</source>
+			<target state="translated">Map*</target></trans-unit>
+			<trans-unit id="password" approved="yes">
+				<source>Password</source>
+			<target state="translated">Wachtwoord</target></trans-unit>
+			<trans-unit id="allowedFileTypes">
+				<source>Allowed file types</source>
+			<target></target></trans-unit>
+			<trans-unit id="descr_allowedFileTypes">
+				<source>Comma separated file endings like: doc,ods</source>
+			<target></target></trans-unit>
+			<trans-unit id="maxItems">
+				<source>Allowed number of files</source>
+			<target></target></trans-unit>
+			<trans-unit id="isRequired" approved="yes">
+				<source>Is required?</source>
+			<target state="translated">Is verplicht?</target></trans-unit>
+			<trans-unit id="relations" approved="yes">
+				<source>Relations</source>
+			<target state="translated">Relaties</target></trans-unit>
+			<trans-unit id="relationName" approved="yes">
+				<source>Name</source>
+			<target state="translated">Naam</target><note>100%</note></trans-unit>
+			<trans-unit id="descr_relationName" approved="yes">
+				<source>The name should be lowerCamelCase and unique in this model</source>
+			<target state="translated">De naam hoort 'lowerCamelCase' te zijn en uniek in dit model</target></trans-unit>
+			<trans-unit id="extensionProperties" approved="yes">
+				<source>Extension properties</source>
+			<target state="translated">Extensie-eigenschappen</target></trans-unit>
+			<trans-unit id="tab_label" approved="yes">
+				<source>Tab label</source>
+			<target state="translated">Label van tab</target></trans-unit>
+			<trans-unit id="lazyLoading" approved="yes">
+				<source>Lazy loading</source>
+			<target state="translated">Vertraagd laden</target></trans-unit>
+			<trans-unit id="descr_lazyLoading" approved="yes">
+				<source>Make this relation lazy loading</source>
+			<target state="translated">Deze relatie vertraagd laden</target></trans-unit>
+			<trans-unit id="foreignRelationClass" approved="yes">
+				<source>Relation to external class</source>
+			<target state="translated">Relatie met externe klasse</target></trans-unit>
+			<trans-unit id="descr_foreignRelationClass" approved="yes">
+				<source>If this is a relation to an external model, enter the (full qualified) class name here. The
+					class must exist and be loadable
+				</source>
+			<target state="translated">Als dit een relatie is met een extern model voer dan de (volledige) class naam in. De class moet bestaan en geladen kunnen worden</target></trans-unit>
+			<trans-unit id="modeler_invalidConfigurationTitle">
+				<source>Invalid configuration!</source>
+			<target></target></trans-unit>
+			<trans-unit id="modeler_invalidExtensionPropertiesTitle">
+				<source>Invalid extension properties</source>
+			<target></target></trans-unit>
+			<trans-unit id="modeler_invalidExtensionProperties">
+				<source>Please check the fields in the left panel</source>
+			<target></target></trans-unit>
+			<trans-unit id="modeler_duplicatePropertyNamesTitle">
+				<source>Duplicate property names</source>
+			<target></target></trans-unit>
+			<trans-unit id="modeler_missingModelName">
+				<source>Please enter a model name!</source>
+			<target></target></trans-unit>
+			<trans-unit id="modeler_duplicateModelNamesTitle">
+				<source>Duplicate model names</source>
+			<target></target></trans-unit>
+			<trans-unit id="modeler_invalidModelConfiguration">
+				<source>Invalid fields in model: </source>
+			<target></target></trans-unit>
+			<trans-unit id="modeler_extensionSaveError">
+				<source>Extension could not be saved:</source>
+			<target></target></trans-unit>
+			<trans-unit id="modeler_loadPipeConfirmMessage">
+				<source>Do you really want to clear the current working board and load the selected pipe? Unsaved changes will get lost!</source>
+			<target></target></trans-unit>
+		</body>
+	</file>
+</xliff>

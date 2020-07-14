@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="nl" datatype="plaintext" original="messages" date="2020-02-02T06:11:16Z" product-name="recordlist">
+		<header/>
+		<body>
+			<trans-unit id="addToList" resname="addToList" approved="yes">
+				<source>Add to list...</source>
+				<target state="translated">Toevoegen aan lijst</target>
+			</trans-unit>
+			<trans-unit id="class" resname="class" approved="yes">
+				<source>CSS-Class</source>
+				<target state="translated">CSS-Class</target>
+			</trans-unit>
+			<trans-unit id="clickToRedrawFullSize" resname="clickToRedrawFullSize" approved="yes">
+				<source>Image is larger than shown here! Click to redraw page with full sized images.</source>
+				<target state="translated">Afbeelding is groter dan hier getoond! Klik om te herladen tot de ware grootte.</target>
+			</trans-unit>
+			<trans-unit id="contentElements" resname="contentElements" approved="yes">
+				<source>Content elements</source>
+				<target state="translated">Inhoudselementen</target>
+			</trans-unit>
+			<trans-unit id="currentLink" resname="currentLink" approved="yes">
+				<source>Current Link</source>
+				<target state="translated">Huidige link</target>
+			</trans-unit>
+			<trans-unit id="email" resname="email" approved="yes">
+				<source>Email</source>
+				<target state="translated">E-mail</target>
+			</trans-unit>
+			<trans-unit id="emailAddress" resname="emailAddress" approved="yes">
+				<source>Email address</source>
+				<target state="translated">E-mailadres</target>
+			</trans-unit>
+			<trans-unit id="extUrl" resname="extUrl" approved="yes">
+				<source>External URL</source>
+				<target state="translated">Externe URL</target>
+			</trans-unit>
+			<trans-unit id="file" resname="file" approved="yes">
+				<source>File</source>
+				<target state="translated">Bestand</target>
+			</trans-unit>
+			<trans-unit id="files" resname="files" approved="yes">
+				<source>Files</source>
+				<target state="translated">Bestanden</target>
+			</trans-unit>
+			<trans-unit id="fileSelector" resname="fileSelector" approved="yes">
+				<source>File selector</source>
+				<target state="translated">Bestandselectie</target>
+			</trans-unit>
+			<trans-unit id="findDragDrop" resname="findDragDrop" approved="yes">
+				<source>Find and click on your image then drag it into the editor in the main window!</source>
+				<target state="translated">Zoek en klik op de afbeelding en sleep deze naar de editor in het hoofdvenster!</target>
+			</trans-unit>
+			<trans-unit id="folder" resname="folder" approved="yes">
+				<source>Folder</source>
+				<target state="translated">Map</target>
+			</trans-unit>
+			<trans-unit id="folders" resname="folders" approved="yes">
+				<source>Folders</source>
+				<target state="translated">Mappen</target>
+				<note>85% 100%</note>
+			</trans-unit>
+			<trans-unit id="folderSelector" resname="folderSelector" approved="yes">
+				<source>Folder selector</source>
+				<target state="translated">Mapselectie</target>
+			</trans-unit>
+			<trans-unit id="folderTree" resname="folderTree" approved="yes">
+				<source>Folder Tree</source>
+				<target state="translated">Mappenboom</target>
+			</trans-unit>
+			<trans-unit id="importSelection" resname="importSelection" approved="yes">
+				<source>Import selection</source>
+				<target state="translated">Selectie importeren</target>
+			</trans-unit>
+			<trans-unit id="info" resname="info" approved="yes">
+				<source>Info</source>
+				<target state="translated">Info</target>
+			</trans-unit>
+			<trans-unit id="invalidChar" resname="invalidChar" approved="yes">
+				<source>ERROR: Invalid character found in file path (%s). Cannot add the file!</source>
+				<target state="translated">FOUT: Ongeldig teken in bestandspad (%s). Kan bestand niet toevoegen!</target>
+			</trans-unit>
+			<trans-unit id="linkRelationship" resname="linkRelationship" approved="yes">
+				<source>Relationship</source>
+				<target state="translated">Relatie</target>
+			</trans-unit>
+			<trans-unit id="newWindow" resname="newWindow" approved="yes">
+				<source>New window</source>
+				<target state="translated">Nieuw venster</target>
+			</trans-unit>
+			<trans-unit id="none" resname="none" approved="yes">
+				<source>None - new link!</source>
+				<target state="translated">Geen - nieuwe link!</target>
+			</trans-unit>
+			<trans-unit id="noWebFolder" resname="noWebFolder" approved="yes">
+				<source>You cannot drag images from this folder (yellow) because it is internal on the server.</source>
+				<target state="translated">Het is niet mogelijk afbeeldingen te slepen, omdat deze intern op de server staat.</target>
+			</trans-unit>
+			<trans-unit id="page" resname="page" approved="yes">
+				<source>Page</source>
+				<target state="translated">Pagina</target>
+			</trans-unit>
+			<trans-unit id="page_id" resname="page_id" approved="yes">
+				<source>Page ID</source>
+				<target state="translated">Pagina-ID</target>
+			</trans-unit>
+			<trans-unit id="pageTree" resname="pageTree" approved="yes">
+				<source>Page tree</source>
+				<target state="translated">Paginaboom</target>
+			</trans-unit>
+			<trans-unit id="params" resname="params" approved="yes">
+				<source>Additional link parameters</source>
+				<target state="translated">Extra link-parameters</target>
+			</trans-unit>
+			<trans-unit id="path" resname="path" approved="yes">
+				<source>Path</source>
+				<target state="translated">Pad</target>
+			</trans-unit>
+			<trans-unit id="recordSelector" resname="recordSelector" approved="yes">
+				<source>Record selector</source>
+				<target state="translated">Recordselectie</target>
+			</trans-unit>
+			<trans-unit id="removeLink" resname="removeLink" approved="yes">
+				<source>Remove link</source>
+				<target state="translated">Link verwijderen</target>
+			</trans-unit>
+			<trans-unit id="selectRecords" resname="selectRecords" approved="yes">
+				<source>Select Records</source>
+				<target state="translated">Records selecteren</target>
+			</trans-unit>
+			<trans-unit id="setLink" resname="setLink" approved="yes">
+				<source>Set Link</source>
+				<target state="translated">Link instellen</target>
+			</trans-unit>
+			<trans-unit id="special" resname="special" approved="yes">
+				<source>Special</source>
+				<target state="translated">Speciaal</target>
+			</trans-unit>
+			<trans-unit id="target" resname="target" approved="yes">
+				<source>Target</source>
+				<target state="translated">Doel</target>
+			</trans-unit>
+			<trans-unit id="title" resname="title" approved="yes">
+				<source>Title</source>
+				<target state="translated">Titel</target>
+			</trans-unit>
+			<trans-unit id="toggleSelection" resname="toggleSelection" approved="yes">
+				<source>Toggle selection</source>
+				<target state="translated">Selectie wisselen</target>
+			</trans-unit>
+			<trans-unit id="top" resname="top" approved="yes">
+				<source>Top</source>
+				<target state="translated">Top</target>
+			</trans-unit>
+			<trans-unit id="update" resname="update" approved="yes">
+				<source>Update</source>
+				<target state="translated">Bijwerken</target>
+			</trans-unit>
+			<trans-unit id="uploadImage" resname="uploadImage" approved="yes">
+				<source>Upload Image</source>
+				<target state="translated">Afbeelding uploaden</target>
+			</trans-unit>
+			<trans-unit id="urlPlaceholder" resname="urlPlaceholder" approved="yes">
+				<source>https://...</source>
+				<target state="translated">https://...</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

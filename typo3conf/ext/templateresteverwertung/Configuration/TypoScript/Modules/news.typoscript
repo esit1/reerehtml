@@ -1,0 +1,24 @@
+plugin.tx_news {
+
+    view.templateRootPaths.100 = EXT:templateresteverwertung/Resources/Private/News/Templates/News/
+
+    settings {
+        displayDummyIfNoMedia = 0
+
+        detail.errorHandling = redirectToPage,{$siteTitle}
+    }
+}
+
+
+## Linkhanlder konfigurieren
+## Quelle: https://usetypo3.com/linkhandler.html
+config.recordLinks.tx_news {
+    typolink {
+        parameter = {$newsWeiterleitung}
+        additionalParams.data = field:uid
+        additionalParams.wrap = &tx_news_pi1[news]=|
+        useCacheHash = 1
+    }
+}
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="nl" type="array">
+			<label index=".description">Nieuws record</label>
+			<label index=".details">Veelzijdig nieuws systeem.</label>
+			<label index="sys_language_uid.description">Taal van het nieuws record.</label>
+			<label index="starttime.description">Kies een datum waarop het nieuws record moet worden getoond.</label>
+			<label index="endtime.description">Kies een datum waarop het nieuws record moet worden verborgen.</label>
+			<label index="fe_group.description">Selecteer de gebruikersgroepen die het nieuwsrecord mogen zien.</label>
+			<label index="editlock.description">Indien ingeschakeld, kan dit nieuws record alleen bewerkt worden door admins.</label>
+			<label index="hidden.description">Verborgen records worden niet getoond aan de voorkant.</label>
+			<label index="title.description">Nieuws titel</label>
+			<label index="alternative_title.description">Alternatieve Titel wordt gebruikt als titel voor het browser-venster / -tabblad</label>
+			<label index="teaser.description">Wees ervan bewust dat het kan worden bijgesneden.</label>
+			<label index="type.description">Kies het type; dat kan zijn een normaal nieuws record, een link naar een interne pagina of een link naar een externe pagina.</label>
+			<label index="istopnews.description">Top nieuws records kunnen speciaal behandeld worden met betrekking tot lay-out, het sorteren, ...</label>
+			<label index="author.description">Auteur van het nieuws record</label>
+			<label index="author_email.description">E-mail adres van de auteur</label>
+			<label index="datetime.description">Datum van het nieuws item</label>
+			<label index="archive.description">Archief datum. Een datum is vereist als het nieuws record toekomstig moet worden behandeld als gearchiveerd nieuws.</label>
+			<label index="bodytext.description">Hoofd content van het nieuws record</label>
+			<label index="categories.description">Selecteer de categorieën die gerelateerd zijn aan dit record.</label>
+			<label index="tags.description">Definieer en selecteer tags die passen bij het ​​artikel.</label>
+			<label index="content_elements.description">Contentelementen kunnen worden gebruikt om feature rich nieuwsartikelen te maken.</label>
+			<label index="keywords.description">Definieer keywords die gebruikt kunnen worden voor SEO optimalisaties.</label>
+			<label index="description.description">Een beschrijving voor SEO optimalisaties definiëren.</label>
+			<label index="related.description">Selecteer gerelateerde nieuwsrecords.</label>
+			<label index="related_from.description">Nieuws tonen waarvan het huidige nieuwsitem als gerelateerd is gekozen.</label>
+			<label index="related_links.description">Kies een link naar een interne of externe pagina.</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

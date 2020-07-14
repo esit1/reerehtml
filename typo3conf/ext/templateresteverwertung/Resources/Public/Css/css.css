@@ -1,0 +1,435 @@
+
+html,body{
+    background-color: #ffffff;
+}
+
+body {
+
+}
+.mainnav{
+
+}
+.main{
+
+}
+
+footer{
+    background-color: #7ec317;
+    font-size: 100%;
+    color: white;
+}
+
+footer li {
+    display: inline;
+    list-style-type: none;
+}
+
+footer li:not(:first-child)::before {
+    content: '• ';
+}
+
+
+.languagemenu{
+    width: 100%;
+}
+
+.search{
+    float:right;
+}
+
+.Startseite_main{
+
+}
+
+.nav_rezepte{
+background-color: #c8c6c2;
+}
+.nav_rezepte li {
+    display: inline;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.nav_rezepte li:not(:first-child)::before {
+    content: '| ';
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.borderBox {
+    border: 1px solid silver;
+}
+
+/*Rezept darstellung */
+.rezept {
+
+    font-family: "Berlin Sans FB";
+    font-size: large;
+}
+
+.rezept_zutaten_liste {
+
+}
+.rezept_uberschrift2{
+    color: #666666;
+}
+
+.rezept_uberschrift{
+    color: #666666;
+    text-align: center
+}
+
+.rezept ul{
+    list-style: none
+}
+
+/*Tabelle */
+table {
+    border-collapse: separate;
+    border-spacing: 0.2em;
+    margin-left: 2em;
+    box-shadow: 0 0 0.1em #666;
+    position: relative;
+    z-index: 1;
+}
+
+th,
+td {
+    padding: 0.2em 0.5em;
+    border-radius: 0.1em;
+}
+
+thead th {
+    background-color: #ffebe6;
+    color: #7ec317;
+}
+
+td {
+    box-shadow: inset 1px 3px 5px -3px rgba(0, 0, 0, 0.5);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e4ebf2;
+    color: #000;
+}
+
+td:empty {
+    box-shadow: none;
+    background-color: none;
+}
+
+th[scope=row] {
+    color: #7ec317;
+    text-align: right;
+    background-color: #fff;
+}
+
+tbody tr:hover,
+tfoot tr:hover {
+    background-color: #fffbf0;
+}
+
+tbody td:hover,
+tfoot td:hover {
+    background-color: #7ec317;
+}
+
+/*Tabelle Kalender*/
+.zutat_Kalender {
+    text-align: center;
+}
+
+.jumbotron {
+    display: none;
+}
+
+.jumbotron .container {
+    background: rgba(255, 255, 255, .6);
+    padding: 1rem;
+}
+
+.homepage .maincontent {
+    margin-top: 2rem;
+}
+
+@media screen  and (min-width: 601px) {
+    .jumbotron {
+        display: block;
+    }
+
+    .homepage .maincontent {
+        margin-top: 0;
+    }
+}
+
+.subnavigation {
+    list-style: none;
+    display: block
+}
+
+.subnavigationAktuell {
+    color: #7ec317;
+}
+
+.subnavigationActiv {
+    background-color: #7ec317;
+    color: white;
+}
+
+.languagemenu span,
+.languagemenu a {
+    display: inline-block;
+
+}
+
+.languagemenu a:active,
+.languagemenu a:focus,
+.languagemenu a:hover {
+    text-decoration: none;
+}
+
+.languagemenu span:after,
+.languagemenu a:after {
+    content: "|";
+    padding: 0 10px;
+    color: #eee;
+}
+
+.languagemenu span:last-child:after,
+.languagemenu a:last-child:after {
+    content: "";
+    padding: 0;
+}
+
+.rootline {
+    list-style: none;
+    background-color: transparent;
+    font-size: 90%;
+    border-bottom: 1px solid #969798;
+
+}
+
+.mysubnav a.current {
+    font-weight: bold;
+}
+
+/* Responsive Videos */
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-embed iframe, .video-embed object, .video-embed embed, .video-embed video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+/* Eigene Rahmen fuer content elemente */
+.fr-ohnePunkte {
+    list-style: none;
+    display: block
+}
+
+.frame-greenbox, .frame-redbox {
+    padding: 1rem;
+    margin: 0 0 0 1rem;
+}
+
+.frame-greenbox {
+    background: #c5ff2f;
+    color: #fff;
+}
+
+.frame-redbox { background: #cc3515; }
+/* Workaround fuer Responsive Videos in Verbindung mit fluid_styled_content */
+
+.frame-layout-5 .ce-center .ce-inner {
+    position: relative;
+    float: none;
+    right: -50%;
+}
+
+.frame-layout-5 .ce-textpic, .frame-layout-5 .ce-image, .frame-layout-5 .ce-nowrap .ce-bodytext, .frame-layout-5 .ce-gallery, .frame-layout-5 .ce-row, .ce-uploads li, .frame-layout-5 .ce-uploads div {
+    overflow: visible;
+}
+
+.frame-layout-5 .ce-left .ce-gallery, .frame-layout-5 .ce-column {
+    float: none;
+}
+
+.frame-layout-5 .ce-gallery figure {
+    display: block;
+    margin: 0;
+}
+
+.frame-layout-5 .ce-center .ce-outer {
+    position: relative;
+    float: none;
+    right: 50%;
+}
+
+/*flip card*/
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: #c6ff35;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+/*Navigation*/
+
+#nav {
+    background-color: #7ec317;
+    z-index: 5;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#nav li {
+    margin: 0 5px;
+    padding: 0 0 8px;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+
+/* main level link */
+#nav a {
+    font-weight: bold;
+    color: #f3edff;
+    text-decoration: none;
+    display: block;
+    padding:  8px 20px;
+    margin: 0;
+
+}
+#nav a:hover {
+    background: #ffffff;
+    color: #fff;
+}
+
+/* main level link hover */
+#nav .current a, #nav li:hover > a {
+    color: #7dc308;
+    background-color: #ffffff;
+}
+
+/* sub levels link hover */
+#nav ul li:hover a, #nav li:hover li a {
+    background-color: #ffffff;
+    border: none;
+    color: #7ec317;
+}
+#nav ul a:hover {
+    background: #7ec317;
+    color: #ffffff;
+}
+
+/* dropdown */
+#nav li:hover > ul {
+    display: block;
+}
+
+/* level 2 list */
+#nav ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 185px;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+#nav ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul a {
+    font-weight: normal;
+    text-shadow: 0 1px 0 #fff;
+}
+
+/* level 3+ list */
+#nav ul ul {
+    left: 181px;
+    top: -3px;
+}
+
+/* clearfix */
+#nav:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+html[xmlns] #nav {
+    display: block;
+}
+
+
+
+
